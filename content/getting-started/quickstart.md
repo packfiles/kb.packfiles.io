@@ -4,7 +4,7 @@ icon: bullseye-arrow
 
 This Quickstart will guide you through the process of migrating repositories from Azure DevOps to GitHub using Warp. You’ll create a new project, set up your Vault, connect your Azure DevOps and GitHub organizations to Warp, and migrate a repository from Azure DevOps to GitHub.
 
-<img src="/images/quickstart/intro/migration.png" alt="Warp 'Sign In' page" />
+<img src="/content/media/images/quickstart/intro/migration.png" alt="Warp 'Sign In' page" />
 
 In this Quickstart, you will:
 
@@ -102,7 +102,7 @@ The next step is to create a **_Project_**, which in Warp is an object for manag
 
 You’ll use the Warp web application to create the project.
 
-<img src="/images/quickstart/new_project/warp_sign_in_page.png" alt="Warp 'Sign In' page" />
+<img src="/content/media/images/quickstart/new_project/warp_sign_in_page.png" alt="Warp 'Sign In' page" />
 
 🛠️ Open a browser tab or window to the [Warp web application](https://warp.packfiles.io) at [warp.packfiles.io](https://warp.packfiles.io). 
 
@@ -110,43 +110,43 @@ You’ll use the Warp web application to create the project.
 
 You will be taken to the _Projects_ page, which lists the current migration projects:
 
-<img src="/images/quickstart/new_project/warp_projects_page_initial.png" alt="Warp 'Projects' page" />
+<img src="/content/media/images/quickstart/new_project/warp_projects_page_initial.png" alt="Warp 'Projects' page" />
 
 🛠️ Click the link in the text “Install the **Warp GitHub app** to create a new Project” at the bottom of the page.
 
 This will open a new browser tab or window to the GitHub page for installing the Warp GitHub app.
 
-<img src="/images/quickstart/new_project/github_two_factor_authentication.png" alt="GitHub 'Packfiles requires two-factor authentication' page" />
+<img src="/content/media/images/quickstart/new_project/github_two_factor_authentication.png" alt="GitHub 'Packfiles requires two-factor authentication' page" />
 
 If you are asked to enable two-factor authentication, follow the instructions to do so.
 
-<img src="/images/quickstart/new_project/github_sso.png" alt="GitHub 'Single sign-on to Packfiles Inc' page" />
+<img src="/content/media/images/quickstart/new_project/github_sso.png" alt="GitHub 'Single sign-on to Packfiles Inc' page" />
 
 If you are presented with the _Single sign-on to Packfiles Inc_ page, click the **Continue** button and sign in using your GitHub account.
 
 You will arrive at the page for the Warp GitHub app:
 
-<img src="/images/quickstart/new_project/github_packfiles_warp_github_app.png" alt="GitHub 'Packfiles Warp GitHub App' page" />
+<img src="/content/media/images/quickstart/new_project/github_packfiles_warp_github_app.png" alt="GitHub 'Packfiles Warp GitHub App' page" />
 
 🛠️ Click the **Configure** button to install Warp.
 
 You will be shown a list of user and organization accounts that you can install Warp for:
 
-<img src="/images/quickstart/new_project/github_install_packfiles_warp_select_org.png" alt="GitHub 'Install Packfiles Warp' page" />
+<img src="/content/media/images/quickstart/new_project/github_install_packfiles_warp_select_org.png" alt="GitHub 'Install Packfiles Warp' page" />
 
 🛠️ Select the organization account where Warp will be installed. This should be the organization where you’ll migrate the repositories _to_. The example organization used in this Quickstart is called **Hypotheticorp001**.
 
 After you select the organization, you will go to a page showing which repositories the Warp GitHub app will have access to (all of them) and what it will have read, write, and admin access to.
 
-<img src="/images/quickstart/new_project/github_install_packfiles_warp_install.png" alt="GitHub 'Install Packfiles Warp' details page" />
+<img src="/content/media/images/quickstart/new_project/github_install_packfiles_warp_install.png" alt="GitHub 'Install Packfiles Warp' details page" />
 
 🛠️ Click the **Install** button.
 
-<img src="/images/quickstart/new_project/github_authenticator.png" alt="GitHub 'Confirm access' page" />
+<img src="/content/media/images/quickstart/new_project/github_authenticator.png" alt="GitHub 'Confirm access' page" />
 
 If you are taken to the _Confirm access_ page, use your authenticator app or browser extension to authenticate youself with GitHub.
 
-<img src="/images/quickstart/new_project/warp_projects_page_reload.png" alt="Warp 'Projects' page, with instructions to reload" />
+<img src="/content/media/images/quickstart/new_project/warp_projects_page_reload.png" alt="Warp 'Projects' page, with instructions to reload" />
 
 You should be automatically return to the Warp web application.
 
@@ -154,25 +154,25 @@ You should be automatically return to the Warp web application.
 
 You should arrive at the _Welcome to Warp_ page:
 
-<img src="/images/quickstart/new_project/warp_welcome_to_warp.png" alt="Warp 'Welcome to Warp' page" />
+<img src="/content/media/images/quickstart/new_project/warp_welcome_to_warp.png" alt="Warp 'Welcome to Warp' page" />
 
 🛠️ Click the **Next** button.
 
 This will take to you the _Configure Your Project_ page, where you can add other people to the project. For the time being, you can skip this step. You don’t have to add yourself to the team; you are already a member of the project with _Admin_ access.
 
-<img src="/images/quickstart/new_project/warp_configure_your_project.png" alt="Warp 'Configure Your Project' page" />
+<img src="/content/media/images/quickstart/new_project/warp_configure_your_project.png" alt="Warp 'Configure Your Project' page" />
 
 🛠️ Click the **Next** button.
 
 The next page to appear is the _Connect Your Sources_ page. You’ll use it in the process of connecting your Azure DevOps and GitHub accounts to Warp.
 
-<img src="/images/quickstart/new_project/warp_connect_your_sources.png" alt="Warp Sign In page" />
+<img src="/content/media/images/quickstart/new_project/warp_connect_your_sources.png" alt="Warp Sign In page" />
 
 🛠️ Click the **Migration HQ** button.
 
 You will be taken to the page for the _Migration HQ_ repository that Warp just created for your GitHub organization. This repository will be your user interface for managing the migration process. 
 
-<img src="/images/quickstart/new_project/github_migration-hq_initial.png" alt="Warp Sign In page" />
+<img src="/content/media/images/quickstart/new_project/github_migration-hq_initial.png" alt="Warp Sign In page" />
 
 🛠️ Clone the _Migration HQ_ repository to your local computer, either via the command line, as shown above, using the GitHub desktop app.
 
@@ -190,25 +190,25 @@ You do this by generating Personal Access Tokens (PATs) for both of the above. W
 
 First, let’s generate a PAT for your Azure DevOps account.
 
-<img src="/images/quickstart/ado_pat/ado_organizations.png" alt="ADO 'Azure DevOps Organization's page" />
+<img src="/content/media/images/quickstart/ado_pat/ado_organizations.png" alt="ADO 'Azure DevOps Organization's page" />
 
 🛠️ Sign in to Azure DevOps and navigate to the _Organizations_ page. On that page, select the organization whose repositories you want to migrate to GitHub.
 
 You will arrive at the page for the organization you selected. 
 
-<img src="/images/quickstart/ado_pat/ado_organization.png" alt="ADO organizations page" />
+<img src="/content/media/images/quickstart/ado_pat/ado_organization.png" alt="ADO organizations page" />
 
 🛠️ Click on the _User Settings_ icon near the top right corner of the page (it looks like a person with a gear) and select **Personal access tokens** from the menu that appears.
 
 This will take you to the _Personal Access Tokens_ page:
 
-<img src="/images/quickstart/ado_pat/ado_personal_access_tokens_initial.png" alt="ADO 'Personal Access Tokens' page" />
+<img src="/content/media/images/quickstart/ado_pat/ado_personal_access_tokens_initial.png" alt="ADO 'Personal Access Tokens' page" />
 
 🛠️ There will be at least one **New Token** button. Click any of them.
 
 A panel will appear, prompting you to create a new personal access token:
 
-<img src="/images/quickstart/ado_pat/ado_create_a_new_personal_access_token.png" alt="ADO 'Create a new personal access token' panel" />
+<img src="/content/media/images/quickstart/ado_pat/ado_create_a_new_personal_access_token.png" alt="ADO 'Create a new personal access token' panel" />
 
 🛠️ In the **Name** field, enter a name for the token. To make it easier to identify, we suggest you include “Warp” in the name.
 
@@ -220,7 +220,7 @@ For the purposes of this Quickstart, we’ll leave the **Expiration** field at t
 
 You should now see the _Success!_ panel, which will display the personal access token you just created:
 
-<img src="/images/quickstart/ado_pat/ado_new_pat_success.png" alt="ADO 'Success!' panel" />
+<img src="/content/media/images/quickstart/ado_pat/ado_new_pat_success.png" alt="ADO 'Success!' panel" />
 
 🛠️ Copy the token and **save it in a safe place** — preferably a password manager. You will need it to connect your Azure DevOps account to Warp.
 
@@ -230,7 +230,7 @@ You should now see the _Success!_ panel, which will display the personal access 
 
 When you close the _Success!_ panel, you will be taken back to the _Personal Access Tokens_ page. You will see the personal access token you just created listed there:
 
-<img src="/images/quickstart/ado_pat/ado_personal_access_tokens_new_token.png" alt="ADO 'Personal Access Tokens' page, now updated with new token" />
+<img src="/content/media/images/quickstart/ado_pat/ado_personal_access_tokens_new_token.png" alt="ADO 'Personal Access Tokens' page, now updated with new token" />
 
 You now have a personal access token that you can use to connect your Azure DevOps account to Warp.
 
@@ -238,31 +238,31 @@ You now have a personal access token that you can use to connect your Azure DevO
 
 Let’s now generate a PAT for your GitHub account.
 
-<img src="/images/quickstart/gh_pat/github_profile_picture_menu.png" alt="GitHub 'Migration HQ' page" />
+<img src="/content/media/images/quickstart/gh_pat/github_profile_picture_menu.png" alt="GitHub 'Migration HQ' page" />
 
 🛠️ Switch to GitHub, then click on your profile picture. Select **Settings** from the menu that appears.
 
 You will be taken to the _Settings_ page for your GitHub account:
 
-<img src="/images/quickstart/gh_pat/github_select_developer_settings.png" alt="GitHub user account 'Settings' page" />
+<img src="/content/media/images/quickstart/gh_pat/github_select_developer_settings.png" alt="GitHub user account 'Settings' page" />
 
 🛠️ In the left-hand menu, click on **Developer settings** (you may need to scroll down a bit).
 
 This will take you to the _Developer settings_ page:
 
-<img src="/images/quickstart/gh_pat/github_expand_pat_menu.png" alt="GitHub 'Developer Settings' page" />
+<img src="/content/media/images/quickstart/gh_pat/github_expand_pat_menu.png" alt="GitHub 'Developer Settings' page" />
 
 🛠️ In the left-hand menu, expand the **Personal access tokens** item, then select **Tokens (classic)**.
 
 You will end up at the _Personal access tokens (classic)_ page:
 
-<img src="/images/quickstart/gh_pat/github_generate_new_token.png" alt="GitHub 'Personal access tokens (classic)' page" />
+<img src="/content/media/images/quickstart/gh_pat/github_generate_new_token.png" alt="GitHub 'Personal access tokens (classic)' page" />
 
 🛠️ Click the **Generate new token** button, then select **Generate new token (classic)** from the menu that appears.
 
 You will arrive at the _New personal access token (classic)_ page, where you’ll need to provide enough information to create a new personal access token:
 
-<img src="/images/quickstart/gh_pat/github_new_pat_settings_1.png" alt="GitHub 'New personal access token (classic)' page" />
+<img src="/content/media/images/quickstart/gh_pat/github_new_pat_settings_1.png" alt="GitHub 'New personal access token (classic)' page" />
 
 🛠️ Enter a name or some other text to help you identify the token in the **Note** field. To make it easier to identify, we suggest you include “Warp” in the name.
 
@@ -277,7 +277,7 @@ For the purposes of this Quickstart, we’ll leave the **Expiration** field at t
 
 🛠️ Scroll down a little further:
 
-<img src="/images/quickstart/gh_pat/github_new_pat_settings_2.png" alt="Warp Sign In page" />
+<img src="/content/media/images/quickstart/gh_pat/github_new_pat_settings_2.png" alt="Warp Sign In page" />
 
 🛠️ Also check the following:
 
@@ -287,13 +287,13 @@ For the purposes of this Quickstart, we’ll leave the **Expiration** field at t
 
 🛠️ Scroll to the bottom of the page:
 
-<img src="/images/quickstart/gh_pat/github_new_pat_settings_3.png" alt="Warp Sign In page" />
+<img src="/content/media/images/quickstart/gh_pat/github_new_pat_settings_3.png" alt="Warp Sign In page" />
 
 🛠️ Click the **Generate token** button.
 
 You should now see this page, which will display the personal access token you just created:
 
-<img src="/images/quickstart/gh_pat/github_personal_access_tokens_new_token.png" alt="Warp Sign In page" />
+<img src="/content/media/images/quickstart/gh_pat/github_personal_access_tokens_new_token.png" alt="Warp Sign In page" />
 
 🛠️ Just as you did with the personal access token in Azure DevOps, copy this new personal access token and save it in a safe place — preferably a password manager. You will need it to connect your GitHub account to Warp.
 
@@ -314,121 +314,121 @@ gh warp vault setup
 
 You will see the “Welcome” text pictured below:
 
-<img src="/images/quickstart/vault_setup/vault_setup_start.png" alt="Warp command-line 'Welcome' prompt" />
+<img src="/content/media/images/quickstart/vault_setup/vault_setup_start.png" alt="Warp command-line 'Welcome' prompt" />
 
 🛠️ Press the **Enter** or **Return** key to continue.
 
 You will see the _Configure Providers_ menu, which lets you add, update, and delete tokens for various source control providers:
 
-<img src="/images/quickstart/vault_setup/vault_setup_add_new_provider_1.png" alt="Warp command-line 'Configure Providers' menu" />
+<img src="/content/media/images/quickstart/vault_setup/vault_setup_add_new_provider_1.png" alt="Warp command-line 'Configure Providers' menu" />
 
 🛠️ The default option, **Add a New Provider**, is the one you want. Press the **Enter** or **Return** key to select this option.
 
-<img src="/images/quickstart/vault_setup/vault_setup_select_add_ado_credentials.png" alt="Warp command-line 'Add Provider Credentials' menu" />
+<img src="/content/media/images/quickstart/vault_setup/vault_setup_select_add_ado_credentials.png" alt="Warp command-line 'Add Provider Credentials' menu" />
 
 🛠️ Let’s add the personal access token for Azure DevOps first. Since **Azure DevOps** is the default option, simply press the **Enter** or **Return** key to select it.
 
 You’ll see this text, which explains that you’re about to configure an Azure DevOps provider:
 
-<img src="/images/quickstart/vault_setup/vault_setup_add_ado_credentials.png" alt="Warp command-line 'Configure an Azure DevOps provider' prompt" />
+<img src="/content/media/images/quickstart/vault_setup/vault_setup_add_ado_credentials.png" alt="Warp command-line 'Configure an Azure DevOps provider' prompt" />
 
 🛠️ Press the **Enter** or **Return** key to continue.
 
 You will now be prompted to enter the personal access token you created in Azure DevOps:
 
-<img src="/images/quickstart/vault_setup/vault_setup_paste_ado_pat.png" alt="Warp command-line 'Personal Access Token' prompt" />
+<img src="/content/media/images/quickstart/vault_setup/vault_setup_paste_ado_pat.png" alt="Warp command-line 'Personal Access Token' prompt" />
 
 🛠️ Paste your Azure DevOps personal access token into the text area marked **Your PAT**...
 
-<img src="/images/quickstart/vault_setup/vault_setup_pasted_ado_pat.png" alt="Warp command-line 'Personal Access Token' prompt, with obfuscated personal access token pasted in" />
+<img src="/content/media/images/quickstart/vault_setup/vault_setup_pasted_ado_pat.png" alt="Warp command-line 'Personal Access Token' prompt, with obfuscated personal access token pasted in" />
 
 🛠️ ...then press the **Enter** or **Return** key to continue.
 
 The next step is to specify the access scope for the Azure DevOps personal access token:
 
-<img src="/images/quickstart/vault_setup/vault_setup_ado_access_scope.png" alt="Warp command-line 'Access Scope' prompt" />
+<img src="/content/media/images/quickstart/vault_setup/vault_setup_ado_access_scope.png" alt="Warp command-line 'Access Scope' prompt" />
 
 🛠️ Select **Single organization access** using the ⬆️ and ⬇️ keys, then press the **Enter** or **Return** key.
 
 You’ll be asked to provide the slug for the Azure DevOps organization you want to connect to Warp:
 
-<img src="/images/quickstart/vault_setup/vault_setup_paste_ado_org_slug.png" alt="Warp command-line 'Organization Slug' prompt" />
+<img src="/content/media/images/quickstart/vault_setup/vault_setup_paste_ado_org_slug.png" alt="Warp command-line 'Organization Slug' prompt" />
 
 🛠️ Paste or enter the organization slug into the text area marked **ado-organization-slug**...
 
-<img src="/images/quickstart/vault_setup/vault_setup_pasted_ado_org_slug.png" alt="Warp command-line 'Organization Slug' prompt with organization slug pasted in" />
+<img src="/content/media/images/quickstart/vault_setup/vault_setup_pasted_ado_org_slug.png" alt="Warp command-line 'Organization Slug' prompt with organization slug pasted in" />
 
 🛠️ ...then press the **Enter** or **Return** key to continue.
 
 You’ll then be asked to specify the number of days until the token expires:
 
-<img src="/images/quickstart/vault_setup/vault_setup_enter_ado_pat_expiration.png" alt="Warp command-line 'Token Expiration' prompt" />
+<img src="/content/media/images/quickstart/vault_setup/vault_setup_enter_ado_pat_expiration.png" alt="Warp command-line 'Token Expiration' prompt" />
 
 🛠️ Enter **30**, then press the **Enter** or **Return** key.
 
 Finally, you’ll be asked to confirm the information you’ve entered:
 
-<img src="/images/quickstart/vault_setup/vault_setup_confirm_ado_pat.png" alt="Warp command-line 'Confirmation' prompt" />
+<img src="/content/media/images/quickstart/vault_setup/vault_setup_confirm_ado_pat.png" alt="Warp command-line 'Confirmation' prompt" />
 
 🛠️ Press **y** to confirm that the information is correct.
 
 It’s time to add the personal access token for GitHub. You’ll see the _Configure Providers_ menu again:
 
-<img src="/images/quickstart/vault_setup/vault_setup_add_new_provider_2.png" alt="Warp command-line 'Configure Providers' menu" />
+<img src="/content/media/images/quickstart/vault_setup/vault_setup_add_new_provider_2.png" alt="Warp command-line 'Configure Providers' menu" />
 
 🛠️ Once again, the default option, **Add a New Provider**, is the one you want. Press the **Enter** or **Return** key to select this option.
 
-<img src="/images/quickstart/vault_setup/vault_setup_select_add_github_credentials.png" alt="Warp command-line 'Add Provider Credentials' menu" />
+<img src="/content/media/images/quickstart/vault_setup/vault_setup_select_add_github_credentials.png" alt="Warp command-line 'Add Provider Credentials' menu" />
 
 🛠️ Select **GitHub [Destination]** using the ⬆️ and ⬇️ keys, then press the **Enter** or **Return** key.
 
 You’ll see this text, which explains that you’re about to configure a GitHub destination:
 
-<img src="/images/quickstart/vault_setup/vault_setup_add_github_credentials.png" alt="Warp command-line 'Configure GitHub Destination' menu" />
+<img src="/content/media/images/quickstart/vault_setup/vault_setup_add_github_credentials.png" alt="Warp command-line 'Configure GitHub Destination' menu" />
 
 🛠️ Press the **Enter** or **Return** key to continue.
 
 You will now be prompted to enter the personal access token you created in GitHub:
 
-<img src="/images/quickstart/vault_setup/vault_setup_paste_github_pat.png" alt="Warp command-line 'Personal Access Token' prompt" />
+<img src="/content/media/images/quickstart/vault_setup/vault_setup_paste_github_pat.png" alt="Warp command-line 'Personal Access Token' prompt" />
 
 🛠️ Paste your GitHub personal access token into the text area marked **Your PAT**...
 
-<img src="/images/quickstart/vault_setup/vault_setup_pasted_github_pat.png" alt="Warp command-line 'Personal Access Token' prompt with obfuscated personal access token pasted in" />
+<img src="/content/media/images/quickstart/vault_setup/vault_setup_pasted_github_pat.png" alt="Warp command-line 'Personal Access Token' prompt with obfuscated personal access token pasted in" />
 
 🛠️ ...then press the **Enter** or **Return** key to continue.
 
 You’ll be asked to provide the slug for the GitHub organization you want to connect to Warp:
 
-<img src="/images/quickstart/vault_setup/vault_setup_paste_github_org_slug.png" alt="Warp command-line 'Organization Slug' prompt" />
+<img src="/content/media/images/quickstart/vault_setup/vault_setup_paste_github_org_slug.png" alt="Warp command-line 'Organization Slug' prompt" />
 
 🛠️ Paste or enter the organization slug into the text area marked **destination-organization-slug**...
 
-<img src="/images/quickstart/vault_setup/vault_setup_pasted_github_org_slug.png" alt="Warp command-line 'Organization Slug' prompt with organizational slug pasted in" />
+<img src="/content/media/images/quickstart/vault_setup/vault_setup_pasted_github_org_slug.png" alt="Warp command-line 'Organization Slug' prompt with organizational slug pasted in" />
 
 🛠️ ...then press the **Enter** or **Return** key to continue.
 
 You’ll then be asked to specify the number of days until the token expires:
 
-<img src="/images/quickstart/vault_setup/vault_setup_enter_github_pat_expiration.png" alt="Warp command-line 'Token Expiration' prompt" />
+<img src="/content/media/images/quickstart/vault_setup/vault_setup_enter_github_pat_expiration.png" alt="Warp command-line 'Token Expiration' prompt" />
 
 🛠️ Enter **30**, then press the **Enter** or **Return** key.
 
 Finally, you’ll be asked to confirm the information you’ve entered:
 
-<img src="/images/quickstart/vault_setup/vault_setup_confirm_github_pat.png" alt="Warp command-line 'Confirmation' prompt" />
+<img src="/content/media/images/quickstart/vault_setup/vault_setup_confirm_github_pat.png" alt="Warp command-line 'Confirmation' prompt" />
 
 🛠️ Press **y** to confirm that the information is correct.
 
 You will return to the _Configure Providers_ menu.
 
-<img src="/images/quickstart/vault_setup/vault_setup_exit_and_save_changes.png" alt="Warp command-line 'Configure Providers' menu" />
+<img src="/content/media/images/quickstart/vault_setup/vault_setup_exit_and_save_changes.png" alt="Warp command-line 'Configure Providers' menu" />
 
 🛠️ You’ve already configured both Azure DevOps and GitHub; it’s time to save your changes and exit. Select **Exit and Save Changes** using the ⬆️ and ⬇️ keys, then press the **Enter** or **Return** key.
 
 You will see the _Save Your Vault Key_ prompt:
 
-<img src="/images/quickstart/vault_setup/vault_setup_copy_vault_key.png" alt="Warp command-line 'Save Your Vault Key' prompt" />
+<img src="/content/media/images/quickstart/vault_setup/vault_setup_copy_vault_key.png" alt="Warp command-line 'Save Your Vault Key' prompt" />
 
 🛠️ Just as you did with the personal access token in Azure DevOps and GitHub, copy the vault key and save it in a safe place — preferably a password manager. You will need it to unlock the personal access tokens that were encrypted into the vault.
 
@@ -436,7 +436,7 @@ You will see the _Save Your Vault Key_ prompt:
 
 You’ll see the final message, which confirms that the vault has been set up and the personal access tokens have been encrypted into the `config/vault.age` file (`config\vault.age` on Windows):
 
-<img src="/images/quickstart/vault_setup/vault_setup_end_screen.png" alt="Warp command-line 'All done!' text" />
+<img src="/content/media/images/quickstart/vault_setup/vault_setup_end_screen.png" alt="Warp command-line 'All done!' text" />
 
 
 ### Check the Vault’s Contents
@@ -451,17 +451,17 @@ gh warp vault check
 
 You’ll be prompted to enter your vault key:
 
-<img src="/images/quickstart/vault_check/vault_check_start.png" alt="Warp command-line 'Enter the vault encryption key' prompt" />
+<img src="/content/media/images/quickstart/vault_check/vault_check_start.png" alt="Warp command-line 'Enter the vault encryption key' prompt" />
 
 🛠️ Paste the vault key into the text area...
 
-<img src="/images/quickstart/vault_check/vault_check_paste_key.png" alt="Warp command-line 'Enter the vault encryption key' prompt with obfuscated pasted-in vault key" />
+<img src="/content/media/images/quickstart/vault_check/vault_check_paste_key.png" alt="Warp command-line 'Enter the vault encryption key' prompt with obfuscated pasted-in vault key" />
 
 🛠️ ...then press the **Enter** or **Return** key to continue.
 
 If you entered the correct vault key, you’ll see the contents of the vault:
 
-<img src="/images/quickstart/vault_check/vault_check_end_screen.png" alt="Warp command-line vault check results text" />
+<img src="/content/media/images/quickstart/vault_check/vault_check_end_screen.png" alt="Warp command-line vault check results text" />
 
 
 ### Store the Vault key in _Migration HQ_
@@ -478,27 +478,27 @@ gh warp vault place
 
 You’ll be greeted with the following text:
 
-<img src="/images/quickstart/vault_place/vault_place_start.png" alt="Warp command-line 'Install Runner Credentials Vault Master Key' prompt" />
+<img src="/content/media/images/quickstart/vault_place/vault_place_start.png" alt="Warp command-line 'Install Runner Credentials Vault Master Key' prompt" />
 
 🛠️ Press the **Enter** or **Return** key to continue.
 
 You’ll be prompted to enter your vault key:
 
-<img src="/images/quickstart/vault_place/vault_place_paste_key.png" alt="Warp command-line 'Decrypt Credentials Vault' prompt" />
+<img src="/content/media/images/quickstart/vault_place/vault_place_paste_key.png" alt="Warp command-line 'Decrypt Credentials Vault' prompt" />
 
 🛠️ Paste the vault key into the text area...
 
-<img src="/images/quickstart/vault_place/vault_place_pasted_key.png" alt="Warp command-line 'Decrypt Credentials Vault' prompt with obfuscated vault key pasted in" />
+<img src="/content/media/images/quickstart/vault_place/vault_place_pasted_key.png" alt="Warp command-line 'Decrypt Credentials Vault' prompt with obfuscated vault key pasted in" />
 
 🛠️ ...then press the **Enter** or **Return** key to continue.
 
 The app will store your vault key into the _Migration HQ_ repository’s secrets and display this message:
 
-<img src="/images/quickstart/vault_place/vault_place_end_screen.png" alt="Warp command-line 'All done!' text" />
+<img src="/content/media/images/quickstart/vault_place/vault_place_end_screen.png" alt="Warp command-line 'All done!' text" />
 
 You should confirm that your vault key was successfully stored in _Migration HQ_ by checking the repository’s _Secrets_ section in GitHub:
 
-<img src="/images/quickstart/vault_place/github_settings.png" alt="GitHub 'Settings' page for the 'Migration HQ' repository" />
+<img src="/content/media/images/quickstart/vault_place/github_settings.png" alt="GitHub 'Settings' page for the 'Migration HQ' repository" />
 
 🛠️ Open a browser tab or window to the _Migration HQ_ repository in GitHub and click the  **Settings** tab.
 
@@ -506,7 +506,7 @@ You should confirm that your vault key was successfully stored in _Migration HQ_
 
 You should see the _Actions secrets and variables_ page for _Migration HQ_ :
 
-<img src="/images/quickstart/vault_place/github_action_secrets_variables.png" alt="GitHub 'Action secrets and variables' page for the 'Migration HQ' repository" />
+<img src="/content/media/images/quickstart/vault_place/github_action_secrets_variables.png" alt="GitHub 'Action secrets and variables' page for the 'Migration HQ' repository" />
 
 🛠️ Check the _Repository secrets_ section and confirm that it contains a secret named `PKFS_MASTER_KEY`.
 
@@ -517,7 +517,7 @@ If you see the `PKFS_MASTER_KEY` secret, you have successfully stored the vault 
 
 Now that the vault key is stored as a secret in the _Migration HQ_ repository, Warp can use it to unlock the personal access tokens for Azure DevOps and GitHub stored inside the vault file. It’s time to push the vault file to _Migration HQ_.
 
-<img src="/images/quickstart/vault_place/git_add_and_commit.png" alt="GitHub Desktop app, with the changes to the local clone being added and committed" />
+<img src="/content/media/images/quickstart/vault_place/git_add_and_commit.png" alt="GitHub Desktop app, with the changes to the local clone being added and committed" />
 
 🛠️ Add `config/vault.age` to the Git staging area and commit the changes. You can do this using GitHub Desktop, as shown in the screenshot above, or with command-line Git...
 
@@ -526,7 +526,7 @@ git add .
 git commit -m "Add credentials"
 ```
 
-<img src="/images/quickstart/vault_place/git_push.png" alt="GitHub Desktop app, with the changes to the local clone being pushed" />
+<img src="/content/media/images/quickstart/vault_place/git_push.png" alt="GitHub Desktop app, with the changes to the local clone being pushed" />
 
 🛠️ ...then push the changes to GitHub. Once again, you can do this either with GitHub Desktop or with the command line:
 
@@ -539,27 +539,27 @@ git push origin main
 
 The next step is to connect your Azure DevOps account to Warp. This will allow Warp to access the repositories you want to migrate from Azure DevOps to GitHub.
 
-<img src="/images/quickstart/connect_ado/warp_verify_credentials_1.png" alt="Warp 'Connect Your Sources' page" />
+<img src="/content/media/images/quickstart/connect_ado/warp_verify_credentials_1.png" alt="Warp 'Connect Your Sources' page" />
 
 🛠️ Go back to the Warp browser tab or window. Make sure that you’re on the _Connect Your Sources_ page shown above, then click the **Check Credentials** button near the lower right corner of the page.
 
 The text in the _Verify Credentials_ section will change to “We’re checking your Vault’s credentials. This will take a moment...”:
 
-<img src="/images/quickstart/connect_ado/warp_verify_credentials_2.png" alt="Warp Sign In page" />
+<img src="/content/media/images/quickstart/connect_ado/warp_verify_credentials_2.png" alt="Warp Sign In page" />
 
 🛠️ While Warp is examing your vault, switch to the browser tab or window that you were using for the _Migration HQ_ repository in GitHub:
 
-<img src="/images/quickstart/connect_ado/github_verify_credentials_1.png" alt="Warp Sign In page" />
+<img src="/content/media/images/quickstart/connect_ado/github_verify_credentials_1.png" alt="Warp Sign In page" />
 
 🛠️ Select the **Actions** tab. This will display the list of _Migration HQ_’s workflows. 
 
 If you switched to the GitHub browser tab or window and clicked the **Actions** tab quickly enough, you should see a workflow with a spinning yellow icon named **Warp Runner**. The yellow icon denotes that it is currently running. This workflow is using the vault key you stored in _Migration HQ_’s secrets to unlock the personal access tokens for Azure DevOps and GitHub.
 
-<img src="/images/quickstart/connect_ado/github_verify_credentials_2.png" alt="Warp Sign In page" />
+<img src="/content/media/images/quickstart/connect_ado/github_verify_credentials_2.png" alt="Warp Sign In page" />
 
 🛠️ Wait until the spinning yellow icon is be replaced by a green checkmark. This means that the vault key was successfully used to unlock the personal access tokens for Azure DevOps and GitHub.
 
-<img src="/images/quickstart/connect_ado/warp_verify_credentials_3.png" alt="Warp Sign In page" />
+<img src="/content/media/images/quickstart/connect_ado/warp_verify_credentials_3.png" alt="Warp Sign In page" />
 
 🛠️ Switch back to the browser tab or window for Warp. You should see a section below _Verify Credentials_ titled _Your Vault_. It should contain two items:
 
@@ -572,7 +572,7 @@ If you switched to the GitHub browser tab or window and clicked the **Actions** 
 
 You’ll arrive at the _All Done!_ page, which marks the end of the process of configuring the project:
 
-<img src="/images/quickstart/connect_ado/warp_review_and_complete.png" alt="Warp Sign In page" />
+<img src="/content/media/images/quickstart/connect_ado/warp_review_and_complete.png" alt="Warp Sign In page" />
 
 🛠️ Let’s check the project’s status. Click the **Go to Dashboard** button.
 
@@ -586,7 +586,7 @@ The _Dashboard_ page shows the status of the project you just configured. It wil
 - the average number of repositories that have been migrated per day, and
 - the overall progress of the migration, expressed as a percentage:
 
-<img src="/images/quickstart/connect_ado/warp_dashboard_initial.png" alt="Warp Sign In page" />
+<img src="/content/media/images/quickstart/connect_ado/warp_dashboard_initial.png" alt="Warp Sign In page" />
 
 🛠️ Let’s look at the project’s settings. Select **Settings** from the menu on the left side of the page.
 
@@ -599,23 +599,23 @@ This will take you to the _Settings_ page. It has the following sections:
 
 ### Scan your Azure DevOps Organization for Repositories
 
-<img src="/images/quickstart/connect_ado/warp_settings_initial.png" alt="Warp Sign In page" />
+<img src="/content/media/images/quickstart/connect_ado/warp_settings_initial.png" alt="Warp Sign In page" />
 
 🛠️ Click the **Scan Sources** button near the top of the _Settings_ page.
 
 🛠️ Switch to the browser tab or window for the _Migrations HQ_ repository and select the **Actions** tab:
 
-<img src="/images/quickstart/connect_ado/github_warp_runner_start.png" alt="Warp Sign In page" />
+<img src="/content/media/images/quickstart/connect_ado/github_warp_runner_start.png" alt="Warp Sign In page" />
 
 You should see a new workflow with a spinning yellow icon named **Warp Runner**. The yellow icon denotes that it is currently running. This workflow is scanning the Azure DevOps Organization for repositories.
 
 🛠️ Wait for the **Warp Runner** workflow to start and finish. You’ll know it’s finished when the spinning yellow icon is replaced by a green checkmark.
 
-<img src="/images/quickstart/connect_ado/github_warp_runner_end.png" alt="Warp Sign In page" />
+<img src="/content/media/images/quickstart/connect_ado/github_warp_runner_end.png" alt="Warp Sign In page" />
 
 🛠️ Switch back to the browser tab or window for Warp and select **Dashboard** from the menu on the left side of the page:
 
-<img src="/images/quickstart/connect_ado/warp_dashboard_after_scan.png" alt="Warp Sign In page" />
+<img src="/content/media/images/quickstart/connect_ado/warp_dashboard_after_scan.png" alt="Warp Sign In page" />
 
 You should see the updated statistics on the _Dashboard_ page. The number of repositories found in the Azure DevOps Organization should now be displayed.
 
@@ -630,7 +630,7 @@ It’s finally time to migrate a repository from Azure DevOps to GitHub!
 
 🛠️ Switch to the browser tab or window with _Migration HQ_ and select the **Issues** tab:
 
-<img src="/images/quickstart/migrate/github_issues.png" alt="The 'Issues' page for the 'Migration HQ' repository in GitHub" />
+<img src="/content/media/images/quickstart/migrate/github_issues.png" alt="The 'Issues' page for the 'Migration HQ' repository in GitHub" />
 
 After scanning the Azure DevOps Organization, Warp created an issue in the _Migration HQ_ repository for each repository it found. These issues are used to manage the migration of repositories from Azure DevOps to GitHub.
 
@@ -638,22 +638,22 @@ After scanning the Azure DevOps Organization, Warp created an issue in the _Migr
 
 The page for the issue will appear:
 
-<img src="/images/quickstart/migrate/github_issue_zoomed_out.png" alt="Warp Sign In page" />
+<img src="/content/media/images/quickstart/migrate/github_issue_zoomed_out.png" alt="Warp Sign In page" />
 
 The body of the issue — the part that contains a description and other notes about the issue — contains information assembled by Warp about the corresponding repository. The comments section is where you enter commands to and get responses from Warp.
 
-<img src="/images/quickstart/migrate/github_issue_zoomed_in_1.png" alt="Warp Sign In page" />
+<img src="/content/media/images/quickstart/migrate/github_issue_zoomed_in_1.png" alt="Warp Sign In page" />
 
 If you take a closer look at the body, you’ll see that it’s divided into the following subsections:
 
-<img src="/images/quickstart/migrate/github_issue_zoomed_in_2.png" alt="Warp Sign In page" />
+<img src="/content/media/images/quickstart/migrate/github_issue_zoomed_in_2.png" alt="Warp Sign In page" />
 
 - **Migration Status:** This section shows the current status of the migration. Since the migration hasn’t started yet, its status is **not started**.
 - **Tasks:** This section has a checklist of the tasks that need to be performed to migrate the repository. Warp will automatically check off the tasks as they are completed.
 
 Scrolling farther down the body, you’ll see these subsections:
 
-<img src="/images/quickstart/migrate/github_issue_zoomed_in_expanded.png" alt="Warp Sign In page" />
+<img src="/content/media/images/quickstart/migrate/github_issue_zoomed_in_expanded.png" alt="Warp Sign In page" />
 
 - **About:** This lists basic information about the source repository, such as when its last commit was, how many commits it’s had in the past year, who its most active contributor was, and its size.
 - **Source & Destination:** This provides links to the source and the destination repositories.
@@ -663,7 +663,7 @@ It’s time to migrate!
 
 🛠️ Scroll down the page to the comments section...
 
-<img src="/images/quickstart/migrate/github_issue_migrate_command.png" alt="Warp Sign In page" />
+<img src="/content/media/images/quickstart/migrate/github_issue_migrate_command.png" alt="Warp Sign In page" />
 
 🛠️ ...and in the first comment, enter the following command:
 
@@ -673,25 +673,25 @@ It’s time to migrate!
 
 In moments, Warp will reply with a follow-up comment announcing that the migration has started:
 
-<img src="/images/quickstart/migrate/github_issue_migrate_response_1.png" alt="Warp Sign In page" />
+<img src="/content/media/images/quickstart/migrate/github_issue_migrate_response_1.png" alt="Warp Sign In page" />
 
 Depending on how many migrations Warp is performing at the same time, the migration may take a few to several minutes to complete. 
 
 When the migration is complete, you’ll see a comment from Warp with a link to the destination repository:
 
-<img src="/images/quickstart/migrate/github_issue_migrate_response_2.png" alt="Warp Sign In page" />
+<img src="/content/media/images/quickstart/migrate/github_issue_migrate_response_2.png" alt="Warp Sign In page" />
 
 🛠️ Click on the link to visit the newly-migrated repository.
 
 You’ll see the repository’s page — _in GitHub!_ — with all of its files, branches, and commits:
 
-<img src="/images/quickstart/migrate/github_heres_the_repository.png" alt="Warp Sign In page" />
+<img src="/content/media/images/quickstart/migrate/github_heres_the_repository.png" alt="Warp Sign In page" />
 
 When you started, the GitHub organization had a single repository: _Migration HQ_.
 
 🛠️ Click on the organization’s name (near the top left corner of the page), followed by the **Repositories** tab.
 
-<img src="/images/quickstart/migrate/github_organization_repos.png" alt="Warp Sign In page" />
+<img src="/content/media/images/quickstart/migrate/github_organization_repos.png" alt="Warp Sign In page" />
 
 You’ll see that the organization now has _two_ repositories: _Migration HQ_ and the repository you just migrated from Azure DevOps.
 
@@ -701,22 +701,22 @@ Let’s take a look at _Migration HQ_.
 
 You’ll see that there are now only _four_ open issues — one less than before:
 
-<img src="/images/quickstart/migrate/github_updated_issues_count.png" alt="Warp Sign In page" />
+<img src="/content/media/images/quickstart/migrate/github_updated_issues_count.png" alt="Warp Sign In page" />
 
 🛠️ Click on the **Issues** tab.
 
 You’ll see the open issues, which are the remaining repositories to be migrated:
 
-<img src="/images/quickstart/migrate/github_updated_issues_page.png" alt="Warp Sign In page" />
+<img src="/content/media/images/quickstart/migrate/github_updated_issues_page.png" alt="Warp Sign In page" />
 
 🛠️ Let’s look at the closed issues. Click on the **Closed** link.
 
-<img src="/images/quickstart/migrate/github_closed_issues_page.png" alt="Warp Sign In page" />
+<img src="/content/media/images/quickstart/migrate/github_closed_issues_page.png" alt="Warp Sign In page" />
 
 You’ll see the issue for the repository you just migrated.
 
 🛠️ Switch to the browser tab or window you were using for Warp. You’ll see that the Dashboard shows that the count of migrated repositories has increased by one:
 
-<img src="/images/quickstart/migrate/warp_dashboard_after_migration.png" alt="Warp Sign In page" />
+<img src="/content/media/images/quickstart/migrate/warp_dashboard_after_migration.png" alt="Warp Sign In page" />
 
 Congratulations! You’ve successfully migrated a repository from Azure DevOps to GitHub using Warp.
