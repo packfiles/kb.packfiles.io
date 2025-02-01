@@ -102,7 +102,7 @@ The next step is to create a **_Project_**, which in Warp is an object for manag
 
 You’ll use the Warp web application to create the project.
 
-<img src="/content/media/images/quickstart/new_project/warp_sign_in_page.png" alt="Warp 'Sign In' page" />
+<img src="/content/media/images/quickstart/new_project/warp_sign_in_page.png" alt="Warp 'Sign In' page. An arrow instructs the reader to click on the 'Sign in with GitHub' button." />
 
 🛠️ Open a browser tab or window to the [Warp web application](https://warp.packfiles.io) at [warp.packfiles.io](https://warp.packfiles.io). 
 
@@ -110,19 +110,15 @@ You’ll use the Warp web application to create the project.
 
 You will be taken to the _Projects_ page, which lists the current migration projects. At the bottom of the list of projects, you’ll see the **Create a New Project** link.
 
-<img src="/content/media/images/quickstart/new_project/warp_click_create_new_project_link.png" alt="Warp 'Projects' page" />
+<img src="/content/media/images/quickstart/new_project/warp_click_create_new_project_link.png" alt="Warp 'Projects' page. An arrow instructs the reader to click the 'Create a New Project' link." />
 
-🛠️ Click the the **Create a New Project** link.
+🛠️ Click the the **Create a New Project** link. 
 
-This will open a new browser tab or window to the GitHub page for installing the Warp GitHub app.
+A new section will appear below the link. This section provides instructions for what to do next, which is to install the Warp GitHub app into the GitHub organization where you will migrate your repositories.
 
-<img src="/content/media/images/quickstart/new_project/github_two_factor_authentication.png" alt="GitHub 'Packfiles requires two-factor authentication' page" />
+<img src="/content/media/images/quickstart/new_project/warp_click_install_warp_button.png" alt="GitHub 'Packfiles requires two-factor authentication' page" />
 
-If you are asked to enable two-factor authentication, follow the instructions to do so.
-
-<img src="/content/media/images/quickstart/new_project/github_sso.png" alt="GitHub 'Single sign-on to Packfiles Inc' page" />
-
-If you are presented with the _Single sign-on to Packfiles Inc_ page, click the **Continue** button and sign in using your GitHub account.
+🛠️ Click the the **Install Warp from the GitHub Marketplace** link. 
 
 You will arrive at the page for the Warp GitHub app:
 
@@ -130,11 +126,11 @@ You will arrive at the page for the Warp GitHub app:
 
 🛠️ Click the **Configure** button to install Warp.
 
-You will be shown a list of user and organization accounts that you can install Warp for:
+You will be shown a list of user and organization accounts where you can install Warp:
 
 <img src="/content/media/images/quickstart/new_project/github_install_packfiles_warp_select_org.png" alt="GitHub 'Install Packfiles Warp' page" />
 
-🛠️ Select the organization account where Warp will be installed. This should be the organization where you’ll migrate the repositories _to_. The example organization used in this Quickstart is called **Hypotheticorp001**.
+🛠️ Select the organization account where Warp will be installed. This should be the organization where you’ll migrate the repositories _to_. In this example, the organization is **Hypotheticorp5678**.
 
 After you select the organization, you will go to a page showing which repositories the Warp GitHub app will have access to (all of them) and what it will have read, write, and admin access to.
 
@@ -142,15 +138,11 @@ After you select the organization, you will go to a page showing which repositor
 
 🛠️ Click the **Install** button.
 
-<img src="/content/media/images/quickstart/new_project/github_authenticator.png" alt="GitHub 'Confirm access' page" />
-
-If you are taken to the _Confirm access_ page, use your authenticator app or browser extension to authenticate youself with GitHub.
+You should automatically return to the _Projects_ page in the Warp web application:
 
 <img src="/content/media/images/quickstart/new_project/warp_projects_page_reload.png" alt="Warp 'Projects' page, with instructions to reload" />
 
-You should be automatically return to the Warp web application.
-
-🛠️ If the page that appears is Warp’s _Projects_ page, click your browser’s **Reload** button.
+🛠️ Click your browser’s **Reload** button.
 
 You should arrive at the _Welcome to Warp_ page:
 
@@ -158,23 +150,32 @@ You should arrive at the _Welcome to Warp_ page:
 
 🛠️ Click the **Next** button.
 
-This will take to you the _Configure Your Project_ page, where you can add other people to the project. For the time being, you can skip this step. You don’t have to add yourself to the team; you are already a member of the project with _Admin_ access.
+This will take to you the _Configure Your Project_ page. You can do two things on this page:
+
+1. You can set the name of your project, or choose to keep the default name.
+2. You can invite people on your team to become members of the project.
 
 <img src="/content/media/images/quickstart/new_project/warp_configure_your_project.png" alt="Warp 'Configure Your Project' page" />
 
-🛠️ Click the **Next** button.
+🛠️ For this quickstart, simply click the **Next** button. 
+
+ℹ️&emsp;As the creator of the project, you don’t have to add yourself to the team. You are already a member of the project with _Admin_ access.
 
 The next page to appear is the _Connect Your Sources_ page. You’ll use it in the process of connecting your Azure DevOps and GitHub accounts to Warp.
 
 <img src="/content/media/images/quickstart/new_project/warp_connect_your_sources.png" alt="Warp Sign In page" />
 
-🛠️ Click the **Migration HQ** button.
+When you created the project, Warp created a repository named  _Migration HQ_ for the GitHub organization that you selected earlier. This repository will be the user interface for managing your migrations. 
 
-You will be taken to the page for the _Migration HQ_ repository that Warp just created for your GitHub organization. This repository will be your user interface for managing the migration process. 
+Your next task is to clone the repository to your local computer. You will then create a file containing your authorizations to access both your Azure DevOps organization and GitHub account, which Warp will use to migrate your repositories. Warp will then add that file to the local repository and push it to _Migration HQ_.
+
+🛠️ Let’s visit _Migration HQ_. Click the **Migration HQ** button.
+
+You will be taken to the _Migration HQ_ page:
 
 <img src="/content/media/images/quickstart/new_project/github_migration-hq_initial.png" alt="Warp Sign In page" />
 
-🛠️ Clone the _Migration HQ_ repository to your local computer, either via the command line, as shown above, using the GitHub desktop app.
+🛠️ Clone the _Migration HQ_ repository to your local computer.
 
 
 ## 3. Generate Personal Access Tokens (PATs)
