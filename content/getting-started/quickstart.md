@@ -108,11 +108,11 @@ You’ll use the Warp web application to create the project.
 
 🛠️ Click the **Sign in with GitHub** button and sign in to Warp using your GitHub account.
 
-You will be taken to the _Projects_ page, which lists the current migration projects:
+You will be taken to the _Projects_ page, which lists the current migration projects. At the bottom of the list of projects, you’ll see the **Create a New Project** link.
 
-<img src="/content/media/images/quickstart/new_project/warp_projects_page_initial.png" alt="Warp 'Projects' page" />
+<img src="/content/media/images/quickstart/new_project/warp_click_create_new_project_link.png" alt="Warp 'Projects' page" />
 
-🛠️ Click the link in the text “Install the **Warp GitHub app** to create a new Project” at the bottom of the page.
+🛠️ Click the the **Create a New Project** link.
 
 This will open a new browser tab or window to the GitHub page for installing the Warp GitHub app.
 
