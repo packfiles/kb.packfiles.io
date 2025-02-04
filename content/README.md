@@ -50,5 +50,12 @@ If you need help with anything that isn't yet covered in the docs, please don’
             <td></td>
             <td><a href="getting-started/quickstart.md">quickstart.md</a></td>
         </tr>
+        <tr>
+            <td><strong>Slash Commands</strong></td>
+            <td>Run powerful workflows with Warp's built-in Slash Commands</td>
+            <td></td>
+            <td></td>
+            <td><a href="slash-commands/README.md">README.md</a></td>
+        </tr>
     </tbody>
 </table>
