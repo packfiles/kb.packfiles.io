@@ -1,5 +1,5 @@
 ---
-icon: zap
+icon: wand-magic-sparkles
 layout:
   title:
     visible: true
