@@ -26,3 +26,8 @@
     * [/disable-ado-repo](working-with-warp/slash-commands/azure-devops/disable-ado-repo.md)
   * [GitHub](working-with-warp/slash-commands/github/README.md)
     * [/add-team](working-with-warp/slash-commands/github/add-team.md)
+
+## Billing & Licensing
+
+* [Overview](billing-and-licensing/overview.md)
+* [Trial Mode](billing-and-licensing/trial-mode.md)
