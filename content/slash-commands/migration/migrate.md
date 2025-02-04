@@ -1,19 +1,17 @@
+# /migrate
 
-## /migrate
+## Description
 
-### Description
 Migrates a repository
-
 
 [View in Knowledge Base](https://kb.packfiles.io/warp/commands/migration/migrate)
 
-
-
-### Example
+## Example
 
 ```
 /migrate
 ```
-### Authorization
 
-- Not required.
+## Authorization
+
+* Not required.

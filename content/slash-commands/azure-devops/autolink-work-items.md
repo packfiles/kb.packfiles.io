@@ -1,24 +1,25 @@
-## /autolink-work-items
-### Description
+# /autolink-work-items
+
+## Description
+
 Configures Autolink References in the destination GitHub repository so that references to Azure Boards work items become clickable hyperlinks.
 
+[View in Knowledge Base](https://kb.warp.io/warp/commands/azure-devops/autolink-work-items)
 
-[View in Knowledge Base](https://kb.Warp.io/warp/commands/azure-devops/autolink-work-items)
-
-
-
-### Example
+## Example
 
 ```
 /autolink-work-items
 ```
-### Authorization
 
-- Not required.
+## Authorization
 
-### Code Examples
+* Not required.
 
-#### TypeScript
+## Code Examples
+
+### TypeScript
+
 ```typescript
 interface WorkItem {
     id: number;
@@ -39,7 +40,8 @@ const workItems: WorkItem[] = [
 autolinkWorkItems(workItems);
 ```
 
-#### JavaScript
+### JavaScript
+
 ```javascript
 function autolinkWorkItems(items) {
     items.forEach(item => {
@@ -55,7 +57,8 @@ const workItems = [
 autolinkWorkItems(workItems);
 ```
 
-#### Ruby
+### Ruby
+
 ```ruby
 WorkItem = Struct.new(:id, :title)
 
@@ -73,7 +76,8 @@ work_items = [
 autolink_work_items(work_items)
 ```
 
-#### Go
+### Go
+
 ```go
 package main
 
@@ -100,7 +104,8 @@ func main() {
 }
 ```
 
-#### Rust
+### Rust
+
 ```rust
 struct WorkItem {
     id: u32,
