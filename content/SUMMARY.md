@@ -26,7 +26,3 @@
     * [/disable-ado-repo](slash-commands/slash-commands/azure-devops/disable-ado-repo.md)
   * [GitHub](slash-commands/slash-commands/github/README.md)
     * [/add-team](slash-commands/slash-commands/github/add-team.md)
-
-## Group 1
-
-* [Page 1](group-1/page-1.md)
