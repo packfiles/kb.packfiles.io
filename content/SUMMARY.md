@@ -5,3 +5,7 @@
 ## Getting Started
 
 * [Quickstart](getting-started/quickstart.md)
+
+## Slash Commands
+
+* [Slash Commands](slash-commands/README.md)
