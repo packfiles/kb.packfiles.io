@@ -17,7 +17,6 @@
   * [Backlog Issue](working-with-warp/slash-commands/backlog-issue/README.md)
     * [/refresh](working-with-warp/slash-commands/backlog-issue/refresh.md)
   * [Azure DevOps](working-with-warp/slash-commands/azure-devops/README.md)
-    * [Overview](working-with-warp/slash-commands/azure-devops/overview.md)
     * [/rewire-pipeline](working-with-warp/slash-commands/azure-devops/rewire-pipeline.md)
     * [/rewire-all-pipelines](working-with-warp/slash-commands/azure-devops/rewire-all-pipelines.md)
     * [/integrate-boards](working-with-warp/slash-commands/azure-devops/integrate-boards.md)
