@@ -27,7 +27,7 @@ We're continuously adding new material here, including comprehensive coverage of
 While you explore these docs, you might notice some sections marked as “coming soon.” These represent stops on our active documentation roadmap, and we're working diligently to fill them out. We update these docs regularly, so check back often for the latest guides and examples.
 
 {% hint style="info" %}
-If you need help with anything that isn't yet covered in the docs, please don’t hesitate to reach out to our support team [over here](https://pack.fm/warp/contact-support).
+If you need help with anything that isn't yet covered in the docs, please don’t hesitate to [create an Issue](https://github.com/packfiles/kb.packfiles.io/issues/new/choose), [open a Pull Request](https://github.com/packfiles/kb.packfiles.io/compare), or [reach out](https://pack.fm/warp/contact-support) to our support team.
 {% endhint %}
 
 ### Jump In
