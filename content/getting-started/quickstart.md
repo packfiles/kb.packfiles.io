@@ -23,7 +23,7 @@ Search for the 🛠️ emoji if you’d like to skim through this Quickstart’s
 
 Before you can start migrating repositories from Azure DevOps to GitHub, you need to install the following prerequisites:
 
-1. **GitHub CLI (command-line interface) application**. Even if you have the GitHub dekstop application installed, you’ll need the GitHub CLI to use the Warp command-line extension.
+1. **GitHub CLI (command-line interface) application**. Even if you have the GitHub desktop application installed, you’ll need the GitHub CLI to use the Warp command-line extension.
 2. **Warp command-line extension**. This is a GitHub CLI extension that you’ll use to set up the vault, the secure file that stores the access tokens for your GitHub account and the ADO organization you want to migrate repositories from.
 
 If you already have these prerequisites installed, you can skip this section and move on to section 2, _Create a New Project_.
@@ -112,13 +112,13 @@ You will be taken to the _Projects_ page, which lists the current migration proj
 
 <figure><img src="../media/images/quickstart/new_project/warp_click_create_new_project_link.png" alt=""><figcaption><p>Warp’s <em>Projects</em> page, which you’ll see immediately after signing in.</p></figcaption></figure>
 
-🛠️ Click the the **Create a New Project** link.
+🛠️ Click the **Create a New Project** link.
 
 A new section will appear below the link. This section provides instructions for what to do next, which is to install the Warp GitHub app into the GitHub organization where you will migrate your repositories:
 
 <figure><img src="../media/images/quickstart/new_project/warp_click_create_new_project_link_2.png" alt=""><figcaption><p>Creating a new project in Warp.</p></figcaption></figure>
 
-🛠️ Click the the **Install Warp from the GitHub Marketplace** link.
+🛠️ Click the **Install Warp from the GitHub Marketplace** link.
 
 You will arrive at the page for the Warp GitHub app:
 
@@ -325,7 +325,7 @@ gh warp vault setup
 
 You will see the “Welcome” text pictured below:
 
-<figure><img src="../media/images/quickstart/vault_setup/vault_setup_start.png" alt=""><figcaption><p>The opening page of the <em>Vault Setup</em> application.</p></figcaption></figure>
+<figure><img src="../media/images/quickstart/vault_setup/vault_setup_start.png" alt=""><figcaption><p>The “Welcome” page of the <em>Vault Setup</em> application.</p></figcaption></figure>
 
 🛠️ Press the **Enter** or **Return** key to continue.
 
@@ -474,27 +474,27 @@ gh warp vault place
 
 You’ll be greeted with the following text:
 
-![Warp command-line 'Install Runner Credentials Vault Master Key' prompt](../media/images/quickstart/vault_place/vault_place_start.png)
+![The “Welcome” screen of the Vault Place application.](../media/images/quickstart/vault_place/vault_place_start.png)
 
 🛠️ Press the **Enter** or **Return** key to continue.
 
 You’ll be prompted to enter your vault key:
 
-![Warp command-line 'Decrypt Credentials Vault' prompt](../media/images/quickstart/vault_place/vault_place_paste_key.png)
+![The Decrypt Credentials Vault screen in the Vault Place application.](../media/images/quickstart/vault_place/vault_place_paste_key.png)
 
 🛠️ Paste the vault key into the text area...
 
-![Warp command-line 'Decrypt Credentials Vault' prompt with obfuscated vault key pasted in](../media/images/quickstart/vault_place/vault_place_pasted_key.png)
+![The Decrypt Credentials Vault screen in the Vault Place application, with the vault pasted in.](../media/images/quickstart/vault_place/vault_place_pasted_key.png)
 
 🛠️ ...then press the **Enter** or **Return** key to continue.
 
 The app will store your vault key into the _Migration HQ_ repository’s secrets and display this message:
 
-![Warp command-line 'All done!' text](../media/images/quickstart/vault_place/vault_place_end_screen.png)
+![The closing screen of the Vault Place application.](../media/images/quickstart/vault_place/vault_place_end_screen.png)
 
 You should confirm that your vault key was successfully stored in _Migration HQ_ by checking the repository’s _Secrets_ section in GitHub:
 
-![GitHub 'Settings' page for the 'Migration HQ' repository](../media/images/quickstart/vault_place/github_settings.png)
+![The Settings page for the Migration HQ repository.](../media/images/quickstart/vault_place/github_settings.png)
 
 🛠️ Open a browser tab or window to the _Migration HQ_ repository in GitHub and click the **Settings** tab.
 
@@ -502,7 +502,7 @@ You should confirm that your vault key was successfully stored in _Migration HQ_
 
 You should see the _Actions secrets and variables_ page for _Migration HQ_ :
 
-![GitHub 'Action secrets and variables' page for the 'Migration HQ' repository](../media/images/quickstart/vault_place/github_action_secrets_variables.png)
+![The Action secrets and variables page for the Migration HQ repository.](../media/images/quickstart/vault_place/github_action_secrets_variables.png)
 
 🛠️ Check the _Repository secrets_ section and confirm that it contains a secret named `PKFS_MASTER_KEY`.
 
@@ -512,29 +512,29 @@ If you see the `PKFS_MASTER_KEY` secret, you have successfully stored the vault 
 
 The next step is to connect your Azure DevOps account to Warp. This will allow Warp to access the repositories you want to migrate from Azure DevOps to GitHub.
 
-![Warp 'Connect Your Sources' page](../media/images/quickstart/connect_ado/warp_verify_credentials_1.png)
+![Warp’s Connect Your Sources page.](../media/images/quickstart/connect_ado/warp_verify_credentials_1.png)
 
 🛠️ Go back to the Warp browser tab or window. Make sure that you’re on the _Connect Your Sources_ page shown above, then click the **Check Credentials** button near the lower right corner of the page.
 
 The text in the _Verify Credentials_ section will change to “We’re checking your Vault’s credentials. This will take a moment...”:
 
-![Warp Sign In page](../media/images/quickstart/connect_ado/warp_verify_credentials_2.png)
+![Warp’s Connect Your Sources page, after the Check Credentials button is clicked.](../media/images/quickstart/connect_ado/warp_verify_credentials_2.png)
 
-🛠️ While Warp is examing your vault, switch to the browser tab or window that you were using for the _Migration HQ_ repository in GitHub:
+🛠️ While Warp is examining your vault, switch to the browser tab or window that you were using for the _Migration HQ_ repository in GitHub:
 
-![Warp Sign In page](../media/images/quickstart/connect_ado/github_verify_credentials_1.png)
+![The Actions page of Migration HQ, showing the runner agent verifying the vault credentials. ](../media/images/quickstart/connect_ado/github_verify_credentials_1.png)
 
 🛠️ Select the **Actions** tab. This will display the list of _Migration HQ_’s workflows.
 
 If you switched to the GitHub browser tab or window and clicked the **Actions** tab quickly enough, you should see a workflow with a spinning yellow icon named **Warp Runner Agent**. The yellow icon denotes that it is currently running. This workflow is using the vault key you stored in _Migration HQ_’s secrets to unlock the personal access tokens for Azure DevOps and GitHub.
 
-![Warp Sign In page](../media/images/quickstart/connect_ado/github_verify_credentials_2.png)
+![The Actions page of Migration HQ, after the runner agent has completed its tasks.](../media/images/quickstart/connect_ado/github_verify_credentials_2.png)
 
 🛠️ Wait until the spinning yellow icon is be replaced by a green checkmark. This means that the vault key was successfully used to unlock the personal access tokens for Azure DevOps and GitHub.
 
 🛠️ Switch back to the browser tab or window for Warp:
 
-![Warp Sign In page](../media/images/quickstart/connect_ado/warp_verify_credentials_3.png)
+<figure><img src="../media/images/quickstart/connect_ado/warp_verify_credentials_3.png" alt=""><figcaption><p>Warp’s <em>Connect Your Sources</em> page, after the vault credentials have been verified.</p></figcaption></figure>
 
 You should see a section below _Verify Credentials_ titled _Your Vault_. It should contain two items:
 
@@ -547,7 +547,7 @@ If you don’t see these items, click your browser’s **Refresh** button.
 
 You’ll arrive at the _All Done!_ page, which marks the end of the process of configuring the project:
 
-![Warp Sign In page](../media/images/quickstart/connect_ado/warp_review_and_complete.png)
+![Warp’s Review and Complete page.](../media/images/quickstart/connect_ado/warp_review_and_complete.png)
 
 🛠️ Let’s check the project’s status. Click the **Go to Dashboard** button.
 
@@ -555,7 +555,7 @@ You’ll arrive at the _All Done!_ page, which marks the end of the process of c
 
 The _Dashboard_ page shows the status of the project you just configured:
 
-![Warp Deashboard page](../media/images/quickstart/connect_ado/warp_dashboard_initial.png)
+<figure><img src="../media/images/quickstart/connect_ado/warp_dashboard_initial.png" alt=""><figcaption><p>Warp’s <em>Dashboard</em> page.</p></figcaption></figure>
 
 The **Trends** section displays the following statistics:
 
@@ -568,17 +568,17 @@ The text above the **Trends** section says “Tasks in Progress” and “Scanni
 
 🛠️ Switch to the browser tab or window for the _Migrations HQ_ repository and select the **Actions** tab:
 
-![Warp Sign In page](../media/images/quickstart/connect_ado/github_warp_runner_start.png)
+![The Actions page of Migration HQ, showing the runner agent scanning the Azure DevOps organization for repositories. ](../media/images/quickstart/connect_ado/github_warp_runner_start.png)
 
 You should see a new workflow with a spinning yellow icon named **Warp Runner Agent**. The yellow icon denotes that it is currently running. This workflow is scanning the Azure DevOps organization for repositories.
 
 🛠️ Wait for the Warp Runner Agent workflow to start and finish. You’ll know it’s finished when the spinning yellow icon is replaced by a green checkmark. The process may take a few minutes, depending on how many repositories are in your Azure DevOps organization.
 
-![Warp Sign In page](../media/images/quickstart/connect_ado/github_warp_runner_end.png)
+![The Actions page of Migration HQ, after the runner agent has completed its tasks.](../media/images/quickstart/connect_ado/github_warp_runner_end.png)
 
 🛠️ When the Warp Runner Agent has finished its tasks, switch back to the browser tab or window with the Warp Dashboard:
 
-![Warp Sign In page](../media/images/quickstart/connect_ado/warp_dashboard_after_scan.png)
+![Warp’s Dashboard page, after the Azure DevOps organization has been scanned for repositories.](../media/images/quickstart/connect_ado/warp_dashboard_after_scan.png)
 
 You should see the updated statistics on the _Dashboard_ page. The number of repositories found in the Azure DevOps Organization should now be displayed.
 
@@ -598,7 +598,7 @@ It’s finally time to migrate a repository from Azure DevOps to GitHub!
 
 🛠️ Switch to the browser tab or window with _Migration HQ_ and select the **Issues** tab:
 
-![The 'Issues' page for the 'Migration HQ' repository in GitHub](../media/images/quickstart/migrate/github_issues.png)
+![The Issues page for the Migration HQ repository.](../media/images/quickstart/migrate/github_issues.png)
 
 Warp creates an issue in the _Migration HQ_ repository for every repository it finds in your Azure DevOps organization. These issues are used to manage the migration of repositories from Azure DevOps to GitHub.
 
@@ -606,7 +606,7 @@ Warp creates an issue in the _Migration HQ_ repository for every repository it f
 
 The page for the issue will appear:
 
-![Warp Sign In page](../media/images/quickstart/migrate/github_issue_1.png)
+<figure><img src="../media/images/quickstart/migrate/github_issue_1.png" alt=""><figcaption><p>The issue page for one of the repositories to be migrated.</p></figcaption></figure>
 
 The body of the issue — the part that contains a description and other notes about the issue — contains information assembled by Warp about the corresponding repository.
 
@@ -614,23 +614,23 @@ If you take a closer look at the body, you’ll see that it’s divided into the
 
 * **Migration Status:** This section shows the current status of the migration. Since the migration hasn’t started yet, its status is **not started**.
 
-![Warp Sign In page](../media/images/quickstart/migrate/github_issue_2.png)
+<figure><img src="../media/images/quickstart/migrate/github_issue_2.png" alt=""><figcaption><p>The top part of the issue’s body.</p></figcaption></figure>
 
 * **Tasks:** This section has a checklist of the tasks that need to be performed to migrate the repository. Warp will automatically check off the tasks as they are completed.
 
-![Warp Sign In page](../media/images/quickstart/migrate/github_issue_3.png)
+<figure><img src="../media/images/quickstart/migrate/github_issue_3.png" alt=""><figcaption><p>The bottom part of the issue’s body.</p></figcaption></figure>
 
 * **About:** This lists basic information about the source repository, such as when its last commit was, how many commits it’s had in the past year, who its most active contributor was, and its size.
 * **Source & Destination:** This provides links to the source and the destination repositories.
 * **Inventory:** This shows information about the destination repository. Since the migration hasn’t started yet, this section simply says that the repository hasn”t been migrated yet.
 
-![Warp Sign In page](../media/images/quickstart/migrate/github_issue_4.png)
+<figure><img src="../media/images/quickstart/migrate/github_issue_4.png" alt=""><figcaption><p>The comments section of the issue.</p></figcaption></figure>
 
 It’s time to migrate!
 
 🛠️ Scroll down the page to the comments section...
 
-![Warp Sign In page](../media/images/quickstart/migrate/github_issue_start_migration.png)
+<figure><img src="../media/images/quickstart/migrate/github_issue_start_migration.png" alt=""><figcaption><p>Issuing the <code>/migrate</code> command.</p></figcaption></figure>
 
 🛠️ ...and in the first comment, enter the following command:
 
@@ -640,23 +640,23 @@ It’s time to migrate!
 
 In moments, Warp will reply with a follow-up comment announcing that the migration has started:
 
-![Warp Sign In page](../media/images/quickstart/migrate/github_issue_migration_in_process_comment.png)
+<figure><img src="../media/images/quickstart/migrate/github_issue_migration_in_process_comment.png" alt=""><figcaption><p>Warp’s response comment to the <code>/migrate</code> command.</p></figcaption></figure>
 
 Depending on a number of factors, including the size of the repository and how many migrations Warp is performing at the same time, the migration may take a few to several minutes to complete.
 
 🛠️ In the meantime, switch to the browser tab or windows for _Migration HQ_ and click the **Actions** tab:
 
-![Warp Sign In page](../media/images/quickstart/migrate/actions_tab_1.png)
+<figure><img src="../media/images/quickstart/migrate/actions_tab_1.png" alt=""><figcaption><p>The <em>Actions</em> page of <em>Migration HQ</em>, showing the runner agent performing the migration. </p></figcaption></figure>
 
 You should see a new workflow with a spinning yellow icon named **Warp Runner Agent**. The yellow icon denotes that it is currently running. This workflow is performing the task of migrating the repository from Azure DevOps to GitHub.
 
-![Warp Sign In page](../media/images/quickstart/migrate/actions_tab_2.png)
+<figure><img src="../media/images/quickstart/migrate/actions_tab_2.png" alt=""><figcaption><p>The <em>Actions</em> page of <em>Migration HQ</em>, after the runner agent has completed its tasks.</p></figcaption></figure>
 
 Eventually, the runner agent will complete its tasks, and its icon will change from spinning yellow to a green circle with a checkmark. This means that Warp has finished migrating the repository.
 
 🛠️ Confirm that the repository has been migrated by clicking the **Issues** tab:
 
-![Warp Sign In page](../media/images/quickstart/migrate/post-migration_open_issues.png)
+<figure><img src="../media/images/quickstart/migrate/post-migration_open_issues.png" alt=""><figcaption><p>The open issues tab of the <em>Issues</em> page in <em>Migration HQ</em>. Note that there is one less open issue.</p></figcaption></figure>
 
 You’ll see the list of open issues. In our example, there are now only _four_ open issues, where there were _five_ originally. Migrating the repository closed its issue.
 
@@ -664,25 +664,25 @@ You’ll see the list of open issues. In our example, there are now only _four_ 
 
 You’ll see the list of closed issues. It should contain the issue for the repository you just migrated:
 
-![Warp Sign In page](../media/images/quickstart/migrate/post-migration_closed_issues.png)
+<figure><img src="../media/images/quickstart/migrate/post-migration_closed_issues.png" alt=""><figcaption><p>The closed issues tab of the <em>Issues</em> page in <em>Migration HQ</em>. Note that there is one new closed issue.</p></figcaption></figure>
 
 🛠️ Examine the issue by clicking it:
 
-![Warp Sign In page](../media/images/quickstart/migrate/closed_issue_1.png)
+<figure><img src="../media/images/quickstart/migrate/closed_issue_1.png" alt=""><figcaption><p>The closed issue’s updated <em>Migration Status</em> section.</p></figcaption></figure>
 
 When the issue page opens, you’ll see a number of changes:
 
 * The **Migration Status** section now shows a graphic indicating that the migration is complete.
 * The _Migrate this repository’s comments to GitHub_ checkbox in the **Tasks** list is now checked.
 
-![Warp Sign In page](../media/images/quickstart/migrate/closed_issue_2.png)
+<figure><img src="../media/images/quickstart/migrate/closed_issue_2.png" alt=""><figcaption><p>The closed issue’s updated <em>Source &#x26; Destination</em> and <em>Inventory</em> sections.</p></figcaption></figure>
 
 * The **Source and Destination** section now has links for both the source and destination repositories.
 * The **Inventory** section now shows information about the migrated repository.
 
 🛠️ Scroll to the comments section:
 
-![Warp Sign In page](../media/images/quickstart/migrate/closed_issue_3.png)
+<figure><img src="../media/images/quickstart/migrate/closed_issue_3.png" alt=""><figcaption><p>The closed issue’s comments section, featuring Warp’s comment saying that the migration was successful.</p></figcaption></figure>
 
 You’ll see a new comment from Warp, complete with a link to the destination repository.
 
@@ -690,14 +690,14 @@ You’ll see a new comment from Warp, complete with a link to the destination re
 
 You’ll see the repository’s page — _in GitHub!_ — with all of its files, branches, and commits:
 
-![Warp Sign In page](../media/images/quickstart/migrate/migrated_repo.png)
+<figure><img src="../media/images/quickstart/migrate/migrated_repo.png" alt=""><figcaption><p>The newly migrated repository in GitHub.</p></figcaption></figure>
 
 When you started, the GitHub organization had a single repository: _Migration HQ_.
 
 🛠️ Click on the organization’s name (near the top left corner of the page), followed by the **Repositories** tab.
 
-![Warp Sign In page](../media/images/quickstart/migrate/github_organization_repos.png)
+![The GitHub organization’s Repositories page, showing Migration HQ and the newly migrated repository.](../media/images/quickstart/migrate/github_organization_repos.png)
 
 You’ll see that the organization now has _two_ repositories: _Migration HQ_ and the repository you just migrated from Azure DevOps.
 
-Congratulations! You’ve successfully migrated a repository from Azure DevOps to GitHub using Warp.
+🙌 Congratulations! You’ve successfully migrated a repository from Azure DevOps to GitHub using Warp.
