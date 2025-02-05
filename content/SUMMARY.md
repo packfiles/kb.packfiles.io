@@ -5,13 +5,28 @@
 ## Getting Started
 
 * [Quickstart](getting-started/quickstart.md)
-* [Publish your docs](getting-started/publish-your-docs.md)
 
-## Basics
+## Working with Warp
 
-* [Editor](basics/editor.md)
-* [Markdown](basics/markdown.md)
-* [Images & media](basics/images-and-media.md)
-* [Interactive blocks](basics/interactive-blocks.md)
-* [OpenAPI](basics/openapi.md)
-* [Integrations](basics/integrations.md)
+* [Slash Commands](working-with-warp/slash-commands/README.md)
+  * [Global](working-with-warp/slash-commands/global/README.md)
+    * [/help](working-with-warp/slash-commands/global/help.md)
+  * [Migration](working-with-warp/slash-commands/migration/README.md)
+    * [/migrate](working-with-warp/slash-commands/migration/migrate.md)
+    * [/rename-destination](working-with-warp/slash-commands/migration/rename-destination.md)
+  * [Backlog Issue](working-with-warp/slash-commands/backlog-issue/README.md)
+    * [/refresh](working-with-warp/slash-commands/backlog-issue/refresh.md)
+  * [Azure DevOps](working-with-warp/slash-commands/azure-devops/README.md)
+    * [/rewire-pipeline](working-with-warp/slash-commands/azure-devops/rewire-pipeline.md)
+    * [/rewire-all-pipelines](working-with-warp/slash-commands/azure-devops/rewire-all-pipelines.md)
+    * [/integrate-boards](working-with-warp/slash-commands/azure-devops/integrate-boards.md)
+    * [/autolink-work-items](working-with-warp/slash-commands/azure-devops/autolink-work-items.md)
+    * [/lock-ado-repo](working-with-warp/slash-commands/azure-devops/lock-ado-repo.md)
+    * [/disable-ado-repo](working-with-warp/slash-commands/azure-devops/disable-ado-repo.md)
+  * [GitHub](working-with-warp/slash-commands/github/README.md)
+    * [/add-team](working-with-warp/slash-commands/github/add-team.md)
+
+## Billing & Licensing
+
+* [Overview](billing-and-licensing/overview.md)
+* [Trial Mode](billing-and-licensing/trial-mode.md)
