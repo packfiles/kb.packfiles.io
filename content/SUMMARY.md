@@ -6,27 +6,64 @@
 
 * [Quickstart](getting-started/quickstart.md)
 
-## Working with Warp
+***
 
-* [Slash Commands](working-with-warp/slash-commands/README.md)
-  * [Global](working-with-warp/slash-commands/global/README.md)
-    * [/help](working-with-warp/slash-commands/global/help.md)
-  * [Migration](working-with-warp/slash-commands/migration/README.md)
-    * [/migrate](working-with-warp/slash-commands/migration/migrate.md)
-    * [/rename-destination](working-with-warp/slash-commands/migration/rename-destination.md)
-  * [Backlog Issue](working-with-warp/slash-commands/backlog-issue/README.md)
-    * [/refresh](working-with-warp/slash-commands/backlog-issue/refresh.md)
-  * [Azure DevOps](working-with-warp/slash-commands/azure-devops/README.md)
-    * [/rewire-pipeline](working-with-warp/slash-commands/azure-devops/rewire-pipeline.md)
-    * [/rewire-all-pipelines](working-with-warp/slash-commands/azure-devops/rewire-all-pipelines.md)
-    * [/integrate-boards](working-with-warp/slash-commands/azure-devops/integrate-boards.md)
-    * [/autolink-work-items](working-with-warp/slash-commands/azure-devops/autolink-work-items.md)
-    * [/lock-ado-repo](working-with-warp/slash-commands/azure-devops/lock-ado-repo.md)
-    * [/disable-ado-repo](working-with-warp/slash-commands/azure-devops/disable-ado-repo.md)
-  * [GitHub](working-with-warp/slash-commands/github/README.md)
-    * [/add-team](working-with-warp/slash-commands/github/add-team.md)
+* [Core Concepts](concepts/README.md)
+  * [Velocity](concepts/velocity.md)
+  * [Visibility](concepts/visibility.md)
+  * [Collaboration](concepts/collaboration.md)
+  * [Incremental Delivery](concepts/incremental-delivery.md)
+
+## Migrations
+
+* [Azure DevOps](migrations/azure-devops.md)
+
+## Using Warp
+
+* [Projects](using-warp/projects/README.md)
+  * [Dashboard](using-warp/projects/dashboard.md)
+  * [Teams](using-warp/projects/teams.md)
+  * [Capacity](using-warp/projects/capacity.md)
+  * [Settings](using-warp/projects/settings.md)
+* [Migration HQ](using-warp/migration-hq/README.md)
+  * [Issues](using-warp/migration-hq/issues.md)
+  * [Labels](using-warp/migration-hq/labels.md)
+  * [Warp.yml](using-warp/migration-hq/warp.yml.md)
+  * [Warpspaces](using-warp/migration-hq/warpspaces.md)
+  * [Runner Agent](using-warp/migration-hq/runner-agent.md)
+* [Slash Commands](using-warp/slash-commands/README.md)
+  * [Global](using-warp/slash-commands/global/README.md)
+    * [/help](using-warp/slash-commands/global/help.md)
+  * [Migration](using-warp/slash-commands/migration/README.md)
+    * [/migrate](using-warp/slash-commands/migration/migrate.md)
+    * [/rename-destination](using-warp/slash-commands/migration/rename-destination.md)
+  * [Backlog Issue](using-warp/slash-commands/backlog-issue/README.md)
+    * [/refresh](using-warp/slash-commands/backlog-issue/refresh.md)
+  * [Azure DevOps](using-warp/slash-commands/azure-devops/README.md)
+    * [/rewire-pipeline](using-warp/slash-commands/azure-devops/rewire-pipeline.md)
+    * [/rewire-all-pipelines](using-warp/slash-commands/azure-devops/rewire-all-pipelines.md)
+    * [/integrate-boards](using-warp/slash-commands/azure-devops/integrate-boards.md)
+    * [/autolink-work-items](using-warp/slash-commands/azure-devops/autolink-work-items.md)
+    * [/lock-ado-repo](using-warp/slash-commands/azure-devops/lock-ado-repo.md)
+    * [/disable-ado-repo](using-warp/slash-commands/azure-devops/disable-ado-repo.md)
+  * [GitHub](using-warp/slash-commands/github/README.md)
+    * [/add-team](using-warp/slash-commands/github/add-team.md)
 
 ## Billing & Licensing
 
 * [Overview](billing-and-licensing/overview.md)
 * [Trial Mode](billing-and-licensing/trial-mode.md)
+
+***
+
+* [Support](support/README.md)
+  * [Copilot Chat](support/copilot-chat.md)
+  * [Partners](support/partners.md)
+  * [Knowledge Base](support/knowledge-base.md)
+
+## Security
+
+* [Security at Packfiles](security/packfiles.md)
+* [Warp's Security Model](security/warp-security-model/README.md)
+  * [Key Management](security/warp-security-model/key-management.md)
+  * [Data Privacy](security/warp-security-model/data-privacy.md)

@@ -10,12 +10,12 @@ No matter the size or scale of your overall Migration Project, you are not requi
 
 When your Project is in Trial Mode, the following limits apply:
 
-* We'll create a maximum of 10 **Backlog Issues**, and
+* We'll create a maximum of 10 **Issues**, and
 * We'll assign a free allotment of **Capacity** to your Project, allowing you to perform up to 10 migrations.
 
-### Backlog Issue Limit
+### Issue Limit
 
-When your Project is in Trial Mode, we'll limit the total number of GitHub issues we create in your **Migration HQ** for repositories discovered in your Source environments.&#x20;
+When your Project is in Trial Mode, we'll limit the total number of GitHub Issues we create in your **Migration HQ** for repositories discovered in your Source environments.&#x20;
 
 The repositories chosen for Trial Mode issues are random. If you'd like to evaluate Warp with a specific selection of repositories in Trial Mode, we recommend connecting Warp to a small environment you've created specifically for evaluation purposes.&#x20;
 
@@ -39,7 +39,7 @@ Even if you're planning to migrate a very large number of repositories, only the
 
 When a Project is upgraded from Trial Mode:
 
-* We'll automatically start to populate any uncreated **Backlog Issues** for your remaining repositories in your Migration HQ, and&#x20;
+* We'll automatically start to populate any uncreated **Issues** for your remaining repositories in your Migration HQ, and&#x20;
 * You'll be able to make use of your purchased Capacity instantly, as soon as your payment has been processed.
 
 If you have questions related to upgrading your Project, please [contact support](https://pack.fm/warp/contact-support).
