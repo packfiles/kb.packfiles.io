@@ -1,6 +1,6 @@
 ---
 icon: objects-column
-description: A high-level overview of the migration project.
+description: Provides a high-level overview of the migration Project.
 ---
 
 # Dashboard

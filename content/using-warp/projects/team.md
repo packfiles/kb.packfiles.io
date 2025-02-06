@@ -1,6 +1,6 @@
 ---
 icon: user-group
-description: A list of the people authorized to have access to the project.
+description: View and manage the people authorized to have access to the Project.
 ---
 
 # Team
