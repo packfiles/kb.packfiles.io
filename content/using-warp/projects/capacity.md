@@ -41,15 +41,13 @@ The _Statistics_ section provides the following quantitative information about y
 
 The _Buy Capacity_ section lets you purchase additional capacity for the Project. It has the following functions:
 
-* It lists the prices for the various _boxes_, which are “packages” of capacity for purchase. Currently, there are two box sizes:
-
-| Box Size                                                           | Capacity |
-| ------------------------------------------------------------------ | -------- |
-| Small                                                              | 100      |
-| Medium                                                             | 1,000    |
-| _Need a larger box?_ [_Contact us._](https://packfiles.io/contact) |          |
-
+* It lists the prices for the various _boxes_, which are “packages” of capacity for purchase.&#x20;
 * It gives you the ability to set the amount of capacity to purchase. You can set this amount in a couple of ways:
   * By entering a quantity in the **Quantity** field for the **Small Box**, **Medium Box**, or both rows.
   * You can click the **Optimize** button, which automatically enters the optimal quantities for purchasing enough capacity to handle your remaining repositories to migrate. You can clear the effects of the **Optimize** button by clicking the <img src="../../.gitbook/assets/image (12).png" alt="" data-size="line"> button.
 * You can start the purchase process by clicking the **Purchase** button. This will take you to the checkout page, where you will specify the payment method and finalize your purchase.
+
+### Available Box Sizes
+
+{% include "../../.gitbook/includes/box-sizes-and-prices.md" %}
+
