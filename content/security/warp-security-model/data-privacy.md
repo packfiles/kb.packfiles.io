@@ -1,6 +1,6 @@
 ---
 icon: vault
-description: Our Commitment to Keeping Your Data Confidential
+description: Packfiles' Commitment to Keeping Your Data Private
 ---
 
 # Data Privacy
