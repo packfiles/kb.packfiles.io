@@ -48,18 +48,10 @@
     * [/disable-ado-repo](using-warp/slash-commands/azure-devops/disable-ado-repo.md)
   * [GitHub](using-warp/slash-commands/github/README.md)
     * [/add-team](using-warp/slash-commands/github/add-team.md)
-
-## Billing & Licensing
-
-* [Overview](billing-and-licensing/overview.md)
-* [Trial Mode](billing-and-licensing/trial-mode.md)
-
-***
-
-* [Support](support/README.md)
-  * [Copilot Chat](support/copilot-chat.md)
-  * [Partners](support/partners.md)
-  * [Knowledge Base](support/knowledge-base.md)
+* [Support](using-warp/support/README.md)
+  * [Copilot Chat](using-warp/support/copilot-chat.md)
+  * [Partners](using-warp/support/partners.md)
+  * [Knowledge Base](using-warp/support/knowledge-base.md)
 
 ## Security
 
@@ -67,3 +59,8 @@
 * [Warp's Security Model](security/warp-security-model/README.md)
   * [Credential Management](security/warp-security-model/credential-management.md)
   * [Data Privacy](security/warp-security-model/data-privacy.md)
+
+## Billing & Licensing
+
+* [Overview](billing-and-licensing/overview.md)
+* [Trial Mode](billing-and-licensing/trial-mode.md)
