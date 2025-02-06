@@ -7,7 +7,7 @@ description: Learn how Packfiles Protects Your Data
 
 ### Introduction
 
-Packfiles designs security into the core of our products. As part of our mission to create the world's leading platform for Enterprise-scale GitHub adoption, we cannot understate the importance of protecting our customers, their data, and the trust they've placed in us.
+Packfiles designs security into the core of our products. As part of our mission to create the world's leading platform for enterprise-scale GitHub adoption, we cannot understate the importance of protecting our customers, their data, and the trust they've placed in us.
 
 Packfiles' ultimate goal is to keep our customers safe. We achieve this with a combination of technologies, architectural choices, and best practices that work together to deliver a user experience that is as approachable and transparent as it is maximally secure.
 
@@ -25,7 +25,7 @@ World-class security technologies are transparent and easy to use. Great securit
 
 Rather than forcing customers to learn and apply a complicated set of security settings or configuration, we believe that the product itself should be their guide, and it should work in a way that guarantees their success.
 
-In other words, "secure by design" is better than "secure by default", or even "secure with a bit of extra configuration". Opinioniated, secure defaults that work transparently on behalf of customers raise the bar for everyone.
+In other words, "secure by design" is better than "secure by default", or even "secure with a bit of extra configuration". Opinionated, secure defaults that work transparently on behalf of customers raise the bar for everyone.
 
 #### Security comes standard.
 
