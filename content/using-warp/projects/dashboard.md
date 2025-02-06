@@ -1,12 +1,15 @@
 ---
 icon: objects-column
+description: A high-level overview of the migration project.
 ---
 
 # Dashboard
 
 <figure><img src="../../.gitbook/assets/dashboard.png" alt=""><figcaption><p>Warp’s <em>Dashboard</em> page.</p></figcaption></figure>
 
-The Dashboard is purposely designed to be simple, providing a high-level overview of the project’s size and progress.
+The _Dashboard_ page provides a high-level overview of the project’s size and progress. It also provides a link to the project’s _Migration HQ_ repository.
+
+The key parts of the _Dashboard_ page are described in detail below.
 
 ### Migration HQ
 

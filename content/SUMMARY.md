@@ -22,7 +22,7 @@
 
 * [Projects](using-warp/projects/README.md)
   * [Dashboard](using-warp/projects/dashboard.md)
-  * [Teams](using-warp/projects/teams.md)
+  * [Team](using-warp/projects/team.md)
   * [Capacity](using-warp/projects/capacity.md)
   * [Settings](using-warp/projects/settings.md)
 * [Migration HQ](using-warp/migration-hq/README.md)
