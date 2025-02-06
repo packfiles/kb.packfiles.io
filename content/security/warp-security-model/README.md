@@ -5,7 +5,7 @@ description: Learn about Warp's Secure Design
 
 # Warp's Security Model
 
-Much has been said about "Zero-Trust" security architecture, but in practice, few vendors are truly able to deliver on that vision. Doing so requires a deep commitment to protecting the security and confidentiality of customer data, along with the drive and technical skill needed to solve the host of engineering challenges that make it possible to deliver scalable, resilient systems with these properties.&#x20;
+Much has been said about "Zero-Trust" security architecture, but in practice, few vendors are able to truly deliver on that vision. Doing so requires a deep commitment to protecting the security and confidentiality of customer data, along with the drive and technical skill needed to solve the host of engineering challenges that make it possible to deliver scalable, resilient systems with these properties.&#x20;
 
 When we originally set out to design Warp, we were met with the following security challenges:
 
@@ -21,9 +21,9 @@ Based on these challenges, we identified the following key problems to solve:
 
 ### Credential Management&#x20;
 
-To solve the problem of securing the management and storage of credentials, we built our own credential manager known as the Vault.
+To solve the problem of securing the management and storage of credentials, we built our own credential manager known as the **Vault**.
 
-When you use Warp, your credentials, along with the key used to encrypt the Vault that contains them, are never known to Packfiles. Your key material is maintained exclusively in your GitHub environment, on infrastructure you control, and is never stored or processed on Packfiles' infrastructure or accessible by our staff.
+**When you use Warp, your credentials, along with the key used to encrypt the Vault that contains them, are never known to Packfiles.** Your key material is maintained exclusively in your GitHub environment, on infrastructure you control, and is never stored or processed on Packfiles' infrastructure or accessible by our staff.
 
 To learn more about the Vault, have a look at the [Credential Management](credential-management.md) section.
 

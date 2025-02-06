@@ -33,13 +33,19 @@ Customers shouldn't have to pay a premium for great security. Rather than segmen
 
 #### **Security is a core primitive.**
 
-At Packfiles, we take a long-term view of our security technology and architectural choices. We've known from the start that an excellent security architecture is the first and most important thing to get right.
+At Packfiles, we've known from the start that an excellent security architecture is the first and most important thing to get right. That's why we take a long-term view of our security technology and architectural choices.
 
-This strong security foundation is essential to enabling core experiences, developing innovative new features, and creating great experiences for our users. That's why we're committed to helping protect our customers with leading security and privacy technologies, comprehensive security and compliance programs, and a dedicated security team that supports all Packfiles products.
+A strong security foundation is essential to enabling core experiences, developing innovative new features, and creating great experiences for our users. When a system is carefully designed with security as a core primitive, those properties and guarantees extend seamlessly throughout.
 
 #### Security is a differentiator.
 
 Our unique perspective on security isn't just about building great products like Warp. We hope to push the industry forward in designing great solutions that respect customers' right to security and privacy. Because executing on those principles while maintaining a high level of polish and usability isn't just possible, it's something that customers can and should expect.
+
+### Programs
+
+We're committed to helping protect our customers with leading security and privacy technologies, comprehensive security and compliance programs, and a dedicated security team that supports all Packfiles products.
+
+Packfiles understands that our own security posture is critical in protecting our customers. That's why we maintain strict controls across our workplace, development processes, and infrastructure. To ensure these controls are effective, we regularly engage with third-party security firms to perform thorough, comprehensive audits and security testing.&#x20;
 
 
 
