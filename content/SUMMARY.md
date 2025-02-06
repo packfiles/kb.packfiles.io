@@ -65,5 +65,5 @@
 
 * [Security at Packfiles](security/packfiles.md)
 * [Warp's Security Model](security/warp-security-model/README.md)
-  * [Key Management](security/warp-security-model/key-management.md)
+  * [Credential Management](security/warp-security-model/credential-management.md)
   * [Data Privacy](security/warp-security-model/data-privacy.md)
