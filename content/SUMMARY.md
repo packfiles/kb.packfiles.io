@@ -16,7 +16,9 @@
 
 ## Migrations
 
-* [Azure DevOps](migrations/azure-devops.md)
+* [Azure DevOps](migrations/azure-devops/README.md)
+  * [Service Connections](migrations/azure-devops/service-connections.md)
+  * [Limitations](migrations/azure-devops/limitations.md)
 
 ## Using Warp
 

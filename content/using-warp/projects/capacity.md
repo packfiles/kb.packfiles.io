@@ -13,7 +13,7 @@ The key parts of the _Capacity_ page are described in detail below.
 
 ### Billing Portal
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt="" width="168"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9).png" alt="" width="168"><figcaption></figcaption></figure>
 
 The **Billing Portal** button takes you to the Warp Billing Portal, where you can do the following:
 
@@ -23,7 +23,7 @@ The **Billing Portal** button takes you to the Warp Billing Portal, where you ca
 
 ### Statistics
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
 The _Statistics_ section provides the following quantitative information about your Project:
 
@@ -37,7 +37,7 @@ The _Statistics_ section provides the following quantitative information about y
 
 ### Buy Capacity
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
 The _Buy Capacity_ section lets you purchase additional capacity for the Project. It has the following functions:
 
@@ -51,5 +51,5 @@ The _Buy Capacity_ section lets you purchase additional capacity for the Project
 
 * It gives you the ability to set the amount of capacity to purchase. You can set this amount in a couple of ways:
   * By entering a quantity in the **Quantity** field for the **Small Box**, **Medium Box**, or both rows.
-  * You can click the **Optimize** button, which automatically enters the optimal quantities for purchasing enough capacity to handle your remaining repositories to migrate. You can clear the effects of the **Optimize** button by clicking the <img src="../../.gitbook/assets/image (10).png" alt="" data-size="line"> button.
+  * You can click the **Optimize** button, which automatically enters the optimal quantities for purchasing enough capacity to handle your remaining repositories to migrate. You can clear the effects of the **Optimize** button by clicking the <img src="../../.gitbook/assets/image (12).png" alt="" data-size="line"> button.
 * You can start the purchase process by clicking the **Purchase** button. This will take you to the checkout page, where you will specify the payment method and finalize your purchase.
