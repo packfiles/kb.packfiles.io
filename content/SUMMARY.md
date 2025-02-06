@@ -51,7 +51,7 @@
   * [GitHub](using-warp/slash-commands/github/README.md)
     * [/add-team](using-warp/slash-commands/github/add-team.md)
 * [Support](using-warp/support/README.md)
-  * [Warp for Copilot](using-warp/support/warp-for-copilot.md)
+  * [Warp for Copilot](using-warp/support/copilot-chat.md)
   * [Partners](using-warp/support/partners.md)
   * [Knowledge Base](using-warp/support/knowledge-base.md)
 

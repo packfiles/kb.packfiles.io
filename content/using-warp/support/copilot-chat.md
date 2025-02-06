@@ -1,6 +1,6 @@
 ---
-icon: robot
 description: Get Help Anytime with Warp's Copilot Chat Extension
+icon: robot
 ---
 
 # Warp for Copilot
@@ -21,7 +21,7 @@ Warp for Copilot can answer questions about slash commands, migrations, Warp's f
 
 If you're using Warp for Copilot on GitHub.com, Warp will automatically provide context about the Backlog Issue you're currently viewing for in-context support. With this context, Warp for Copilot can answer questions about a repository and recommend the next actions you should take.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt="" width="375"><figcaption><p>Warp for Copilot understands your current context to provide personalized support and assistance. </p></figcaption></figure>
+<div align="center"><figure><img src="../../.gitbook/assets/image (2).png" alt="" width="375"><figcaption><p>Warp for Copilot provides personalized support and assistance. </p></figcaption></figure></div>
 
 ### Further Reading
 
