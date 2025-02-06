@@ -10,13 +10,14 @@ Much has been said about "Zero-Trust" security architecture, but in practice, fe
 When we originally set out to design Warp, we were met with the following security challenges:
 
 * Most migration tools, including first-party tools published by GitHub, require a combination of many highly privileged credentials to perform their work.
-* Any individual operating migration tools, whether for their own use or on behalf of another organization, is required to have the administrative access mentioned previously to carry out these migration tasks. Due to the privileged nature of these credentials, the number of these individuals is typically small, further constraining the throughput of the migration process.
+* Any individual operating migration tools, whether for their own use or on behalf of another organization, is required to have possess the privileged credentials mentioned previously to carry out migration tasks.&#x20;
+  * Due to the privileged nature of these credentials, the number of these individuals is typically small, further constraining the throughput of the migration process.
 * Organizations are increasingly concerned about the collection, storage, and processing of their data. Because migrations necessarily involve the processing of nearly all an organization's software artifacts, including those of a business-critical or trade-secret nature, customers require the utmost transparency, security, and governance of these processes.
 
 Based on these challenges, we identified the following key problems to solve:
 
 * Storing and managing credentials securely,&#x20;
-* Executing migration tools without compromising the confidentiality of credentials, and&#x20;
+* Executing migration tools without exposing credentials or  compromising the integrity of the runtime environment, and&#x20;
 * Ensuring the confidentiality, integrity, and privacy of customer data.
 
 ### Credential Management&#x20;
@@ -41,7 +42,7 @@ The Runner Agent communicates with Warp's **Control Plane** to exchange status i
 
 Processes carried out by the Warp Runner Agent follow a set lifecycle:
 
-* When a job is scheduled on behalf of a Warp user, the Control Plane dispatches a GitHub Actions workflow maintained in the customer's Migration HQ repository.
+* When a job is scheduled on behalf of a Warp customer, the Control Plane dispatches a GitHub Actions workflow maintained in the customer's Migration HQ repository.
 * GitHub Actions executes the workflow, which calls Packfiles' [runner-agent](https://github.com/packfiles/runner-agent) action and supplies the following inputs:
   * An ephemeral API token for the Warp Control Plane, whose permissions are restricted specifically to that job,
   * A checked-out clone of the Migration HQ repository's Git contents, and&#x20;
