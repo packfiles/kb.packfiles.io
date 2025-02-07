@@ -10,7 +10,7 @@ Much has been said about "Zero-Trust" security architecture, but in practice, fe
 When we originally set out to design Warp, we were met with the following security challenges:
 
 * Most migration tools, including first-party tools published by GitHub, require a combination of many highly privileged credentials to perform their work.
-* Any individual operating migration tools, whether for their own use or on behalf of another organization, is required to have possess the privileged credentials mentioned previously to carry out migration tasks.&#x20;
+* Any individual operating migration tools, whether for their own use or on behalf of another organization, is required to have the privileged credentials mentioned previously to carry out migration tasks.&#x20;
   * Due to the privileged nature of these credentials, the number of these individuals is typically small, further constraining the throughput of the migration process.
 * Because migrations necessarily involve the processing of nearly all an organization's software artifacts, including those of a business-critical or trade-secret nature, customers require the utmost transparency, security, and governance of these processes.
 
