@@ -19,7 +19,7 @@ The **Add Members** button starts the process of adding one or more people to th
 
 Clicking the **Add Members** button opens this dialog:
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 To invite people to join your Team, you must provide the following information for each person:
 
@@ -47,7 +47,7 @@ Email invitations have a limited lifespan: they expire 7 days after they are sen
 
 The **...** button on the right side of each item in the _Pending Redemption_ list opens a menu containing one or two options:
 
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt="" width="140"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt="" width="140"><figcaption></figcaption></figure>
 
 * **Confirm:** This option appears only if the invitee has accepted the invitation. Select this item to confirm the addition of the invitee to the Team.
 * **Discard:** This option is always available, whether or not the invitee has accepted the invitation.
