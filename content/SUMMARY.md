@@ -4,6 +4,7 @@
 
 ## Getting Started
 
+* [What's Warp?](getting-started/whats-warp.md)
 * [Quickstart](getting-started/quickstart.md)
 * [Core Concepts](getting-started/concepts/README.md)
   * [Velocity](getting-started/concepts/velocity.md)
