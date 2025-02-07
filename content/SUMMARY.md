@@ -5,12 +5,12 @@
 ## Getting Started
 
 * [What's Warp?](getting-started/whats-warp.md)
-* [Quickstart](getting-started/quickstart.md)
 * [Core Concepts](getting-started/concepts/README.md)
   * [Velocity](getting-started/concepts/velocity.md)
   * [Visibility](getting-started/concepts/visibility.md)
   * [Collaboration](getting-started/concepts/collaboration.md)
   * [Incremental Delivery](getting-started/concepts/incremental-delivery.md)
+* [Quickstart](getting-started/quickstart.md)
 
 ## Migrations
 
