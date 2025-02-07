@@ -1,6 +1,6 @@
 ---
+icon: hands-holding-heart
 description: Learn about Warp's Support Options
-icon: book-heart
 ---
 
 # Support
