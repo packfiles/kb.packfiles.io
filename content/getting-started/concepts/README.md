@@ -16,7 +16,7 @@ This section covers the key concepts of our approach to GitHub adoption that we'
 We believe that:
 
 * Adopting the world's best developer tools should be as easy as using them.&#x20;
-* Tools supporting your adoption process should unlock speed and productivity. And they should allow you to move at the most comfortable pace for your organization's priorities.
+* Tools supporting your adoption process should put you in control. They should unlock speed, productivity, and allow you to move at the most comfortable pace for your organization's priorities.
 * Tools should be designed to eliminate bottlenecks. They should empower teams by increasing their ability to communicate, collaborate, and share context.
 * Tools should meet people where they are by delivering a polished, accessible experience that's easy for people to use and understand.
 * Tools should respect an organization's right to the privacy and security of their data, without compromising on usability and safety.
