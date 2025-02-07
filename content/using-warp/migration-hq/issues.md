@@ -19,7 +19,7 @@ The closed issues list shows the repositories that have either been migrated or 
 
 ### Issues
 
-<figure><img src="../../.gitbook/assets/image (43).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt="" width="375"><figcaption></figcaption></figure>
 
 Each issue in _Migration HQ_ represents a repository, where:
 
@@ -28,7 +28,7 @@ Each issue in _Migration HQ_ represents a repository, where:
 
 #### Title
 
-<figure><img src="../../.gitbook/assets/image (44).png" alt="" width="375"><figcaption><p>Title of an issue for a repository that has not yet been migrated.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="375"><figcaption><p>Title of an issue for a repository that has not yet been migrated.</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (45).png" alt="" width="375"><figcaption><p>Title of an issue for a repository that has been migrated or ignored.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt="" width="375"><figcaption><p>Title of an issue for a repository that has been migrated or ignored.</p></figcaption></figure>
 
