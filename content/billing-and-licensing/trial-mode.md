@@ -1,5 +1,6 @@
 ---
 description: Learn about Warp's Free Trial Offering
+icon: scale-balanced
 ---
 
 # Trial Mode

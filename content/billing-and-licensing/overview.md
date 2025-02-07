@@ -1,5 +1,6 @@
 ---
 description: Understand Billing and Licensing options in Warp
+icon: mountain-sun
 layout:
   title:
     visible: true
