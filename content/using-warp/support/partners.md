@@ -1,7 +1,6 @@
 ---
 icon: people-group
 description: Get Expert Support From Our Partners
-hidden: true
 ---
 
 # Partners
