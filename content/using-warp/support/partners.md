@@ -12,7 +12,7 @@ If you're considering expert support as part of your migration plan, or would li
 
 
 {% hint style="success" %}
-Are you a professional services provider with a GitHub focus? We'd love to help you enhance your GitHub adoption portfolio with Warp.&#x20;
+Are you a professional services provider with a GitHub focus? We'd love to help you enhance your portfolio with Warp.&#x20;
 
 To explore partnership options, [reach out to our team](https://packfiles.io/partners).
 {% endhint %}
