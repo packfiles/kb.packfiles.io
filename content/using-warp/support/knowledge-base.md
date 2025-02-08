@@ -1,6 +1,6 @@
 ---
 icon: book
-description: Get the most out of the Warp Knowledge Base
+description: Get the Most out of Warp's Knowledge Base
 ---
 
 # Knowledge Base
