@@ -5,6 +5,7 @@
 ## Getting Started
 
 * [What's Warp?](getting-started/whats-warp.md)
+* [Roadmap](getting-started/roadmap.md)
 * [Core Concepts](getting-started/concepts/README.md)
   * [Velocity](getting-started/concepts/velocity.md)
   * [Visibility](getting-started/concepts/visibility.md)
