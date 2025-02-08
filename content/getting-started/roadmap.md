@@ -1,6 +1,6 @@
 ---
-description: Learn About Warp's Current and Future Capabilities
 icon: signs-post
+description: Learn About Warp's Current and Future Capabilities
 ---
 
 # Roadmap
@@ -18,7 +18,7 @@ Warp currently supports migration to the following GitHub products:
 * [GitHub Enterprise Cloud](https://docs.github.com/en/enterprise-cloud@latest/admin/overview/about-github-enterprise-cloud)
 * [GitHub Enterprise Cloud with Enterprise Managed Users](https://docs.github.com/en/enterprise-cloud@latest/admin/managing-iam/understanding-iam-for-enterprises/about-enterprise-managed-users)
 
-### Roadmap
+### Future Roadmap
 
 #### Source Platforms
 
