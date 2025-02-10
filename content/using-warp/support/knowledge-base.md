@@ -21,7 +21,7 @@ The search bar at the top right of the page allows you to search this knowledge 
 
 Every page in this knowledge base is stored in a [public GitHub repository](https://github.com/packfiles/kb.packfiles.io). Individual pages have a dedicated link to their source content on GitHub, so it's easy to propose changes.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt="" width="138"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt="" width="138"><figcaption></figcaption></figure>
 
 {% include "../../.gitbook/includes/knowledge-base-contributions-and-feedback.md" %}
 

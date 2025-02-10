@@ -6,14 +6,14 @@ description: The interface for managing migrations.
 
 ### Overview
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1).png" alt="" width="375"><figcaption><p>Warp creates an issue for each repository it finds at the source.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1).png" alt="" width="375"><figcaption><p>Warp creates an issue for each repository it finds at the source.</p></figcaption></figure>
 
 Each issue in _Migration HQ_ represents a repository, where:.
 
 * The _body_ of the issue displays detailed information about the repository, including its status.
 * The _comments_ act as Warp’s user interface, where you enter commands and get responses.
 
-### Title
+### Issue Name
 
 When Warp creates an issue for a repository to be migrated, it assigns the issue a name using the following format:
 
@@ -24,11 +24,11 @@ When Warp creates an issue for a repository to be migrated, it assigns the issue
 
 Repositories that have not yet been migrated are marked with GitHub’s _Open_ indicator...
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Title of an issue for a repository that has not yet been migrated.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Title of an issue for a repository that has not yet been migrated.</p></figcaption></figure>
 
 ...and repositories that have been migrated or ignored are marked with GitHub’s _Closed_ indicator:
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1).png" alt="" width="375"><figcaption><p>Title of an issue for a repository that has been migrated or ignored.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Title of an issue for a repository that has been migrated or ignored.</p></figcaption></figure>
 
 ### Start of Body
 
@@ -59,7 +59,7 @@ The message informs the user that:
 
 ### Migration Status
 
-<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>The <em>Migration Status</em> section for an issue whose repository has not yet been migrated.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>The <em>Migration Status</em> section for an issue whose repository has not yet been migrated.</p></figcaption></figure>
 
 The _Migration Status_ section contains:
 
@@ -150,3 +150,13 @@ When the process is complete, Warp will post another comment informing you that 
 Warp automatically closes a repository’s issue after it has been migrated. The issue’s “closed” status will be indicated in the issue’s title and in a notice in the comments, which will also provide a rough date for when the issue was closed (e.g., “1 minute ago”):
 
 <figure><img src="../../../.gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
+
+### Ignoring a Repository
+
+**You can choose to ignore repositories that you don’t want to migrate.** You can mark an issue as _ignored_ by clicking the **Close issue** button in its comments section...
+
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+...or by checking its box in the closed issues list and selecting **Open** from the **Mark as** menu:
+
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
