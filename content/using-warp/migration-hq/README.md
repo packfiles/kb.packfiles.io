@@ -7,7 +7,7 @@ description: Learn How Warp Organizes your Migration Processes
 
 <figure><img src="../../.gitbook/assets/image (39).png" alt=""><figcaption><p>The <em>Migration HQ</em> page.</p></figcaption></figure>
 
-The _Migration HQ_ repository is Warp’s primary user interface. When you create a Project, Warp generates this repository to be the “control panel” that you use to manage the migration process.
+The _Migration HQ_ repository — the _HQ_ is short for “headquarters” — is Warp’s primary user interface. When you create a Project, Warp generates this repository to be the “control panel” that you use to manage the migration process.
 
 You will use the _Issues_ page of _Migration HQ_ most often. Warp uses this page for the list of migrations. For each repository that Warp finds in the sources you provide (e.g. Azure DevOps), it creates an issue representing that repository. Each issue acts as the user interface for managing the migration of its repository. You enter Warp commands in the issue’s _Comments_ section, including the command to migrate the issue from the source to GitHub.
 
