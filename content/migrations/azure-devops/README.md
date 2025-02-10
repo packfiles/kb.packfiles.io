@@ -5,7 +5,7 @@ description: Learn about Warp's Support for Azure DevOps Services
 
 # Azure DevOps
 
-<figure><img src="../../.gitbook/assets/image (7) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 This document provides an overview of Warp's capabilities for migrating data from Azure DevOps Services to GitHub products.&#x20;
 

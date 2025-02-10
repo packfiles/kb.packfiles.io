@@ -13,7 +13,7 @@ The key parts of the _Capacity_ page are described in detail below.
 
 ### Billing Portal
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt="" width="168"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1).png" alt="" width="168"><figcaption></figcaption></figure>
 
 The **Billing Portal** button takes you to the Warp Billing Portal, where you can do the following:
 
@@ -23,7 +23,7 @@ The **Billing Portal** button takes you to the Warp Billing Portal, where you ca
 
 ### Statistics
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 The _Statistics_ section provides the following quantitative information about your Project:
 

@@ -19,9 +19,9 @@ Packfiles' [Partner Network](partners.md) represents a globally distributed, dis
 
 For support inquiries related to Warp itself, the Packfiles team is here to help. Warp's product support channels can be accessed via the Support tab of your Project.
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt="" width="132"><figcaption><p>Warp Project support tab</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (2).png" alt="" width="132"><figcaption><p>Warp Project support tab</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (3) (2).png" alt="" width="375"><figcaption><p>Project support tab showing support contact and plan information</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (2) (1).png" alt="" width="375"><figcaption><p>Project support tab showing support contact and plan information</p></figcaption></figure>
 
 ### Product Feedback
 
