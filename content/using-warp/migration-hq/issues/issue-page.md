@@ -1,10 +1,14 @@
+---
+description: The interface for managing migrations.
+---
+
 # Issue Page
 
 ### Overview
 
 <figure><img src="../../../.gitbook/assets/image (2) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
-Each issue in _Migration HQ_ represents a repository, where:
+Each issue in _Migration HQ_ represents a repository, where:.
 
 * The _body_ of the issue displays detailed information about the repository, including its status.
 * The _comments_ act as Warp’s user interface, where you enter commands and get responses.
@@ -66,10 +70,10 @@ The _Migration Status_ section contains:
 
 The _About_ section, when expanded, lists details about the repository on the source system. It contains:
 
-* The date when the last commit to the repository was pushed.
-* The number of commits made to the repository in the last year.
-* The name and email address of the repository’s most active contributor.
-* The size of the repository.
+* The **date** when the last commit to the repository was pushed.
+* The **number of commits** made to the repository in the last year.
+* The **name and email address** of the repository’s most active contributor.
+* The **size** of the repository.
 
 ### Source & Destination
 
@@ -84,19 +88,25 @@ The _Source & Destination_ section, when expanded, provides links to the source 
 
 ### Inventory
 
+The _Inventory_ section, when expanded, displays information about the migrated repository, providing the date and time when the repository was migrated as well as a link to the destination repository:
+
+<figure><img src="../../../.gitbook/assets/image (49).png" alt=""><figcaption><p>The <em>Inventory</em> section for an issue whose repository has been migrated.</p></figcaption></figure>
+
 In an issue for a repository that hasn’t yet been migrated, the _Repository Content_ section simply displays that the repository has not yet been migrated to GitHub:
 
-<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption><p>The <em>Repository Content</em> section for an issue whose repository has not yet been migrated.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (48).png" alt=""><figcaption><p>The <em>Inventory</em> section for an issue whose repository has not yet been migrated.</p></figcaption></figure>
 
-An issue for a repository that has been migrated looks like this:
+### Help & Support 
 
-<figure><img src="../../../.gitbook/assets/image (47).png" alt=""><figcaption><p>The <em>Repository Content</em> section for an issue whose repository has been migrated.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption><p>The Help &#x26; Support section for an issue.</p></figcaption></figure>
 
-It displays the date and time when the repository was migrated and provides a link to the destination repository.
+The _Help & Support_ section appears near the end of the issue’s body. When expanded, it lists the ways you can get help while using Warp.
 
-### Commands 
+It provides links to the following resources:
 
-<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+* The Warp **Knowledge Base**
+* GitHub’s Copilot docs (Warp works with Copilot chat — open it and try sending questions to **@packfiles-warp!**)
+* The link for **Packfiles Support**
 
 ### Help & Support 
 
