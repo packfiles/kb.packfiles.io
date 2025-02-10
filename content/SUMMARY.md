@@ -28,7 +28,6 @@
   * [Settings](using-warp/projects/settings.md)
 * [Migration HQ](using-warp/migration-hq/README.md)
   * [Issues](using-warp/migration-hq/issues/README.md)
-    * [Issues Lists](using-warp/migration-hq/issues/issues-lists.md)
     * [Issue Page](using-warp/migration-hq/issues/issue-page.md)
   * [Labels](using-warp/migration-hq/labels.md)
   * [Warp.yml](using-warp/migration-hq/warp.yml.md)

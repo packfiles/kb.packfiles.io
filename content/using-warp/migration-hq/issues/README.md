@@ -5,87 +5,56 @@ description: Where Warp stores its list of migrations
 
 # Issues
 
-The _Issues_ page of _Migration HQ_ is the list of the Project’s migrations. For each repository that Warp finds in the sources you provide (e.g. Azure DevOps), it creates an issue representing that repository.
+The _Issues_ page of _Migration HQ_ is the list of the Project’s migrations. For each repository that Warp finds in the sources you provide (e.g. Azure DevOps), it creates an issue representing that repository:
 
-### The Open and Closed Issues Lists
+<figure><img src="../../../.gitbook/assets/Every repository has its own issue (1).png" alt=""><figcaption></figcaption></figure>
 
-The open issues list, which GitHub displays by default, shows the repositories that have not yet been migrated:
+### Viewing Open Issues
+
+**When you open&#x20;**_**Migration HQ**_**’s&#x20;**_**Issues**_**&#x20;page, you will see the open issues list, which GitHub displays by default.** Items in the open issues list correspond to repositories that have not yet been migrated:
 
 <figure><img src="../../../.gitbook/assets/image (40).png" alt=""><figcaption><p>The <strong>open issues list</strong> in the <em>Issues</em> page, which displays the Project repositories that have not been migrated.</p></figcaption></figure>
 
-The closed issues list shows the repositories that have either been migrated or ignored:
+**To view an open issue, click its name.** You will be taken to its issue page, which will display its details, and which you can use to issue commands, including the command to start a migration.
+
+You can filter _Migration HQ_ issues in the same ways you would in a standard GitHub repository: by open/closed status, author, label, and so on.
+
+### Viewing Closed Issues
+
+Items in the closed issues list correspond to repositories that have either been migrated or ignored:
 
 <figure><img src="../../../.gitbook/assets/image (42).png" alt=""><figcaption><p>The <strong>closed issues list</strong> in the <em>Issues</em> page, which displays the Project’s migrated and ignored repositories.</p></figcaption></figure>
 
-### Issues
+**To view an closed issue, click its name.** You will be taken to its issue page, which will display its details, including information about the migration.
 
-<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+### Closing Issues
 
-Each issue in _Migration HQ_ represents a repository, where:
+There are two ways to close an open issue in _Migration HQ:_
 
-* The _body_ of the issue displays detailed information about the repository, including its status.
-* The _comments_ act as Warp’s user interface, where you enter commands and get responses.
+1.  **Automatically.** After a successful migration of a repository to GitHub, Warp changes the status of its corresponding issue to _Closed_. The issue will move from the open issues list to the closed issues list, and the _Closed_ indicator will appear below the title of its page:\
 
-#### Title
 
-When Warp creates an issue for a repository to be migrated, it assigns the issue a name using the following format:
+    <figure><img src="../../../.gitbook/assets/image.png" alt="" width="375"><figcaption></figcaption></figure>
+2.  **Manually.** You can close one or more issues manually by checking their boxes in the open issues list and selecting either **Completed** or **Not Planned** from the **Mark as** menu:\
 
-**\[**_source_**]\[**_repository\_name_**]**
-
-* _source_ represents the source of the repository to be migrated (e.g., Azure DevOps).
-* _repository\_name_ is the name of the repository, as specified in the source.
-
-Repositories that have not yet been migrated are marked with GitHub’s _Open_ indicator...
-
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt="" width="375"><figcaption><p>Title of an issue for a repository that has not yet been migrated.</p></figcaption></figure>
-
-...and repositories that have been migrated or ignored are marked with GitHub’s _Closed_ indicator:
-
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1).png" alt="" width="375"><figcaption><p>Title of an issue for a repository that has been migrated or ignored.</p></figcaption></figure>
-
-#### Body
-
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption><p>The body of an issue.</p></figcaption></figure>
-
-The body of an issue displays detailed information about the repository. It’s divided into the following sections:
-
-*   ffff
 
     <figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
-*   fff\
 
+    You can also manually close an issue on its own page — see [_Issue Page_](issue-page.md) for details.\
+    \
+    **By closing an issue manually, you are choosing to&#x20;**_**ignore**_**&#x20;the repository.** Ignoring a repository has these effects:
 
-    <figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
-*   fff\
+    * It moves the issue to the closed issues list.
+    * Warp will ignore any slash commands (commands that you issue to Warp) entered into the issue’s comments and it will not update the issue’s content.
 
+### Re-opening Issues
 
-    <figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
-*   fff\
+If you decided that you need to re-migrate a repository, you can do so by re-opening its issue. You can re-open one or more issues by checking their boxes in the closed issues list and selecting either **Open** from the **Mark as** menu:
 
+<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
-    <figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+Re-opening an issue has these effects:
 
-
-*   fff\
-
-
-    <figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
-
-
-*   fff\
-
-
-    <figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
-
-
-*   fff\
-
-
-    <figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
-
-
-*   fff\
-
-
-    <figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+* It moves the issue to the open issues list.
+* Warp will once again pay attention to slash commands entered into the issue’s comments and will update the issue’s content as its status changes.
 
