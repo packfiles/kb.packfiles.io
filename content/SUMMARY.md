@@ -30,7 +30,7 @@
   * [Issues](using-warp/migration-hq/issues/README.md)
     * [Issue Page](using-warp/migration-hq/issues/issue-page.md)
   * [Labels](using-warp/migration-hq/labels.md)
-  * [Warp.yml](using-warp/migration-hq/warp.yml.md)
+  * [warp.yml](using-warp/migration-hq/warp.yml.md)
   * [Warpspaces](using-warp/migration-hq/warpspaces.md)
   * [Runner Agent](using-warp/migration-hq/runner-agent.md)
 * [Slash Commands](using-warp/slash-commands/README.md)
