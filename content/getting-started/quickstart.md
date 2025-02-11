@@ -460,7 +460,7 @@ At this point:
 * The Azure DevOps and GitHub personal access tokens have been encrypted into the vault file (`config/vault.age` on macOS and Linux, `config\vault.age` on Windows)
 * The vault file has been committed and pushed to the _Migration HQ_ repository.
 
-### Store the Vault key in _Migration HQ_
+#### Store the Vault key in _Migration HQ_
 
 The next step is to store the key for the vault file in the _Migration HQ_ repository. This will allow the Warp GitHub Actions to access the personal access tokens you encrypted into the vault, which in turn will allow them to migrate your repositories from Azure DevOps to GitHub.
 
@@ -551,7 +551,7 @@ You’ll arrive at the _All Done!_ page, which marks the end of the process of c
 
 🛠️ Let’s check the project’s status. Click the **Go to Dashboard** button.
 
-### Check the Project’s Status
+#### Check the Project’s Status
 
 The _Dashboard_ page shows the status of the project you just configured:
 
