@@ -1,7 +1,6 @@
 ---
 icon: ufo
 description: GitHub Codespaces...but with Warp!
-hidden: true
 ---
 
 # Warpspaces
