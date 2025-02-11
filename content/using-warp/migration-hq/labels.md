@@ -16,4 +16,4 @@ Warp automatically generates four labels for each issue it creates, which specif
 3. The repository’s **source**. In the examples above, the source is Azure DevOps.
 4. The repository’s **activity**. In the examples above, the repository is inactive.
 
-In addition to the labels that Warp automatically generates for issues, you can also assign your own labels to any label.
+In addition to the labels that Warp automatically generates for issues, you can also assign your own labels to any issue.
