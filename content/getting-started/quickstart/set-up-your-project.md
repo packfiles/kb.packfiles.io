@@ -39,11 +39,11 @@ The **Create a New Project** area will expand to display instructions for what t
 
 A new browser will open to the [GitHub Marketplace page for Warp’s GitHub app](https://github.com/marketplace/packfiles-warp):
 
-<figure><img src="../../.gitbook/assets/image.png" alt="The top of the Warp app&#x27;s page in GitHub Marketplace. The &#x22;Add&#x22; button is near the upper right corner of the page."><figcaption><p>The Warp app’s page in GitHub Marketplace.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8).png" alt="The top of the Warp app&#x27;s page in GitHub Marketplace. The &#x22;Add&#x22; button is near the upper right corner of the page."><figcaption><p>The Warp app’s page in GitHub Marketplace.</p></figcaption></figure>
 
 🛠️ Click the **Add** button near the upper right corner of the page or scroll to the bottom of the page. You should see the following:
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt="The bottom of the Warp app&#x27;s page in GitHub. The &#x22;Account&#x22; and &#x22;Install it for free&#x22; buttons button is near the bottom of the page."><figcaption><p>The Warp app’s page in GitHub Marketplace, scrolled to the bottom.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt="The bottom of the Warp app&#x27;s page in GitHub. The &#x22;Account&#x22; and &#x22;Install it for free&#x22; buttons button is near the bottom of the page."><figcaption><p>The Warp app’s page in GitHub Marketplace, scrolled to the bottom.</p></figcaption></figure>
 
 At the bottom of the page, you’ll see the **Account** drop-down menu and the **Install it for free** button:
 

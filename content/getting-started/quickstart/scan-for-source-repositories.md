@@ -18,7 +18,7 @@ The next step is to connect your Azure DevOps account to Warp. This will allow W
 
 The text in the _Verify Credentials_ section will change to “We’re checking your Vault’s credentials. This will take a moment...”:
 
-![Warp’s Connect Your Sources page, after the Check Credentials button is clicked.](../../media/images/quickstart/connect_ado/warp_verify_credentials_2.png)
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 🛠️ While Warp is examining your vault, switch to the browser tab or window that you were using for the _Migration HQ_ repository in GitHub:
 
@@ -34,7 +34,7 @@ If you switched to the GitHub browser tab or window and clicked the **Actions** 
 
 🛠️ Switch back to the browser tab or window for Warp:
 
-<figure><img src="../../media/images/quickstart/connect_ado/warp_verify_credentials_3.png" alt=""><figcaption><p>Warp’s <em>Connect Your Sources</em> page, after the vault credentials have been verified.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 You should see a section below _Verify Credentials_ titled _Your Vault_. It should contain two items:
 
@@ -47,7 +47,7 @@ If you don’t see these items, click your browser’s **Refresh** button.
 
 You’ll arrive at the _All Done!_ page, which marks the end of the process of configuring the project:
 
-![Warp’s Review and Complete page.](../../media/images/quickstart/connect_ado/warp_review_and_complete.png)
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 ### Check the Project’s Status
 
@@ -57,7 +57,7 @@ You’ll arrive at the _All Done!_ page, which marks the end of the process of c
 
 The _Dashboard_ page shows the status of the project you just configured:
 
-<figure><img src="../../media/images/quickstart/connect_ado/warp_dashboard_initial.png" alt=""><figcaption><p>Warp’s <em>Dashboard</em> page.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 The **Trends** section displays the following statistics:
 
@@ -80,8 +80,31 @@ You should see a new workflow with a spinning yellow icon named **Warp Runner Ag
 
 🛠️ When the Warp Runner Agent has finished its tasks, switch back to the browser tab or window with the Warp Dashboard:
 
-![Warp’s Dashboard page, after the Azure DevOps organization has been scanned for repositories.](../../media/images/quickstart/connect_ado/warp_dashboard_after_scan.png)
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 You should see the updated statistics on the _Dashboard_ page. The number of repositories found in the Azure DevOps Organization should now be displayed.
 
 If you don’t see a count of discovered Azure DevOps repositories, click your browser’s **Refresh** button.
+
+Of course, the best way to prove that Warp has successfully scanned the source and found repositories is to go to _Migration HQ_ and look at the _Issues_ section.
+
+🛠️ Switch to the browser tab or window with _Migration HQ_ and click the _Issues_ tab.
+
+You’ll be taken to _Migration HQ’s_ open issues list:
+
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+
+You’ll see that the number of issues in the list is that same as the number in the _Repositories Discovered_ entry in the Dashboard.
+
+If you take a closer look at the open issues list...
+
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+
+...you’ll see that each issue corresponds to a repository from your source.
+
+{% hint style="success" %}
+You’re so close now — it’s time to [start migrating!](migrate-a-repository.md)
+{% endhint %}
+
+
+
