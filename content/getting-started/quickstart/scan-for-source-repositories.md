@@ -4,6 +4,10 @@ icon: '5'
 
 # Scan for Source Repositories
 
+{% include "../../.gitbook/includes/search-for-the-emoji-if....md" %}
+
+
+
 ### Verify Your Credentials
 
 The next step is to connect your Azure DevOps account to Warp. This will allow Warp to access the repositories you want to migrate from Azure DevOps to GitHub.
