@@ -30,7 +30,7 @@ They are:
 
 🛠️ **If you already have these prerequisites installed,** proceed to the next section, _Create a New Project_.
 
-🛠️ **If you&#x20;**_**don’t**_**&#x20;have these prerequisites installed,** follow the steps in [_Installing the Prerequisites_](installing-the-prerequisites.md)_._
+🛠️ **If you&#x20;**_**don’t**_**&#x20;have these prerequisites installed,** follow the steps in [_Installing the Prerequisites_](install-the-prerequisites.md)_._
 
 ### 2. Create a New Project
 

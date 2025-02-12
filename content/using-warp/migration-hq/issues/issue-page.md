@@ -6,7 +6,7 @@ description: The interface for managing migrations.
 
 ### Overview
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Warp creates an issue for each repository it finds at the source.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Warp creates an issue for each repository it finds at the source.</p></figcaption></figure>
 
 Each issue in _Migration HQ_ represents a repository, where:.
 
@@ -24,11 +24,11 @@ When Warp creates an issue for a repository to be migrated, it assigns the issue
 
 Repositories that have not yet been migrated are marked with GitHub’s _Open_ indicator...
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Title of an issue for a repository that has not yet been migrated.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Title of an issue for a repository that has not yet been migrated.</p></figcaption></figure>
 
 ...and repositories that have been migrated or ignored are marked with GitHub’s _Closed_ indicator:
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Title of an issue for a repository that has been migrated or ignored.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Title of an issue for a repository that has been migrated or ignored.</p></figcaption></figure>
 
 ### Start of Body
 
@@ -59,7 +59,7 @@ The message informs the user that:
 
 ### Migration Status
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption><p>The <em>Migration Status</em> section for an issue whose repository has not yet been migrated.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption><p>The <em>Migration Status</em> section for an issue whose repository has not yet been migrated.</p></figcaption></figure>
 
 The _Migration Status_ section contains:
 
@@ -70,7 +70,7 @@ The _Migration Status_ section contains:
 
 ### About
 
-<figure><img src="../../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption><p>The <em>About</em> section.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption><p>The <em>About</em> section.</p></figcaption></figure>
 
 The _About_ section, when expanded, lists details about the repository on the source system. It contains:
 
@@ -81,7 +81,7 @@ The _About_ section, when expanded, lists details about the repository on the so
 
 ### Source & Destination
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption><p>The <em>Source &#x26; Destination</em> section for an issue whose repository has not yet been migrated.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>The <em>Source &#x26; Destination</em> section for an issue whose repository has not yet been migrated.</p></figcaption></figure>
 
 The _Source & Destination_ section, when expanded, provides links to the source and destination repositories. It contains:
 
@@ -102,7 +102,7 @@ In an issue for a repository that hasn’t yet been migrated, the _Repository Co
 
 ### Help & Support 
 
-<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption><p>The Help &#x26; Support section for an issue.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (8) (1).png" alt=""><figcaption><p>The Help &#x26; Support section for an issue.</p></figcaption></figure>
 
 The _Help & Support_ section appears near the end of the issue’s body. When expanded, it lists the ways you can get help while using Warp.
 
@@ -114,7 +114,7 @@ It provides links to the following resources:
 
 ### End of Body
 
-<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption><p>The end of an issue’s body.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption><p>The end of an issue’s body.</p></figcaption></figure>
 
 The issue’s body ends with the following:
 
@@ -155,8 +155,8 @@ Warp automatically closes a repository’s issue after it has been migrated. The
 
 **You can choose to ignore repositories that you don’t want to migrate.** You can mark an issue as _ignored_ by clicking the **Close issue** button in its comments section...
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 ...or by checking its box in the closed issues list and selecting **Open** from the **Mark as** menu:
 
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>

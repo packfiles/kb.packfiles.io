@@ -13,13 +13,13 @@ The key parts of the _Dashboard_ page are described in detail below.
 
 ### Add Members
 
-<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 The **Add Members** button starts the process of adding one or more people to the Team.&#x20;
 
 Clicking the **Add Members** button opens this dialog:
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 To invite people to join your Team, you must provide the following information for each person:
 
@@ -37,17 +37,17 @@ To invite people to join your Team, you must provide the following information f
 
 You can invite multiple people by clicking the **+** button to add another invitee and the “trash can” button to remove an invitee:
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 After inviting someone to join the Team, the _Pending Redemption_ list will appear on the Team page, with a list item for each invitee:
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Email invitations have a limited lifespan: they expire 7 days after they are sent.
 
 The **...** button on the right side of each item in the _Pending Redemption_ list opens a menu containing one or two options:
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt="" width="140"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1).png" alt="" width="140"><figcaption></figcaption></figure>
 
 * **Confirm:** This option appears only if the invitee has accepted the invitation. Select this item to confirm the addition of the invitee to the Team.
 * **Discard:** This option is always available, whether or not the invitee has accepted the invitation.
@@ -75,7 +75,7 @@ The invitee will have access to only those Projects for which their invitation h
 
 ### Team Members
 
-<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 The _Team Members_ list displays the members of the Team, providing the following information about each of them:
 

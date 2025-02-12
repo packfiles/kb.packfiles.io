@@ -12,7 +12,16 @@
   * [Collaboration](getting-started/concepts/collaboration.md)
   * [Incremental Delivery](getting-started/concepts/incremental-delivery.md)
 * [Quickstart](getting-started/quickstart/README.md)
-  * [Installing the Prerequisites](getting-started/quickstart/installing-the-prerequisites.md)
+  * [Install the Prerequisites](getting-started/quickstart/install-the-prerequisites.md)
+  * [Set Up Your Project](getting-started/quickstart/set-up-your-project.md)
+  * [Gather Your Credentials](getting-started/quickstart/gather-your-credentials/README.md)
+    * [Get Your Azure DevOps Credentials](getting-started/quickstart/gather-your-credentials/get-your-azure-devops-credentials.md)
+    * [Get Your GitHub Credentials](getting-started/quickstart/gather-your-credentials/get-your-github-credentials.md)
+    * [Confirm That You’ve Gathered Your Credentials](getting-started/quickstart/gather-your-credentials/confirm-that-youve-gathered-your-credentials.md)
+  * [Set Up the Vault](getting-started/quickstart/set-up-the-vault.md)
+  * [Scan for Source Repositories](getting-started/quickstart/scan-for-source-repositories.md)
+  * [Migrate a Repository](getting-started/quickstart/migrate-a-repository.md)
+  * [Extra Credit](getting-started/quickstart/extra-credit.md)
 
 ## Migrations
 

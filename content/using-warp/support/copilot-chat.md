@@ -11,7 +11,7 @@ Warp works with GitHub Copilot Chat on GitHub.com, so personalized help is alway
 
 To get started with Warp for Copilot, click the Copilot icon next to the search bar to open a chat window.
 
-<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (7) (1).png" alt="" width="349"><figcaption></figcaption></figure></div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (7) (1) (1).png" alt="" width="349"><figcaption></figcaption></figure></div>
 
 In the chat window, just mention `@packfiles-warp` Copilot Chat text box to have a conversation with Warp.&#x20;
 

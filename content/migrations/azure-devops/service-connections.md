@@ -13,5 +13,5 @@ After configuring the service connection ID, Warp will automatically share the A
 
 When Azure Pipelines service connections are shared, Warp normalizes the name for your convenience to ensure it matches the name of your destination GitHub organization.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (8) (1).png" alt="A shared Azure Pipelines service connection created automatically by Warp." width="276"><figcaption><p>A shared Azure Pipelines service connection created by Warp.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1) (1).png" alt="A shared Azure Pipelines service connection created automatically by Warp." width="276"><figcaption><p>A shared Azure Pipelines service connection created by Warp.</p></figcaption></figure>
 
