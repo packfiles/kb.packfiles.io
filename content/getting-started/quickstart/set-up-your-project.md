@@ -4,7 +4,7 @@ icon: '2'
 
 # Set Up Your Project
 
-In Warp, a Project is an object for managing the migration of repositories to GitHub. Typically, you’ll create a new project for a specific _migration engagement_, such as moving a collection of repositories for an organization, department, team, or development project.
+In Warp, a _**Project**_ is an object for managing the migration of repositories to GitHub. Typically, you’ll create a new project for a specific _migration engagement_, such as moving a collection of repositories for an organization, department, team, or development project.
 
 In this section, you’ll set up a Project by creating it, installing the Warp GitHub app for the organization, and configuring the Project.
 
@@ -12,41 +12,43 @@ In this section, you’ll set up a Project by creating it, installing the Warp G
 
 ### Sign In to the Warp Web Application
 
-<figure><img src="../../media/images/quickstart/new_project/warp_sign_in_page.png" alt=""><figcaption><p>Warp’s sign in page, located at <a href="https://warp.packfiles.io/">warp.packfiles.io</a>.</p></figcaption></figure>
+🛠️ Open a browser tab or window to the [Warp web application](https://warp.packfiles.io) at [warp.packfiles.io](https://warp.packfiles.io):
 
-🛠️ Open a browser tab or window to the [Warp web application](https://warp.packfiles.io) at [warp.packfiles.io](https://warp.packfiles.io).
+<figure><img src="../../.gitbook/assets/image (73).png" alt="Warp&#x27;s &#x22;Sign In&#x22; page, with &#x22;Sign in to Warp&#x22; box and the &#x22;Sign in with GitHub&#x22; button."><figcaption><p>Warp’s <em>sign in</em> page, located at <a href="https://warp.packfiles.io/">warp.packfiles.io</a>.</p></figcaption></figure>
 
 🛠️ Click the **Sign in with GitHub** button and sign in to Warp using your GitHub account.
 
 ### Create a New Project
 
-Upon signing in, you will be taken to Warp’s _Projects_ page, which lists you current migration projects.&#x20;
+Upon signing in, you will be taken to Warp’s _Projects_ page, which lists your current migration projects:
 
-At the bottom of the list of projects, you’ll see the **Create a New Project** link.
+<figure><img src="../../.gitbook/assets/projects page 1.png" alt="Warp&#x27;s &#x22;Projects&#x22; page, with a single project and the &#x22;Create a New Project&#x22; area."><figcaption><p>Warp’s <em>Projects</em> page, which you’ll see immediately after signing in.</p></figcaption></figure>
 
-<figure><img src="../../media/images/quickstart/new_project/warp_click_create_new_project_link.png" alt=""><figcaption><p>Warp’s <em>Projects</em> page, which you’ll see immediately after signing in.</p></figcaption></figure>
+At the bottom of the list of projects, you’ll see the **Create a New Project** area.
 
-🛠️ Click the **Create a New Project** link.
+🛠️ Click anywhere on **Create a New Project** area to expand it.
 
-A new section will appear below the link. This section provides instructions for what to do next, which is to install the Warp GitHub app into the GitHub organization where you will migrate your repositories:
+The **Create a New Project** area will expand to display instructions for what to do next:
 
-<figure><img src="../../media/images/quickstart/new_project/warp_click_create_new_project_link_2.png" alt=""><figcaption><p>Creating a new project in Warp.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (74).png" alt="Close-up of the expanded &#x22;Create a New Project&#x22; area, with the steps for creating a new project and the &#x22;Install Warp from the GitHub Marketplace&#x22; button."><figcaption><p>The <em>Create a New Project</em> area, after you’ve expanded it.</p></figcaption></figure>
 
 🛠️ Click the **Install Warp from the GitHub Marketplace** button.
 
 ### Install the Warp Github App
 
-A new browser will open to the GitHub Marketplace page for the Warp GitHub app:
+A new browser will open to the [GitHub Marketplace page for the Warp GitHub app](https://github.com/marketplace/packfiles-warp):
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt="The top of the Warp app&#x27;s page in GitHub Marketplace. The &#x22;Add&#x22; button is near the upper right corner of the page."><figcaption><p>The Warp app’s page in GitHub Marketplace.</p></figcaption></figure>
 
 🛠️ Click the **Add** button near the upper right corner of the page or scroll to the bottom of the page. You should see the following:
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt="The bottom of the Warp app&#x27;s page in GitHub. The &#x22;Account&#x22; and &#x22;Install it for free&#x22; buttons button is near the bottom of the page."><figcaption><p>The Warp app’s page in GitHub Marketplace, scrolled to the bottom.</p></figcaption></figure>
 
-🛠️ In the **Account:** menu, select the account for the destination organization — that is, the organization that you will be migrating repositories to:
+At the bottom of the page, you’ll see the **Account** drop-down menu and the **Install it for free** button:
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt="" width="322"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8).png" alt="Close-up of the &#x22;Account&#x22; drop-down menu and &#x22;Install it for free&#x22; button." width="322"><figcaption></figcaption></figure>
+
+🛠️ In the **Account** menu, select the account for the destination organization — that is, the organization that you will be migrating repositories to.
 
 {% hint style="info" %}
 The example destination organization for this quickstart is **Hypotheticorp1234**.
@@ -56,7 +58,7 @@ The example destination organization for this quickstart is **Hypotheticorp1234*
 
 You’ll be taken to the **Review Your Order** page:
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9).png" alt="The &#x22;Review your order&#x22; page in GitHub Marketplace. It shows that the user is getting Warp for free, and that the version supports 1 user, 10 repositories, and migrates from Azure DevOps to GHEC."><figcaption><p>The <em>Review Your Order</em> page in GitHub Marketplace.</p></figcaption></figure>
 
 🛠️ Review the order, then click the **Complete order** button.
 
@@ -65,7 +67,7 @@ You’ll go to the _Install Packfiles Warp_ page, which will show:
 * That the Warp GitHub app will have access to all the repositories in the organization, and
 * What read, read/write, and admin permissions it will have within the organization and its repositories.
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10).png" alt="The &#x22;Install Packfiles Warp&#x22; page on GitHub. It shows that Warp will be included for the user&#x27;s organization for all repositories, with a lobg list of permissions." width="375"><figcaption><p>The <em>Install Packfiles Warp</em> page in GitHub.</p></figcaption></figure>
 
 🛠️ Click the **Install** button at the bottom of the page.&#x20;
 
@@ -75,13 +77,13 @@ You will return to the Warp web app, and can proceed to the next step.
 
 You will be at the _Welcome to Warp_ page:
 
-<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11).png" alt="The &#x22;Welcome to Warp&#x22; page in the Warp web app. Key items are the user&#x27;s destination organization and the &#x22;Next&#x22; button."><figcaption><p>The <em>Welcome to Warp</em> page.</p></figcaption></figure>
 
 🛠️ Click the **Next** button.
 
 This will take to you the _Configure Your Project_ page:
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption><p>The <em>Configure Your Project</em> page.</p></figcaption></figure>
 
 You can do two things on this page:
 
@@ -92,11 +94,11 @@ You can do two things on this page:
 As the creator of the project, you don’t have to add yourself to the team. You are already a member of the project with _Admin_ access.
 {% endhint %}
 
-🛠️ For this quickstart, simply click the **Next** button.
+🛠️ For this Quickstart, simply click the **Next** button.
 
 You will arrive at the _Connect Your Sources_ page. You’ll use it in the process of connecting your source and GitHub accounts to Warp:
 
-<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption><p>The <em>Connect Your Sources</em> page.</p></figcaption></figure>
 
 When you created the project, Warp created a repository named _Migration HQ_ for the GitHub organization that you selected earlier. _Migration HQ_ will be the user interface for managing your migrations. It will be where you issue commands to Warp and it will keep track of which repositories to migrate and which ones have already been migrated.
 
