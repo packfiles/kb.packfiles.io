@@ -49,7 +49,7 @@ It’s time to get a Personal Access Token.
 
 <figure><img src="../../../.gitbook/assets/image (16).png" alt="The menu that appears when you click the User Settings icon. The key item in the menu is the &#x22;Personal access tokens&#x22; item." width="363"><figcaption><p>The menu that appears<br>when you click the <em>User Settings</em> icon.</p></figcaption></figure>
 
-🛠️  Select **Personal access tokens** from the menu that appears.
+🛠️  Select **Personal access tokens** from the menu.
 
 You will see the _Personal Access Tokens_ page:
 
