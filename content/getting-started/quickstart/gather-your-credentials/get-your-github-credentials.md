@@ -11,6 +11,10 @@ For Warp to be able to migrate your repositories to GitHub, it needs two key pie
 
 In this section, you will gather these two pieces of information.
 
+{% include "../../../.gitbook/includes/search-for-the-emoji-if....md" %}
+
+
+
 ### Get the Organization Slug
 
 🛠️ Switch to the browser tab or window containing _Migration HQ._
