@@ -10,6 +10,10 @@ You also need to ensure that these credentials are secured so that only Warp can
 
 In this section, you’ll set up the vault by creating the vault file, creating a vault key, pushing the vault file to _Migration HQ_, and installing the vault key as a secret in _Migration HQ_. You’ll do all this by using the GitHub CLI application and the Warp command-line extension.
 
+{% include "../../.gitbook/includes/search-for-the-emoji-if....md" %}
+
+
+
 🛠️ Open a command-line terminal on your computer, using the _Terminal_ application on macOS or Linux, or _Command Prompt_ or _PowerShell_ on Windows and change to the directory containing the cloned _Migration HQ_ repository.
 
 🛠️ Run the following command, which starts the Warp command-line application that sets up the vault:
