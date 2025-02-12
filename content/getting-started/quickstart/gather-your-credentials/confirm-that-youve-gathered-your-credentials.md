@@ -6,7 +6,7 @@ icon: square-check
 
 Before you proceed to the next step, make sure that you’ve gathered the necessary credentials.&#x20;
 
-Feel free to use the checklist below!
+Feel free to use the checklists below!
 
 ### **If you’re migrating repositories from Azure DevOps, you need...**
 
