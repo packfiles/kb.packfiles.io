@@ -15,6 +15,10 @@ So far, here’s what you’ve done:
 
 It’s finally time to migrate a repository from Azure DevOps to GitHub!
 
+{% include "../../.gitbook/includes/search-for-the-emoji-if....md" %}
+
+
+
 🛠️ Switch to the browser tab or window with _Migration HQ_ and select the **Issues** tab:
 
 ![The Issues page for the Migration HQ repository.](../../media/images/quickstart/migrate/github_issues.png)
