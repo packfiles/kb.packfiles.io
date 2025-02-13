@@ -4,127 +4,129 @@ icon: '6'
 
 # Migrate a Repository
 
-So far, here’s what you’ve done:
+### Objective
 
-* Created a new Project
-* Generated personal access tokens for Azure DevOps and GitHub
-* Set up the vault
-* Stored the vault key in _Migration HQ_
-* Connected your Azure DevOps account to Warp
-* Scanned the Azure DevOps Organization for repositories.
+At last, it’s time to migrate a repository to GitHub! You’ll do this entirely in _Migration HQ_.
 
-It’s finally time to migrate a repository from Azure DevOps to GitHub!
+**At the end of this section, you will have a repository that has been migrated from its source and into your GitHub organization.**
 
 {% include "../../.gitbook/includes/search-for-the-emoji-if....md" %}
 
+### Select a Repository to Migrate
 
+After scanning your source for repositories, you navigated to _Migration HQ_’s _Issues_ page, where you saw the open issues list:
 
-🛠️ Switch to the browser tab or window with _Migration HQ_ and select the **Issues** tab:
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
-![The Issues page for the Migration HQ repository.](../../media/images/quickstart/migrate/github_issues.png)
+Each item in the open issues list represents a repository to be migrated. After migrating a repository, Warp automatically closes its issue, which moves it to the closed issues list.
 
-Warp creates an issue in the _Migration HQ_ repository for every repository it finds in your Azure DevOps organization. These issues are used to manage the migration of repositories from Azure DevOps to GitHub.
+Let’s migrate a repository! For this example, we’ll migrate **TailwindTraders-Website**, whose issue is at the top of the open issues list pictured above.
 
-🛠️ Click on the issue for the repository you want to migrate. In this example, we’re clicking on the issue named **TailwindTraders-Website**.
+🛠️ In your open issues list, click on the issue for the repository you want to migrate.
 
 The page for the issue will appear:
 
-<figure><img src="../../media/images/quickstart/migrate/github_issue_1.png" alt=""><figcaption><p>The issue page for one of the repositories to be migrated.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
-The body of the issue — the part that contains a description and other notes about the issue — contains information assembled by Warp about the corresponding repository.
+### Migrate the Repository
 
-If you take a closer look at the body, you’ll see that it’s divided into the following subsections:
+🛠️ Scroll to the comments section at the bottom of the issue page:
 
-* **Migration Status:** This section shows the current status of the migration. Since the migration hasn’t started yet, its status is **not started**.
+<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../media/images/quickstart/migrate/github_issue_2.png" alt=""><figcaption><p>The top part of the issue’s body.</p></figcaption></figure>
+You issue commands to Warp in comments by using _slash commands_ — commands that begin with the slash (`/`) character. One of these commands is /migrate, which tells Warp to migrate the repository represented by this issue.
 
-* **Tasks:** This section has a checklist of the tasks that need to be performed to migrate the repository. Warp will automatically check off the tasks as they are completed.
+🛠️ Enter the slash command `/migrate` into the comment box and click the **Comment** button.
 
-<figure><img src="../../media/images/quickstart/migrate/github_issue_3.png" alt=""><figcaption><p>The bottom part of the issue’s body.</p></figcaption></figure>
+A couple of seconds later, Warp will confirm that it received the command. The comments section will look like this:
 
-* **About:** This lists basic information about the source repository, such as when its last commit was, how many commits it’s had in the past year, who its most active contributor was, and its size.
-* **Source & Destination:** This provides links to the source and the destination repositories.
-* **Inventory:** This shows information about the destination repository. Since the migration hasn’t started yet, this section simply says that the repository hasn”t been migrated yet.
+<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../media/images/quickstart/migrate/github_issue_4.png" alt=""><figcaption><p>The comments section of the issue.</p></figcaption></figure>
+Warp — which will have the user name **packfiles-warp** — always provides a response to your commands as a follow-up comment. In the example above, it’s notifying you that the migration process has begun.
 
-It’s time to migrate!
+It typically takes a few minutes to perform a migration. Let’s use this time to watch the migration’s progress.
 
-🛠️ Scroll down the page to the comments section...
+🛠️ Switch to _Migration HQ_’s _Actions_ page by clicking the **Actions** tab:
 
-<figure><img src="../../media/images/quickstart/migrate/github_issue_start_migration.png" alt=""><figcaption><p>Issuing the <code>/migrate</code> command.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
-🛠️ ...and in the first comment, enter the following command:
+You’ll see a new Warp Runner Agent running the workflow that performs the migration:
 
-```bash
-/migrate
-```
+<figure><img src="../../.gitbook/assets/image (21).png" alt="" width="375"><figcaption></figcaption></figure>
 
-In moments, Warp will reply with a follow-up comment announcing that the migration has started:
+🛠️ Click on the Runner Agent to get a closer look at what it’s doing.
 
-<figure><img src="../../media/images/quickstart/migrate/github_issue_migration_in_process_comment.png" alt=""><figcaption><p>Warp’s response comment to the <code>/migrate</code> command.</p></figcaption></figure>
+You’ll see the Runner Agent’s page:
 
-Depending on a number of factors, including the size of the repository and how many migrations Warp is performing at the same time, the migration may take a few to several minutes to complete.
+<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
-🛠️ In the meantime, switch to the browser tab or windows for _Migration HQ_ and click the **Actions** tab:
+Let’s get an even closer look at what the Runner Agent is doing.
 
-<figure><img src="../../media/images/quickstart/migrate/actions_tab_1.png" alt=""><figcaption><p>The <em>Actions</em> page of <em>Migration HQ</em>, showing the runner agent performing the migration. </p></figcaption></figure>
+🛠️ Click on the job that the Runner Agent is running — it’s any of the objects onscreen labeled **Packfiles Warp Runner Agent** that has a spinning yellow icon beside it:
 
-You should see a new workflow with a spinning yellow icon named **Warp Runner Agent**. The yellow icon denotes that it is currently running. This workflow is performing the task of migrating the repository from Azure DevOps to GitHub.
+<figure><img src="../../.gitbook/assets/image (20).png" alt="" width="303"><figcaption></figcaption></figure>
 
-<figure><img src="../../media/images/quickstart/migrate/actions_tab_2.png" alt=""><figcaption><p>The <em>Actions</em> page of <em>Migration HQ</em>, after the runner agent has completed its tasks.</p></figcaption></figure>
+You’ll go to a page where you can see the log files that the job is generating in real time:
 
-Eventually, the runner agent will complete its tasks, and its icon will change from spinning yellow to a green circle with a checkmark. This means that Warp has finished migrating the repository.
+<figure><img src="../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
 
-🛠️ Confirm that the repository has been migrated by clicking the **Issues** tab:
+A couple of minutes later, the migration will be complete. You’ll know this has happened when the Runner Agent’s icon changes from spinning and yellow to a static green checkmark:
 
-<figure><img src="../../media/images/quickstart/migrate/post-migration_open_issues.png" alt=""><figcaption><p>The open issues tab of the <em>Issues</em> page in <em>Migration HQ</em>. Note that there is one less open issue.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
 
-You’ll see the list of open issues. In our example, there are now only _four_ open issues, where there were _five_ originally. Migrating the repository closed its issue.
+🛠️ Click the **Actions** tab to return to the top level of the _Actions_ page.
 
-🛠️ Let’s look at the closed issues. Click on the **Closed** tab.
+You’ll see that the Runner Agent completed its tasks:
 
-You’ll see the list of closed issues. It should contain the issue for the repository you just migrated:
+<figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../media/images/quickstart/migrate/post-migration_closed_issues.png" alt=""><figcaption><p>The closed issues tab of the <em>Issues</em> page in <em>Migration HQ</em>. Note that there is one new closed issue.</p></figcaption></figure>
+### Examine Your Migrated Repository
 
-🛠️ Examine the issue by clicking it:
+With the Runner Agent’s tasks complete, your repository has been migrated! Let’s look at its issue.
 
-<figure><img src="../../media/images/quickstart/migrate/closed_issue_1.png" alt=""><figcaption><p>The closed issue’s updated <em>Migration Status</em> section.</p></figcaption></figure>
+🛠️ Click the **Issues** tab to view the _Issues_ page.
 
-When the issue page opens, you’ll see a number of changes:
+You’ll see something like this:
 
-* The **Migration Status** section now shows a graphic indicating that the migration is complete.
-* The _Migrate this repository’s comments to GitHub_ checkbox in the **Tasks** list is now checked.
+<figure><img src="../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../media/images/quickstart/migrate/closed_issue_2.png" alt=""><figcaption><p>The closed issue’s updated <em>Source &#x26; Destination</em> and <em>Inventory</em> sections.</p></figcaption></figure>
+Notice that:
 
-* The **Source and Destination** section now has links for both the source and destination repositories.
-* The **Inventory** section now shows information about the migrated repository.
+* There’s one less item in the open issues list, and
+* There one new item in the formerly empty closed issues list.
 
-🛠️ Scroll to the comments section:
+🛠️ Click the **Closed** tab to view the closed issues list.
 
-<figure><img src="../../media/images/quickstart/migrate/closed_issue_3.png" alt=""><figcaption><p>The closed issue’s comments section, featuring Warp’s comment saying that the migration was successful.</p></figcaption></figure>
+You’ll see the issue for the newly migrated repository:
 
-You’ll see a new comment from Warp, complete with a link to the destination repository.
+<figure><img src="../../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
 
-🛠️ Click on the link to visit the newly-migrated repository.
+🛠️ Click the issue to view its details:
 
-You’ll see the repository’s page — _in GitHub!_ — with all of its files, branches, and commits:
+<figure><img src="../../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../media/images/quickstart/migrate/migrated_repo.png" alt=""><figcaption><p>The newly migrated repository in GitHub.</p></figcaption></figure>
+You’ll see that the issue has been updated:
 
-When you started, the GitHub organization had a single repository: _Migration HQ_.
+<figure><img src="../../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
 
-🛠️ Click on the organization’s name (near the top left corner of the page), followed by the **Repositories** tab.
+🛠️ Scroll to the comments section at the bottom of the page.
 
-![The GitHub organization’s Repositories page, showing Migration HQ and the newly migrated repository.](../../media/images/quickstart/migrate/github_organization_repos.png)
+You’ll see a new comment from Warp, followed by a new notification:
 
-You’ll see that the organization now has _two_ repositories: _Migration HQ_ and the repository you just migrated from Azure DevOps.
+<figure><img src="../../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
+
+The comment informs you that the migration was successful and provides a link to the newly migrated repository.
+
+The notification below the comment informs you that Warp automatically closed this issue.
+
+🛠️ Confirm that the migration was successful by clicking the link in the comment. In this example, the link is the text **Tailwind-Traders.TailwindTraders-Website**.
+
+Here’s what the example migrated repository looks like:
+
+<figure><img src="../../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="success" %}
-🙌 Congratulations!🙌&#x20;
+🙌 Congratulations — you did it! 🙌&#x20;
 
-&#x20;You’ve successfully migrated a repository from Azure DevOps to GitHub using Warp.
+You successfully migrated a repository!
 {% endhint %}

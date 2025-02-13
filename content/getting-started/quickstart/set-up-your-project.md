@@ -5,9 +5,13 @@ description: Create a new Project, install Warp’s GitHub App, and configure th
 
 # Set Up Your Project
 
+### Objective
+
 In Warp, a _**Project**_ is an object for managing the migration of repositories to GitHub. Typically, you’ll create a new project for a specific _migration engagement_, such as moving a collection of repositories for an organization, department, team, or development project.
 
 In this section, you’ll set up a Project by creating it, installing the Warp GitHub app for the organization, and configuring the Project.
+
+**At the end of this section, you will have a new Warp project.**
 
 {% include "../../.gitbook/includes/search-for-the-emoji-if....md" %}
 
@@ -39,11 +43,11 @@ The **Create a New Project** area will expand to display instructions for what t
 
 A new browser will open to the [GitHub Marketplace page for Warp’s GitHub app](https://github.com/marketplace/packfiles-warp):
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt="The top of the Warp app&#x27;s page in GitHub Marketplace. The &#x22;Add&#x22; button is near the upper right corner of the page."><figcaption><p>The Warp app’s page in GitHub Marketplace.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1).png" alt="The top of the Warp app&#x27;s page in GitHub Marketplace. The &#x22;Add&#x22; button is near the upper right corner of the page."><figcaption><p>The Warp app’s page in GitHub Marketplace.</p></figcaption></figure>
 
 🛠️ Click the **Add** button near the upper right corner of the page or scroll to the bottom of the page. You should see the following:
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt="The bottom of the Warp app&#x27;s page in GitHub. The &#x22;Account&#x22; and &#x22;Install it for free&#x22; buttons button is near the bottom of the page."><figcaption><p>The Warp app’s page in GitHub Marketplace, scrolled to the bottom.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt="The bottom of the Warp app&#x27;s page in GitHub. The &#x22;Account&#x22; and &#x22;Install it for free&#x22; buttons button is near the bottom of the page."><figcaption><p>The Warp app’s page in GitHub Marketplace, scrolled to the bottom.</p></figcaption></figure>
 
 At the bottom of the page, you’ll see the **Account** drop-down menu and the **Install it for free** button:
 
@@ -123,6 +127,6 @@ After creating the vault file, Warp will automatically push it to _Migration HQ_
 {% hint style="success" %}
 You’ve successfully set up your project — nicely done!
 
-Make sure that you’ve cloned _Migration HQ_ to your local computer, then proceed to the next step.
+Make sure that you’ve cloned _Migration HQ_ to your local computer, then [proceed to the next step.](gather-your-credentials/)
 {% endhint %}
 

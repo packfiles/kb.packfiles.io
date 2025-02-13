@@ -22,5 +22,5 @@ Feel free to use the checklists below!
 If you’ve reached this point, it means that you’ve gathered all the necessary credentials.\
 Well done!
 
-The next step is to [set up the vault file](../set-up-the-vault.md).
+The next step is to [set up the vault file](../set-up-your-vault.md).
 {% endhint %}

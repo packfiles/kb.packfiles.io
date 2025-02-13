@@ -2,13 +2,17 @@
 icon: '4'
 ---
 
-# Set Up the Vault
+# Set Up Your Vault
+
+### Objective
 
 Now that you’ve gathered your source and destination credentials, you need to make them available to Warp so that it can perform migrations.&#x20;
 
 You also need to ensure that these credentials are secured so that only Warp can use them. You’ll do this by setting up a _Vault_ — an encrypted file containing the credentials. To decrypt these credentials, you’ll provide Warp with the _Vault key_, the decryption key for the Vault file.
 
-In this section, you’ll set up the Vault by creating the Vault file, creating a Vault key, pushing the Vault file to _Migration HQ_, and installing the Vault key as a secret in _Migration HQ_. You’ll do all this by using the GitHub CLI application and the Warp command-line extension.
+In this section, you’ll set up the Vault by creating the Vault file, creating a Vault key, pushing the Vault file to _Migration HQ_, and installing the Vault key as a secret in _Migration HQ_. You’ll do all this by using the GitHub CLI application with the Warp command-line extension and confirm it was done by looking at the updates to _Migration HQ_.
+
+**At the end of this section, you will have a Vault file uploaded to&#x20;**_**Migration HQ**_**, which will provide Warp with the credentials necessary for performing your migrations.**
 
 {% include "../../.gitbook/includes/search-for-the-emoji-if....md" %}
 
@@ -230,3 +234,10 @@ You will be taken to the _Actions secrets and variables_ page for _Migration HQ_
 🛠️ Check the _Repository secrets_ section and confirm that it contains a secret named `PKFS_MASTER_KEY`.
 
 If you see the `PKFS_MASTER_KEY` secret, you have successfully stored the Vault key in _Migration HQ_. If not, you should run the `gh warp vault place` command again.
+
+{% hint style="success" %}
+With the Vault file and secret install in _Migration HQ_, Warp now has the credentials to access your source repositories and destination GitHub organization.\
+\
+You’re ready to [scan your source for repositories](scan-your-source-for-repositories.md).
+{% endhint %}
+

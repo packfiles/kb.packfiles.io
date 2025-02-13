@@ -9,8 +9,6 @@ In order to migrate your repositories, you must provide Warp with two key sets o
 1. Credentials authorizing access to the repositories at the source.
 2. Credentials authorizing the creation of new repositories at the destination organization in GitHub.
 
-In this section, you will gather these credentials.
-
 {% include "../../../.gitbook/includes/search-for-the-emoji-if....md" %}
 
 ### Get the Credentials for the Source

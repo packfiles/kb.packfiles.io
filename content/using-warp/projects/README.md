@@ -29,13 +29,13 @@ When you sign into Warp, you are taken to the _Projects_ page, which contains th
 
 For every active Project, the list contains an item that looks like this:
 
-<figure><img src="../../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (29) (1).png" alt=""><figcaption></figcaption></figure>
 
 Each item has the following elements:
 
 * The Project’s name.
 * These buttons:
-  * <img src="../../.gitbook/assets/image (31).png" alt="" data-size="line"> : **Settings.** View and manage the Project’s settings.
+  * <img src="../../.gitbook/assets/image (31) (1).png" alt="" data-size="line"> : **Settings.** View and manage the Project’s settings.
   * <img src="../../.gitbook/assets/image (34).png" alt="" data-size="line"> : _**Migration HQ.**_ View _Migration HQ_, the GitHub repository where you manage the migration process.
   * <img src="../../.gitbook/assets/image (35).png" alt="" data-size="line"> : **Dashboard.** See a high-level overview of the Project.
 

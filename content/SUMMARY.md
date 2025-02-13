@@ -18,8 +18,8 @@
     * [Get Your Azure DevOps Credentials](getting-started/quickstart/gather-your-credentials/get-your-azure-devops-credentials.md)
     * [Get Your GitHub Credentials](getting-started/quickstart/gather-your-credentials/get-your-github-credentials.md)
     * [Confirm That You’ve Gathered Your Credentials](getting-started/quickstart/gather-your-credentials/confirm-that-youve-gathered-your-credentials.md)
-  * [Set Up the Vault](getting-started/quickstart/set-up-the-vault.md)
-  * [Scan for Source Repositories](getting-started/quickstart/scan-for-source-repositories.md)
+  * [Set Up Your Vault](getting-started/quickstart/set-up-your-vault.md)
+  * [Scan Your Source for Repositories](getting-started/quickstart/scan-your-source-for-repositories.md)
   * [Migrate a Repository](getting-started/quickstart/migrate-a-repository.md)
   * [Extra Credit](getting-started/quickstart/extra-credit.md)
 

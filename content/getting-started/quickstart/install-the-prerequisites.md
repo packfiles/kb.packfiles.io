@@ -5,12 +5,14 @@ description: How to install the required applications on your local computer.
 
 # Install the Prerequisites
 
+### Objective
+
 Before you can use Warp, you must have the following applications installed on your local computer:
 
 1. **GitHub command-line interface (CLI)**. Warp uses an extension to the [GitHub command-line interface](https://cli.github.com/) to send key credentials data to your _Migration HQ_ repository in GitHub.
 2. **The Warp command-line extension.** This utility assembles the secure vault file containing tokens authorizing access to your source and destination repositories, generates the key to unlock the vault file, and puts both in your _Migration HQ_ repository.
 
-In this section, you will determine if you have the prerequisites installed on your local computer. If they’re not on your computer, you’ll install them.
+**At the end of this section, you will have confirmed that you have the tool necessary for using Warp installed on your local computer.**
 
 {% include "../../.gitbook/includes/search-for-the-emoji-if....md" %}
 

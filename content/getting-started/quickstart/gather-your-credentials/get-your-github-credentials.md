@@ -4,12 +4,14 @@ icon: key
 
 # Get Your GitHub Credentials
 
+### Objective
+
 For Warp to be able to migrate your repositories to GitHub, it needs two key pieces of information:
 
 1. The destination organization slug, which is the part of the organization’s webpage’s URL that uniquely identifies the organization.
 2. A Personal Access Token (PAT) for your GitHub user account, which grants the bearer the necessary privileges to migrate repositories to the organization.
 
-In this section, you will gather these two pieces of information.
+**At the end of this section, you will have the slug for your GitHub organization and a Personal Access Token for your GitHub account.**
 
 {% include "../../../.gitbook/includes/search-for-the-emoji-if....md" %}
 
@@ -41,7 +43,7 @@ Hypotheticorp01
 
 🛠️ Switch to the browser tab or window containing _Migration HQ_ and click on your profile picture (located near the top right of the page) so that this menu appears:
 
-<figure><img src="../../../.gitbook/assets/image (24).png" alt="The menu that appears when you click your profile picture. The key item in the menu is the &#x22;Settings&#x22; item." width="173"><figcaption><p>The menu that appears when you<br>click your profile picture.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (24) (1).png" alt="The menu that appears when you click your profile picture. The key item in the menu is the &#x22;Settings&#x22; item." width="173"><figcaption><p>The menu that appears when you<br>click your profile picture.</p></figcaption></figure>
 
 🛠️ Select **Settings** from the menu.
 
@@ -130,4 +132,6 @@ You should now see this page, which will display the personal access token you j
 
 {% hint style="success" %}
 You now have the information needed to connect Warp to GitHub.
+
+You should [confirm that you have all the credentials you need for migration](confirm-that-youve-gathered-your-credentials.md).
 {% endhint %}
