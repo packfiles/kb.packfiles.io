@@ -104,9 +104,10 @@ For the purposes of this Quickstart, we’ll leave the **Expiration** field at t
 🛠️  Then scroll down the page and check these boxes. Once again, checking these boxes will automatically check their sub-boxes:
 
 * **admin:repo\_hook**
+* **admin:org\_hook**
 * **delete\_repo**
 
-<figure><img src="../../../.gitbook/assets/18_scopes_2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (112).png" alt=""><figcaption></figcaption></figure>
 
 Feel free to use the checklist below to double-check that you’ve checked all the necessary checkboxes. It’s important to make sure you’ve checked all of them!
 
