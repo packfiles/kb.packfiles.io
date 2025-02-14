@@ -117,6 +117,7 @@ Feel free to use the checklist below to double-check that you’ve checked all t
 * [ ] **delete:packages**
 * [ ] **admin:org**
 * [ ] **admin:repo\_hook**
+* [ ] **admin:org\_hook**
 * [ ] **delete\_repo**
 
 🛠️ Scroll to the bottom of the page and click the **Generate token** button:
