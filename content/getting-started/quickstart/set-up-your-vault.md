@@ -165,6 +165,32 @@ At this point:
 * The Azure DevOps and GitHub personal access tokens have been encrypted into the Vault file (`config/vault.age` on macOS and Linux, `config\vault.age` on Windows)
 * The Vault file has been committed and pushed to the _Migration HQ_ repository.
 
+### Check the Vault File
+
+To ensure that your Vault File contains the correct credentials, we’ve included a utility to check it. Let’s use it now.
+
+🛠️ Run the following command, which starts the Warp command-line application that checks the Vault file:
+
+```
+gh warp vault check
+```
+
+You’ll be greeting with this text asking for your Vault key:
+
+<figure><img src="../../.gitbook/assets/image (113).png" alt=""><figcaption></figcaption></figure>
+
+🛠️ Paste the Vault key into the text area...
+
+<figure><img src="../../.gitbook/assets/image (114).png" alt=""><figcaption></figcaption></figure>
+
+🛠️ ...then press the **Enter** or **Return** key to continue.
+
+The utility will check the credentials in your Vault file. If the credentials are valid, you’ll see this display with the text **All credentials are valid**, as shown below:
+
+<figure><img src="../../.gitbook/assets/image (116).png" alt=""><figcaption></figcaption></figure>
+
+🛠️ If you see the **All credentials are valid** message, proceed to the next step. Otherwise, repate the [_Create the Vault File_](set-up-your-vault.md#create-the-vault-file) step.
+
 ### Confirm That the Vault Was Pushed to Migration HQ
 
 Just to be certain, let’s take a look at _Migration HQ_ to make sure that the Vault was actually pushed there.
