@@ -158,7 +158,7 @@ You will see the _Save Your Vault Key_ prompt:
 
 You’ll see the final message:
 
-<figure><img src="../../.gitbook/assets/image (100).png" alt="The closing screen. Its text reads: “All done! Your credentials vault has been saved to ./config/vault.age. Next, install your vault master key in your Migration HQ’s Actions secrets by running ‘gh warp vault place’.”"><figcaption><p>The app’s closing screen.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (100).png" alt="The closing screen. Its text reads: “All done! Your credentials vault has been saved to ./config/vault.age. Next, install your vault master key in your Migration HQ’s Actions secrets by running ‘gh warp vault place’.”"><figcaption><p>The closing screen.</p></figcaption></figure>
 
 At this point:
 
@@ -177,17 +177,17 @@ gh warp vault check
 
 You’ll be greeting with this text asking for your Vault key:
 
-<figure><img src="../../.gitbook/assets/image (113).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (113).png" alt="The opening screen, where the user is prompted to enter the key for the vault file in the current vault directory."><figcaption><p>The opening screen.</p></figcaption></figure>
 
 🛠️ Paste the Vault key into the text area...
 
-<figure><img src="../../.gitbook/assets/image (114).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (114).png" alt="The opening screen. The text entry area has been filled, with the vault key obscured by asterisks."><figcaption><p>The opening screen, with the vault key pasted in.</p></figcaption></figure>
 
 🛠️ ...then press the **Enter** or **Return** key to continue.
 
 The utility will check the credentials in your Vault file. If the credentials are valid, you’ll see this display with the text **All credentials are valid**, as shown below:
 
-<figure><img src="../../.gitbook/assets/image (116).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (116).png" alt="The closing screen. It displays that the vault contains credentials for Azure DevOps and its accessible organizations (joey-ado-testing) and for GitHub, for which all required scopes are present."><figcaption><p>The closing screen.</p></figcaption></figure>
 
 🛠️ If you see the **All credentials are valid** message, proceed to the next step. Otherwise, repate the [_Create the Vault File_](set-up-your-vault.md#create-the-vault-file) step.
 
@@ -197,7 +197,7 @@ Just to be certain, let’s take a look at _Migration HQ_ to make sure that the 
 
 🛠️ Open _Migration HQ_ in a browser tab or panel and select the _Code_ tab:
 
-<figure><img src="../../.gitbook/assets/image (107).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (107).png" alt="The &#x22;Migration HQ&#x22; page in GitHub."><figcaption><p><em>Migration HQ</em>.</p></figcaption></figure>
 
 🛠️ Look at the files in the directory and look at the `config` directory’s last commit message: “Update Vault.”&#x20;
 
@@ -205,7 +205,7 @@ Also, take note that its commit time is more recent than any of the other items 
 
 🛠️ Open the `config` directory:
 
-<figure><img src="../../.gitbook/assets/image (105).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (105).png" alt="Migration HQ&#x27;s &#x22;config&#x22; directory. The key item is the &#x22;vault.age&#x22; file."><figcaption><p>Migration HQ’s <em>config</em> directory.</p></figcaption></figure>
 
 🛠️ Look at the Vault file — once again, it’s `vault.age`. Its last commit message and last commit date confirm that it was pushed to _Migration HQ_ at the end of the Vault creation process.
 
@@ -223,23 +223,23 @@ gh warp vault place
 
 You’ll be greeted with the following text:
 
-<figure><img src="../../.gitbook/assets/image (101).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (101).png" alt="The opening screen. Its text reads “Install Runner Credentials Vault Master Key — Welcome! This command will install your credential vault master key into the Hypotheticorp11/Migration-HQ repository&#x27;s GitHub Actions secrets. This step is necessary for the Migration Runner to decrypt and use your Project&#x27;s encrypted credential vault. You&#x27;ll only need to do this once, or any time you&#x27;ve rotated your master key. To proceed, press Enter. You&#x27;ll be prompted to provide your encryption key.”  The text is followed by an “Ok” button."><figcaption><p>The opening screen.</p></figcaption></figure>
 
 🛠️ Press the **Enter** or **Return** key to continue.
 
 You’ll be prompted to enter your Vault key:
 
-<figure><img src="../../.gitbook/assets/image (102).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (102).png" alt="The &#x22;Decrypt Credentials Vault&#x22; screen, where the user is prompted to enter the key for the Vault file in the current Vault directory."><figcaption><p>The <em>Decrypt Credentials Vault</em> screen.</p></figcaption></figure>
 
 🛠️ Paste the Vault key into the text area...
 
-<figure><img src="../../.gitbook/assets/image (103).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (103).png" alt="The &#x22;Decrypt Credentials Vault&#x22; screen. The text entry area has been filled, with the Vault key obscured by asterisks."><figcaption><p>The <em>Decrypt Credentials Vault</em> screen, with the Vault key pasted in.</p></figcaption></figure>
 
 🛠️ ...then press the **Enter** or **Return** key to continue.
 
 The app will store your Vault key into the _Migration HQ_ repository’s secrets and display this message:
 
-<figure><img src="../../.gitbook/assets/image (104).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (104).png" alt="The closing screen. Its text reads “All done! Your credentials vault for Hypotheticorp01/Migration-HQ is ready to rock.”"><figcaption><p>The closing screen.</p></figcaption></figure>
 
 ### Confirm that that Vault and Key are in Migration HQ
 
