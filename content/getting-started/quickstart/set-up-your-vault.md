@@ -28,129 +28,129 @@ gh warp vault setup
 
 You will see the “Welcome” text pictured below:
 
-<figure><img src="../../.gitbook/assets/image (77).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (77).png" alt="The “Credential Vault Setup” screen. Its text reads: “Welcome to credential vault setup! The next screen will walk you through the process of configuring the credential vault for providers connected to the Hypotheticorp11/Migration-HQ Project. To proceed, press Enter. When you&#x27;re done, you&#x27;ll be prompted to securely save the encryption key in your password manager.” The text is followed by an “Ok” button."><figcaption><p>The opening screen.</p></figcaption></figure>
 
 🛠️ Press the **Enter** or **Return** key to continue.
 
 You will see the _Configure Providers_ menu, which lets you add, update, and delete tokens for various source control providers:
 
-<figure><img src="../../.gitbook/assets/image (78).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (78).png" alt="The “Configure Providers” menu screen. The “Add a New Provider” menu item is selected."><figcaption><p>The <em>Configure Providers</em> menu.</p></figcaption></figure>
 
 🛠️ The default option, **Add a New Provider**, is the one you want. Press the **Enter** or **Return** key to select this option.
 
 You will be taken to the _Add Provider Credentials_ menu:
 
-<figure><img src="../../.gitbook/assets/image (81).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (81).png" alt="The “Add Provider Credentials&#x22; menu screen. The “Azure DevOps” menu item is selected."><figcaption><p>The <em>Add Provider Credentials</em> menu.</p></figcaption></figure>
 
 🛠️ Let’s add the personal access token for Azure DevOps first. Since **Azure DevOps** is the default option, simply press the **Enter** or **Return** key to select it.
 
 You’ll see this text, which explains that you’re about to configure an Azure DevOps provider:
 
-<figure><img src="../../.gitbook/assets/image (80).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (80).png" alt="The “Credential Vault Setup” screen. Its text reads: “To authenticate to this Azure DevOps provider, we&#x27;ll need a Personal Access Token (PAT). The Personal Access Token will be used for all migration processes related to this provider. To learn more about Azure DevOps Personal Access Tokens, please visit our setup guide at https://pack.fm/ado-pat-setup.” The text is followed by a “Next” button."><figcaption><p>The opening screen for the "Configure an Azure DevOps Provider" process.</p></figcaption></figure>
 
 🛠️ Press the **Enter** or **Return** key to continue.
 
 You will now be prompted to enter the personal access token you created in Azure DevOps:
 
-<figure><img src="../../.gitbook/assets/image (82).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (82).png" alt="The “Personal Access Token&#x22; screen. The “Your PAT” text entry area has not yet been filled in."><figcaption><p>The <em>Personal Access Token</em> screen.</p></figcaption></figure>
 
 🛠️ Paste your Azure DevOps personal access token into the text area marked **Your PAT**...
 
-<figure><img src="../../.gitbook/assets/image (83).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (83).png" alt="The “Personal Access Token&#x22; screen. The “Your PAT” text entry has been filled, with the PAT obscured by asterisks."><figcaption><p>The <em>Personal Access Token</em> screen, with the PAT filled in.</p></figcaption></figure>
 
 🛠️ ...then press the **Enter** or **Return** key to continue.
 
 The next step is to specify the access scope for the Azure DevOps personal access token:
 
-<figure><img src="../../.gitbook/assets/image (84).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (84).png" alt="The “Access Scope&#x22; menu screen. The “Single organization access” menu item is selected."><figcaption><p>The <em>Access Scope</em> menu.</p></figcaption></figure>
 
 🛠️ Select **Single organization access** using the ⬆️ and ⬇️ keys, then press the **Enter** or **Return** key.
 
 You’ll be asked to enter the Azure Devops organization slug, which you copied when you were creating the personal access token for your Azure DevOps organization. In this example, the slug is `joey-ado-testing`:
 
-<figure><img src="../../.gitbook/assets/image (85).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (85).png" alt="The “Organization Slug&#x22; screen. The organization slug text entry area is empty."><figcaption><p>The <em>Organization Slug</em> screen.</p></figcaption></figure>
 
 🛠️ Paste or enter the organization slug into the text area marked **ado-organization-slug**...
 
-<figure><img src="../../.gitbook/assets/image (86).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (86).png" alt="The “Organization Slug&#x22; screen. The organization slug text entry area now contains the text “joey-ado-testing”."><figcaption><p>The <em>Organization Slug</em> screen, with the organization slug filled in.</p></figcaption></figure>
 
 🛠️ ...then press the **Enter** or **Return** key to continue.
 
 You’ll then be asked to specify the number of days until the token expires:
 
-<figure><img src="../../.gitbook/assets/image (87).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (87).png" alt="The “Token Expiration” screen. The token expiration text entry area contains the text “30”."><figcaption><p>The <em>Token Expiration</em> screen.</p></figcaption></figure>
 
 🛠️ Enter **30**, then press the **Enter** or **Return** key.
 
 Finally, you’ll be asked to confirm the information you’ve entered:
 
-<figure><img src="../../.gitbook/assets/image (88).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (88).png" alt="The “Confirmation” screen. It says that the application will apply the configuration based on the Personal Access Token, token access scope (single organization), organization slug (joey-ado-testing), and days until token expiration (30). There are “Yes” and “No” buttons at the end."><figcaption><p>The <em>Confirmation</em> screen.</p></figcaption></figure>
 
 🛠️ Press **y** to confirm that the information is correct.
 
 It’s time to add the personal access token for GitHub. You’ll see the _Configure Providers_ menu again:
 
-<figure><img src="../../.gitbook/assets/image (79).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (79).png" alt="The “Configure Providers” menu screen. The “Add a New Provider” menu item is selected."><figcaption><p>The <em>Configure Providers</em> screen.</p></figcaption></figure>
 
 🛠️ Once again, the default option, **Add a New Provider**, is the one you want. Press the **Enter** or **Return** key to select this option.
 
-<figure><img src="../../.gitbook/assets/image (89).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (89).png" alt="The “Add Provider Credentials&#x22; menu screen. The “GitHub [Destination]” menu item is selected."><figcaption><p>The <em>Add Provider Credentials</em> menu.</p></figcaption></figure>
 
 🛠️ Select **GitHub \[Destination]** using the ⬆️ and ⬇️ keys, then press the **Enter** or **Return** key.
 
 You’ll see this text, which explains that you’re about to configure a GitHub destination:
 
-<figure><img src="../../.gitbook/assets/image (90).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (90).png" alt="The “Configure GitHub Destination” screen. Its text reads: “To authenticate to this GitHub destination, we&#x27;ll need a Personal Access Token (PAT). The Personal Access Token will be used for all migration processes related to this destination. To learn more about GitHub destination Personal Access Tokens, please visit our setup guide at https://pack.fm/gh-dest-pat-setup.” The text is followed by a “Next” button."><figcaption><p>The opening screen for the "Configure a GitHub Provider" process.</p></figcaption></figure>
 
 🛠️ Press the **Enter** or **Return** key to continue.
 
 You will now be prompted to enter the personal access token you created in GitHub:
 
-<figure><img src="../../.gitbook/assets/image (91).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (91).png" alt="The “Personal Access Token&#x22; screen. The “Your PAT” text entry area is empty."><figcaption><p>The <em>Personal Access Token</em> screen.</p></figcaption></figure>
 
 🛠️ Paste your GitHub personal access token into the text area marked **Your PAT**...
 
-<figure><img src="../../.gitbook/assets/image (92).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (92).png" alt="The “Personal Access Token&#x22; screen. The “Your PAT” text entry has been filled, with the PAT obscured by asterisks."><figcaption><p>The <em>Personal Access Token</em> screen, with the PAT filled in.</p></figcaption></figure>
 
 🛠️ ...then press the **Enter** or **Return** key to continue.
 
 You’ll be asked to enter the GitHub organization slug, which you copied when you were creating the personal access token for your GitHub organization.
 
-<figure><img src="../../.gitbook/assets/image (93).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (93).png" alt="The “Organization Slug&#x22; screen. The organization slug text entry area is empty."><figcaption><p>The <em>Organization Slug</em> screen.</p></figcaption></figure>
 
 In this example, the slug is `Hypotheticorp01`:
 
-<figure><img src="../../.gitbook/assets/image (94).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (94).png" alt="The “Organization Slug&#x22; screen. The organization slug text entry area now contains the text “Hypotheticorp01”."><figcaption><p>The <em>Organization Slug</em> screen, with the organization slug filled in.</p></figcaption></figure>
 
 🛠️ Paste or enter the organization slug into the text area marked **destination-organization-slug**, then press the **Enter** or **Return** key to continue.
 
 You’ll then be asked to specify the number of days until the token expires:
 
-<figure><img src="../../.gitbook/assets/image (95).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (95).png" alt="The “Token Expiration” screen. The token expiration text entry area contains the text “0”."><figcaption><p>The <em>Token Expiration</em> screen.</p></figcaption></figure>
 
 🛠️ Enter **30**, then press the **Enter** or **Return** key.
 
 Finally, you’ll be asked to confirm the information you’ve entered:
 
-<figure><img src="../../.gitbook/assets/image (96).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (96).png" alt="The “Confirmation” screen. It says that the application will apply the configuration based on the Personal Access Token, GitHub organization slug (Hypotheticorp01), and days until token expiration (0). There are “Yes” and “No” buttons at the end."><figcaption><p>The <em>Confirmation</em> screen.</p></figcaption></figure>
 
 🛠️ Press **y** to confirm that the information is correct.
 
 You will return to the _Configure Providers_ menu:
 
-<figure><img src="../../.gitbook/assets/image (97).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (97).png" alt="The “Configure Providers” menu screen. The “Exit and Save Changes” menu item is selected."><figcaption><p>The <em>Configure Providers</em> menu.</p></figcaption></figure>
 
 🛠️ Select **Exit and Save Changes** using the ⬆️ and ⬇️ keys, then press the **Enter** or **Return** key.
 
 This will create the Vault file, which needs to be committed and pushed to the _Migration HQ_ repository. You will see this prompt:
 
-<figure><img src="../../.gitbook/assets/image (98).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (98).png" alt="The “Commit and Push Changes” menu screen. The “Yes” menu item is selected."><figcaption><p>The <em>Commit and Push Changes</em> menu.</p></figcaption></figure>
 
 🛠️ Use the default option, **Yes**, then press the **Enter** or **Return** key.
 
 You will see the _Save Your Vault Key_ prompt:
 
-<figure><img src="../../.gitbook/assets/image (99).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (99).png" alt="The “Save Your Vault Key” screen. It displays the key for the vault file and instructs the user to save this key. The user is also instructed not to skip this step, as this is the only time the key will be shown to them."><figcaption><p>The <em>Save Your Vault Key</em> screen.</p></figcaption></figure>
 
 🛠️ Just as you did with the personal access token in Azure DevOps and GitHub, copy the Vault key and save it in a safe place — preferably a password manager. You will need it to unlock the personal access tokens that were encrypted into the vault.
 
@@ -158,7 +158,7 @@ You will see the _Save Your Vault Key_ prompt:
 
 You’ll see the final message:
 
-<figure><img src="../../.gitbook/assets/image (100).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (100).png" alt="The closing screen. Its text reads: “All done! Your credentials vault has been saved to ./config/vault.age. Next, install your vault master key in your Migration HQ’s Actions secrets by running ‘gh warp vault place’.”"><figcaption><p>The app’s closing screen.</p></figcaption></figure>
 
 At this point:
 
