@@ -72,7 +72,7 @@ You’ll go to the _Install Packfiles Warp_ page, which will show:
 * That the Warp GitHub app will have access to all the repositories in the organization, and
 * What read, read/write, and admin permissions it will have within the organization and its repositories.
 
-<figure><img src="../../.gitbook/assets/03a - Install Packfiles Warp.png" alt="The &#x22;Install Packfiles Warp&#x22; page on GitHub. It shows that Warp will be included for the user&#x27;s organization for all repositories, with a lobg list of permissions." width="375"><figcaption><p>The <em>Install Packfiles Warp</em> page in GitHub.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/03a - Install Packfiles Warp.png" alt="The &#x22;Install Packfiles Warp&#x22; page on GitHub. It shows that Warp will be included for the user&#x27;s organization for all repositories, with a long list of permissions." width="375"><figcaption><p>The <em>Install Packfiles Warp</em> page in GitHub.</p></figcaption></figure>
 
 🛠️ Click the **Install** button at the bottom of the page.&#x20;
 
@@ -88,7 +88,7 @@ You will be at the _Welcome to Warp_ page:
 
 This will take to you the _Configure Your Project_ page:
 
-<figure><img src="../../.gitbook/assets/05a Configure your project.png" alt=""><figcaption><p>The <em>Configure Your Project</em> page.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/05a Configure your project.png" alt="The &#x22;Configure Your Project&#x22; page in the Warp web app. Key items are the user&#x27;s project name and the &#x22;Next&#x22; button."><figcaption><p>The <em>Configure Your Project</em> page.</p></figcaption></figure>
 
 You can do two things on this page:
 
@@ -103,7 +103,7 @@ As the creator of the project, you don’t have to add yourself to the team. You
 
 You will arrive at the _Connect Your Sources_ page. You’ll use it in the process of connecting your source and GitHub accounts to Warp:
 
-<figure><img src="../../.gitbook/assets/06a Connect Your Sources.png" alt=""><figcaption><p>The <em>Connect Your Sources</em> page.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/06a Connect Your Sources.png" alt="The &#x22;Connect Your Sources&#x22; page in the Warp web app. Key items are the user&#x27;s project name and the &#x22;Next&#x22; button. The key item on this page is the “Migration HQ” button."><figcaption><p>The <em>Connect Your Sources</em> page.</p></figcaption></figure>
 
 When you created the project, Warp created a repository named _Migration HQ_ for the GitHub organization that you selected earlier. _Migration HQ_ will be the user interface for managing your migrations. It will be where you issue commands to Warp and it will keep track of which repositories to migrate and which ones have already been migrated.
 
@@ -113,7 +113,7 @@ When you created the project, Warp created a repository named _Migration HQ_ for
 
 A new browser tab or window will open, and you should see the _Migration HQ_ page:
 
-<figure><img src="../../.gitbook/assets/08_-_Migration_HQ.png" alt="The &#x22;Migration HQ&#x22; for the project."><figcaption><p>The <em>Migration HQ</em> page for your project.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/08_-_Migration_HQ.png" alt="The &#x22;Code&#x22; page of the &#x22;Migration HQ&#x22; repository in GitHub."><figcaption><p>The <em>Migration HQ</em> page for your project.</p></figcaption></figure>
 
 The files contained in _Migration HQ_ are configuration and credentials files that Warp will use in the migration process. You will need to clone _Migration HQ_ to your local computer, where you will create a _vault file_ containing the following:
 
