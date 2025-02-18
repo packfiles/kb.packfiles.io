@@ -15,8 +15,6 @@ For Warp to be able to migrate your repositories to GitHub, it needs two key pie
 
 {% include "../../../.gitbook/includes/search-for-the-emoji-if....md" %}
 
-
-
 ### Get the Organization Slug
 
 🛠️ Switch to the browser tab or window containing _Migration HQ._
@@ -53,39 +51,39 @@ You will be taken to the _Settings_ page for your GitHub account:
 
 🛠️ Scroll down the page until you see the **Developer settings** item appear in the list on the left side:
 
-<figure><img src="../../../.gitbook/assets/11_Developer_setting_spage_scrolled_down.png" alt="The &#x22;Settings&#x22; page for the user&#x27;s GitHub account, scrolled farther down the page."><figcaption><p>GitHub account <em>Settings</em> page, scrolled farther down.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/11_Developer_setting_spage_scrolled_down.png" alt="The &#x22;Settings&#x22; page for the user&#x27;s GitHub account, scrolled farther down the page. The key item is the “Developer settings” item at the bottom of the left-side menu."><figcaption><p>GitHub account <em>Settings</em> page, scrolled farther down.</p></figcaption></figure>
 
 🛠️ Click on **Developer settings**.
 
 This will take you to the _Developer Settings_ page:
 
-<figure><img src="../../../.gitbook/assets/12a Developer_settings_1.png" alt="The &#x22;Developer Settings&#x22; page."><figcaption><p>The <em>Developer Settings</em> page.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/12a Developer_settings_1.png" alt="The &#x22;Developer Settings&#x22; page. The key item is the “Personal access tokens” item at the bottom of the left-side menu."><figcaption><p>The <em>Developer Settings</em> page.</p></figcaption></figure>
 
 🛠️ In the menu on the left side of the page, expand the **Personal access tokens** item:
 
-<figure><img src="../../../.gitbook/assets/13a Personal access tokens menu.png" alt="The Personal access tokens menu." width="311"><figcaption><p>The <em>Personal access tokens</em> menu.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/13a Personal access tokens menu.png" alt="The Personal access tokens menu. The key item is the “Tokens (classic)” menu item." width="311"><figcaption><p>The <em>Personal access tokens</em> menu.</p></figcaption></figure>
 
 &#x20;🛠️ Select **Tokens (classic)** from the menu.
 
 You will end up at the _Personal access tokens (classic)_ page:
 
-<figure><img src="../../../.gitbook/assets/14a Personal access tokens page.png" alt="The Personal access tokens (classic) page."><figcaption><p>The <em>Personal access tokens (classic)</em> page.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/14a Personal access tokens page.png" alt="The Personal access tokens (classic) page. The key item is the “Generate new token” button."><figcaption><p>The <em>Personal access tokens (classic)</em> page.</p></figcaption></figure>
 
 Towards the top right of the page, you’ll see the **Generate new token** button.
 
 🛠️ Click the **Generate new token** button to make its menu appear:
 
-<figure><img src="../../../.gitbook/assets/image (70).png" alt="The Generate new token menu." width="375"><figcaption><p>The <em>Generate new token</em> menu.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (70).png" alt="The Generate new token button&#x27;s menu. The key item is the “Generate new token (classic)” menu item." width="375"><figcaption><p>The <em>Generate new token</em> menu.</p></figcaption></figure>
 
 🛠️ ...then select **Generate new token (classic)** from the menu.
 
 You will arrive at the _New personal access token (classic)_ page, where you’ll need to provide enough information to create a new personal access token:
 
-<figure><img src="../../../.gitbook/assets/15_New_personal_access_token_form (1).png" alt=""><figcaption><p>The <em>New personal access token (classic)</em> page.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/15_New_personal_access_token_form (1).png" alt="The “New personal access token (classic)” page."><figcaption><p>The <em>New personal access token (classic)</em> page.</p></figcaption></figure>
 
 🛠️ Enter a name or some other text to help you identify the token in the **Note** field. To make it easier to identify, we suggest you include “Warp” in the name:
 
-<figure><img src="../../../.gitbook/assets/16a Note and expiration.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/16a Note and expiration.png" alt="The “Note” field and “Expiration” drop-down menu. The “Note” field contains the text “Warp migration 1” and the “Expiration” drop-down menu has “30 days” selected." width="375"><figcaption><p>The <em>Note</em> field and <em>Expiration</em> drop-down menu.</p></figcaption></figure>
 
 {% hint style="info" %}
 For the purposes of this Quickstart, we’ll leave the **Expiration** field at the default value of 30 days.
@@ -99,7 +97,7 @@ For the purposes of this Quickstart, we’ll leave the **Expiration** field at t
 * **delete:packages**
 * **admin:org**
 
-<figure><img src="../../../.gitbook/assets/17_scopes_1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/17_scopes_1.png" alt="The first section of the checkboxes on the “New personal access token (classic)” page, with the “repo”, “workflow”, “write:packages”, “delete:packages”, and “admin:org” checkboxes checked."><figcaption><p>The first set of checkboxes.</p></figcaption></figure>
 
 🛠️  Then scroll down the page and check these boxes. Once again, checking these boxes will automatically check their sub-boxes:
 
@@ -107,7 +105,7 @@ For the purposes of this Quickstart, we’ll leave the **Expiration** field at t
 * **admin:org\_hook**
 * **delete\_repo**
 
-<figure><img src="../../../.gitbook/assets/image (112).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (112).png" alt="The next section of the checkboxes on the “New personal access token (classic)” page, with the “admin:repo_hook”, “admin:org_hook”, and “delete_repo” checkboxes checked."><figcaption><p>The next set of checkboxes.</p></figcaption></figure>
 
 Feel free to use the checklist below to double-check that you’ve checked all the necessary checkboxes. It’s important to make sure you’ve checked all of them!
 
@@ -122,11 +120,11 @@ Feel free to use the checklist below to double-check that you’ve checked all t
 
 🛠️ Scroll to the bottom of the page and click the **Generate token** button:
 
-<figure><img src="../../../.gitbook/assets/image (75).png" alt="" width="162"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (75).png" alt="The &#x22;Generate token&#x22; button." width="162"><figcaption></figcaption></figure>
 
 You should now see this page, which will display the personal access token you just created:
 
-<figure><img src="../../../.gitbook/assets/image (76).png" alt=""><figcaption><p>TThe <em>Personal access tokens (classic)</em> page, with the newly-created Personal Access Token.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (76).png" alt="The Personal access tokens (classic) page, with the newly-created Personal Access Token."><figcaption><p>The <em>Personal access tokens (classic)</em> page, with the newly-created Personal Access Token.</p></figcaption></figure>
 
 🛠️ Copy the token and **save it in a safe place** — preferably a password manager.
 
