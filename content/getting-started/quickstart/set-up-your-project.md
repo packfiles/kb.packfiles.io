@@ -19,7 +19,7 @@ In this section, you’ll set up a Project by creating it, installing the Warp G
 
 🛠️ Open a browser tab or window to the [Warp web application](https://warp.packfiles.io) at [warp.packfiles.io](https://warp.packfiles.io):
 
-<figure><img src="../../.gitbook/assets/warp sign in page.png" alt="Warp&#x27;s &#x22;Sign in&#x22; page. The key item is the &#x22;Sign in with GitHub&#x22; button."><figcaption><p>Warp’s <em>Sign in</em> page.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/warp sign in page.jpg" alt="Warp&#x27;s &#x22;Sign in&#x22; page. The key item is the &#x22;Sign in with GitHub&#x22; button."><figcaption><p>Warp’s <em>Sign in</em> page.</p></figcaption></figure>
 
 🛠️ Click the **Sign in with GitHub** button and sign in to Warp using your GitHub account.
 
