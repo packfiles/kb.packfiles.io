@@ -7,7 +7,7 @@ description: A friendly step-by-step guide to your first migration with Warp.
 
 This Quickstart will guide you through the process of migrating repositories to GitHub using Warp. You’ll create a new project, set up your Vault, connect your source and GitHub organizations to Warp, and then migrate a repository to GitHub.
 
-<figure><img src="../../media/images/quickstart/intro/migration.png" alt="Stylized diagram showing Warp migrating Azure DevOps repositories to GitHub."><figcaption><p>Warp simplifies and accelerates configuration management and migrations to GitHub.</p></figcaption></figure>
+
 
 In this Quickstart, you will:
 

@@ -36,7 +36,7 @@ This will display the list of _Migration HQ_’s workflows:
 
 If you switch to the GitHub browser tab or window and clicked the **Actions** tab quickly enough, you should see a workflow with a spinning yellow icon named **Warp Runner Agent**. The yellow icon denotes that it is currently running. This workflow is using the vault key you stored in _Migration HQ_’s secrets to unlock the personal access tokens for Azure DevOps and GitHub.
 
-🛠️ Wait until the spinning yellow icon is be replaced by a green checkmark. This means that the vault key was successfully used to unlock the personal access tokens for Azure DevOps and GitHub.
+🛠️ Wait until the spinning yellow icon is replaced by a green checkmark. This means that the vault key was successfully used to unlock the personal access tokens for Azure DevOps and GitHub.
 
 <figure><img src="../../.gitbook/assets/warp runner 2.png" alt="Migration HQ’s Actions page with a Warp Runner Agent that has completed its task."><figcaption><p><em>Migration HQ</em>’s <em>Actions</em> page with a Warp Runner Agent that has completed its task.</p></figcaption></figure>
 
@@ -106,7 +106,7 @@ You’ll see that the number of issues in the list is that same as the number in
 
 If you take a closer look at the open issues list...
 
-<figure><img src="../../.gitbook/assets/image.png" alt="Migration HQ’s &#x22;Issues&#x22; page, with the open issues list close up."><figcaption><p>The open issues list, close up.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt="Migration HQ’s &#x22;Issues&#x22; page, with the open issues list close up."><figcaption><p>The open issues list, close up.</p></figcaption></figure>
 
 ...you’ll see that each issue corresponds to a repository from your source.
 

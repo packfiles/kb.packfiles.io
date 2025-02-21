@@ -24,7 +24,7 @@ When Warp creates an issue for a repository to be migrated, it assigns the issue
 
 Repositories that have not yet been migrated are marked with GitHub’s _Open_ indicator...
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Title of an issue for a repository that has not yet been migrated.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Title of an issue for a repository that has not yet been migrated.</p></figcaption></figure>
 
 ...and repositories that have been migrated or ignored are marked with GitHub’s _Closed_ indicator:
 
@@ -40,7 +40,7 @@ After the attribution, the first line of the issue’s body specifies the purpos
 
 <figure><img src="../../../.gitbook/assets/image (58).png" alt=""><figcaption></figcaption></figure>
 
-The line follows the format “This is tracks the migration of the _\[repository\_name]_ repository from _\[source\_system]_ to GitHub” where:
+The line follows the format “This tracks the migration of the _\[repository\_name]_ repository from _\[source\_system]_ to GitHub” where:
 
 * _\[repository\_name]_ is the name of the repository as it appears in its source system.
 * _\[source\_system]_ is the name of the system that the repository is being migrated _from_ (e.g., Azure DevOps).
@@ -159,4 +159,4 @@ Warp automatically closes a repository’s issue after it has been migrated. The
 
 ...or by checking its box in the closed issues list and selecting **Open** from the **Mark as** menu:
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>

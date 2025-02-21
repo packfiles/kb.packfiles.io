@@ -48,7 +48,7 @@ When you click the **Scan Sources** button, you’ll see this message...
 The _Configuration_ section shows information about the Project’s configuration files. It displays the following information:
 
 * **Warp.yml.** The name of the project’s configuration file. You can view and edit this file in GitHub by clicking the <img src="../../.gitbook/assets/image (25) (1) (1).png" alt="" data-size="line"> button on the right side of this section.
-* **The partial hash of the Project’s vault file.** This is the first 7 characters of the SHA hash of the Project’s vault file, `config/vault.age`, which contains the encrypted personal access tokens for the Project’s Azure DevOps and GitHub organizations. You can view this file in GitHub by clicking that has.
+* **The partial hash of the Project’s vault file.** This is the first 7 characters of the SHA hash of the Project’s vault file, `config/vault.age`, which contains the encrypted personal access tokens for the Project’s Azure DevOps and GitHub organizations. You can view this file in GitHub by clicking the partial hash.
 * **The** <img src="../../.gitbook/assets/image (24) (1) (1).png" alt="" data-size="line"> **button.** Displays a reminder that you can edit `warp.yml` in GitHub.
 
 ### Destination

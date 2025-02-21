@@ -19,7 +19,7 @@ In this section, you’ll set up a Project by creating it, installing the Warp G
 
 🛠️ Open a browser tab or window to the [Warp web application](https://warp.packfiles.io) at [warp.packfiles.io](https://warp.packfiles.io):
 
-<figure><img src="../../.gitbook/assets/image (73).png" alt="Warp&#x27;s &#x22;Sign In&#x22; page, with &#x22;Sign in to Warp&#x22; box and the &#x22;Sign in with GitHub&#x22; button."><figcaption><p>Warp’s <em>sign in</em> page, located at <a href="https://warp.packfiles.io/">warp.packfiles.io</a>.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/warp sign in page.png" alt="Warp&#x27;s &#x22;Sign in&#x22; page. The key item is the &#x22;Sign in with GitHub&#x22; button."><figcaption><p>Warp’s <em>Sign in</em> page.</p></figcaption></figure>
 
 🛠️ Click the **Sign in with GitHub** button and sign in to Warp using your GitHub account.
 
@@ -47,7 +47,7 @@ A new browser will open to the [GitHub Marketplace page for Warp’s GitHub app]
 
 🛠️ Click the **Add** button near the upper right corner of the page or scroll to the bottom of the page. You should see the following:
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt="The bottom of the Warp app&#x27;s page in GitHub. The &#x22;Account&#x22; and &#x22;Install it for free&#x22; buttons button is near the bottom of the page."><figcaption><p>The Warp app’s page in GitHub Marketplace, scrolled to the bottom.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt="The bottom of the Warp app&#x27;s page in GitHub. The &#x22;Account&#x22; and &#x22;Install it for free&#x22; buttons button is near the bottom of the page."><figcaption><p>The Warp app’s page in GitHub Marketplace, scrolled to the bottom.</p></figcaption></figure>
 
 At the bottom of the page, you’ll see the **Account** drop-down menu and the **Install it for free** button:
 

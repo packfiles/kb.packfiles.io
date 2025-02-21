@@ -41,7 +41,7 @@ You can invite multiple people by clicking the **+** button to add another invit
 
 After inviting someone to join the Team, the _Pending Redemption_ list will appear on the Team page, with a list item for each invitee:
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Email invitations have a limited lifespan: they expire 7 days after they are sent.
 

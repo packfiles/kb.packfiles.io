@@ -5,7 +5,7 @@ description: Learn How Warp Organizes your Migration Processes
 
 # Migration HQ
 
-<figure><img src="../../.gitbook/assets/image (39).png" alt=""><figcaption><p>The <em>Migration HQ</em> page.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (39).png" alt="A Warp Project&#x27;s &#x22;Migration HQ&#x22; page on GitHub."><figcaption><p>The <em>Migration HQ</em> page.</p></figcaption></figure>
 
 **The&#x20;**_**Migration HQ**_**&#x20;repository — the&#x20;**_**HQ**_**&#x20;is short for “headquarters” — is Warp’s primary user interface.** When you create a Project, Warp generates a _Migration HQ_ repository for that project; it’s the “control panel” that you use to manage the migration process.
 

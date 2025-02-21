@@ -247,15 +247,15 @@ You should confirm that your Vault key was successfully stored in _Migration HQ_
 
 🛠️ Open a browser tab or window to the _Migration HQ_ repository in GitHub and click the **Settings** tab.
 
-<figure><img src="../../.gitbook/assets/image (108).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (108).png" alt="&#x22;Migration HQ’s&#x22; &#x22;Settings&#x22; page. The key item is the &#x22;Secrets and variables&#x22; item in the left side menu."><figcaption><p><em>Migration HQ</em>’s <em>Settings</em> page.</p></figcaption></figure>
 
 🛠️ In the menu on the left side of the page, select **Secrets and variables** to expand it, then select **Actions**:
 
-<figure><img src="../../.gitbook/assets/image (109).png" alt="" width="334"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (109).png" alt="The &#x22;Secrets and variables&#x22; menu. The key item is the &#x22;Actions&#x22; menu item." width="334"><figcaption><p>The <em>Secrets and variables</em> menu.</p></figcaption></figure>
 
 You will be taken to the _Actions secrets and variables_ page for _Migration HQ_ :
 
-<figure><img src="../../.gitbook/assets/image (111).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (111).png" alt="&#x22;Migration HQ’s&#x22; repository secrets. It contains one secret, whose name is &#x22;PKFS_MASTER_KEY&#x22;."><figcaption><p><em>Migration HQ’s</em> repository secrets.</p></figcaption></figure>
 
 🛠️ Check the _Repository secrets_ section and confirm that it contains a secret named `PKFS_MASTER_KEY`.
 

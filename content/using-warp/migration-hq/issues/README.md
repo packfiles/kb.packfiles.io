@@ -38,7 +38,7 @@ There are two ways to close an open issue in _Migration HQ:_
 2.  **Manually.** You can close one or more issues manually by checking their boxes in the open issues list and selecting either **Completed** or **Not Planned** from the **Mark as** menu:\
 
 
-    <figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt="The open issues list in the “Issues” page of Migration HQ. One of the issues is checked, and the user has the “Mark as” dropdown menu open and is selecting the “Completed” option."><figcaption><p>Marking an issue as <em>Completed</em>, which will cause the repository to be ignored.</p></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt="The open issues list in the “Issues” page of Migration HQ. One of the issues is checked, and the user has the “Mark as” dropdown menu open and is selecting the “Completed” option."><figcaption><p>Marking an issue as <em>Completed</em>, which will cause the repository to be ignored.</p></figcaption></figure>
 
     You can also manually close an issue on its own page — see [_Issue Page_](issue-page.md) for details.\
     \

@@ -16,7 +16,7 @@ At last, it’s time to migrate a repository to GitHub! You’ll do this entirel
 
 After scanning your source for repositories, you navigated to _Migration HQ_’s _Issues_ page, where you saw the open issues list:
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt="Migration HQ’s Issues page, with a close-up view of the open issues list."><figcaption><p><em>Migration HQ</em>’s <em>Issues</em> page, with a close-up view of the open issues list.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt="Migration HQ’s Issues page, with a close-up view of the open issues list."><figcaption><p><em>Migration HQ</em>’s <em>Issues</em> page, with a close-up view of the open issues list.</p></figcaption></figure>
 
 Each item in the open issues list represents a repository to be migrated. After migrating a repository, Warp automatically closes its issue, which moves it to the closed issues list.
 

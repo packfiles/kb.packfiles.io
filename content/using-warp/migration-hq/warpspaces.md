@@ -28,7 +28,7 @@ To open a Warpspace for a Project:
 * Select the **Codespaces** tab, and
 * Click the **+** button or, if it’s available, the **Create codespace on main** button.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>The Warpspace during the initialization process.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption><p>The Warpspace during the initialization process.</p></figcaption></figure>
 
 The Warpspace will take a couple of minutes to initialize, since it has to import a large set of packages. Once initialized, you’ll be in GitHub’s Codespace environment with a complete set of command-line migration tools and utilities:
 
