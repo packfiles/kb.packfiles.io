@@ -5,12 +5,6 @@
 ## Getting Started
 
 * [What's Warp?](getting-started/whats-warp.md)
-* [Roadmap](getting-started/roadmap.md)
-* [Core Concepts](getting-started/concepts/README.md)
-  * [Velocity](getting-started/concepts/velocity.md)
-  * [Visibility](getting-started/concepts/visibility.md)
-  * [Collaboration](getting-started/concepts/collaboration.md)
-  * [Incremental Delivery](getting-started/concepts/incremental-delivery.md)
 * [Quickstart](getting-started/quickstart/README.md)
   * [Install the Prerequisites](getting-started/quickstart/install-the-prerequisites.md)
   * [Set Up Your Project](getting-started/quickstart/set-up-your-project.md)
@@ -22,6 +16,15 @@
   * [Scan Your Source for Repositories](getting-started/quickstart/scan-your-source-for-repositories.md)
   * [Migrate a Repository](getting-started/quickstart/migrate-a-repository.md)
   * [Extra Credit](getting-started/quickstart/extra-credit.md)
+
+## Product
+
+* [Core Concepts](product/concepts/README.md)
+  * [Velocity](product/concepts/velocity.md)
+  * [Visibility](product/concepts/visibility.md)
+  * [Collaboration](product/concepts/collaboration.md)
+  * [Incremental Delivery](product/concepts/incremental-delivery.md)
+* [Roadmap](product/roadmap.md)
 
 ## Migrations
 
