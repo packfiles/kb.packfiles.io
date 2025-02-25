@@ -22,7 +22,7 @@ Based on these challenges, we identified the following key problems to solve:
 
 ### Credential Management&#x20;
 
-To solve the problem of securing the management and storage of credentials, we built our own credential manager known as the **Vault**.
+To solve the problem of securing the management and storage of credentials, Warp's **Vault** protects your key material with end-to-end encryption.
 
 **When you use Warp, your credentials, along with the key used to encrypt the Vault that contains them, are never known to Packfiles.** Your key material is encrypted and maintained exclusively in your GitHub environment, on infrastructure you control, and is never stored or processed on Packfiles' infrastructure or in a form accessible by our staff.
 

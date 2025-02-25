@@ -1,13 +1,13 @@
 ---
 icon: key
-description: Warp's Vault Keeps Your Credentials Secure
+description: Warp Protects Your Credentials with End-to-End Encryption
 ---
 
 # Credential Management
 
 ### Overview
 
-To facilitate the secure storage and retrieval of credentials required for migrations, Packfiles has designed a credential management application specifically for Warp known as the **Vault**.
+To facilitate the secure storage and retrieval of credentials required for migrations, Packfiles has designed a credential management application specifically for Warp known as the **Vault**, which protects your key material with end-to-end encryption.
 
 **When you use Warp, your credentials, along with the key used to encrypt the Vault that contains them, are never known to Packfiles.** Your key material is encrypted and maintained exclusively in your GitHub environment, on infrastructure you control, and is never stored or processed on Packfiles' infrastructure or in a form accessible by our staff.
 
