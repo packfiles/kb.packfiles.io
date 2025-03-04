@@ -1,9 +1,9 @@
 ---
-icon: '2'
 description: Create a new Project, install Warp’s GitHub App, and configure the Project.
+icon: '2'
 ---
 
-# Set Up Your Project
+# Create and Configure Your Project
 
 ### Objective
 

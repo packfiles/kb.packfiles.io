@@ -1,10 +1,11 @@
 ---
 icon: '6'
+description: Let’s migrate!
 ---
 
 # Migrate a Repository
 
-Objective
+### Objective
 
 At last, it’s time to migrate a repository to GitHub! You’ll do this entirely in _Migration HQ_.
 

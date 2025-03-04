@@ -1,5 +1,8 @@
 ---
 icon: key
+description: >-
+  How to get your Azure DevOps organization slug and create an Azure DevOps
+  Personal Access Token.
 ---
 
 # Get Your Azure DevOps Credentials

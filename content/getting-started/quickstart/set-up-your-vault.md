@@ -1,5 +1,8 @@
 ---
 icon: '4'
+description: >-
+  How to create the Vault file, a secure place for your source and destination
+  credentials.
 ---
 
 # Set Up Your Vault
@@ -264,6 +267,6 @@ If you see the `PKFS_MASTER_KEY` secret, you have successfully stored the Vault 
 {% hint style="success" %}
 With the Vault file and secret install in _Migration HQ_, Warp now has the credentials to access your source repositories and destination GitHub organization.\
 \
-You’re ready to [scan your source for repositories](scan-your-source-for-repositories.md).
+You’re ready to [scan your source for repositories](scan-your-sources-for-repositories.md).
 {% endhint %}
 

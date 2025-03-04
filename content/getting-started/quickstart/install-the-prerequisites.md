@@ -83,5 +83,5 @@ Use "warp [command] --help" for more information about a command.
 {% hint style="success" %}
 If you’ve made it this far, congratulations!
 
-You’ve successfully installed the prerequisites for Warp and can [proceed to the next step](create-and-configure-your-project.md). 🙌
+You’ve successfully installed the prerequisites for Warp and can [proceed to the next step](set-up-your-project.md). 🙌
 {% endhint %}

@@ -1,8 +1,11 @@
 ---
 icon: '3'
+description: Give Warp what it needs to migrate your repositories.
 ---
 
 # Gather Your Credentials
+
+### Objective
 
 In order to migrate your repositories, you must provide Warp with two key sets of credentials:
 

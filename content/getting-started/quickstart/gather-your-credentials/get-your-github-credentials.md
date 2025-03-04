@@ -1,5 +1,8 @@
 ---
 icon: key
+description: >-
+  How to get your GitHub organization slug and create a GitHub Personal Access
+  Token.
 ---
 
 # Get Your GitHub Credentials

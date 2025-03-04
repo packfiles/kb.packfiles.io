@@ -1,8 +1,11 @@
 ---
 icon: square-check
+description: Make sure you’ve collected the information Warp needs.
 ---
 
 # Confirm That You’ve Gathered Your Credentials
+
+### Objective
 
 Before you proceed to the next step, make sure that you’ve gathered the necessary credentials.&#x20;
 
