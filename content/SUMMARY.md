@@ -7,7 +7,7 @@
 * [What's Warp?](getting-started/whats-warp.md)
 * [Quickstart](getting-started/quickstart/README.md)
   * [Install the Prerequisites](getting-started/quickstart/install-the-prerequisites.md)
-  * [Set Up Your Project](getting-started/quickstart/set-up-your-project.md)
+  * [Create and Configure Your Project](getting-started/quickstart/create-and-configure-your-project.md)
   * [Gather Your Credentials](getting-started/quickstart/gather-your-credentials/README.md)
     * [Get Your Azure DevOps Credentials](getting-started/quickstart/gather-your-credentials/get-your-azure-devops-credentials.md)
     * [Get Your GitHub Credentials](getting-started/quickstart/gather-your-credentials/get-your-github-credentials.md)
