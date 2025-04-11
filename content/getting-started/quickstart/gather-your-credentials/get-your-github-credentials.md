@@ -1,8 +1,8 @@
 ---
-icon: key
 description: >-
   How to get your GitHub organization slug and create a GitHub Personal Access
   Token.
+icon: key
 ---
 
 # Get Your GitHub Credentials
@@ -132,6 +132,22 @@ You should now see this page, which will display the personal access token you j
 🛠️ Copy the token and **save it in a safe place** — preferably a password manager.
 
 {% include "../../../.gitbook/includes/this-will-be-your-only-time....md" %}
+
+{% hint style="info" %}
+Depending on your GitHub organization settings, you may also need to authorize your personal access token you issued for your Vault with SSO as well.
+
+Visit [https://github.com/settings/tokens](https://github.com/settings/tokens) and examine the `Configure SSO`dropdown menu adjacent to your personal access token.
+
+<details>
+
+<summary>View screenshot</summary>
+
+<figure><img src="../../../.gitbook/assets/packfiles_pat_sso.png" alt=""><figcaption><p>Personal Access Token SSO Config Menu</p></figcaption></figure>
+
+</details>
+
+If you receive an error like the following`Resource protected by organization SAML enforcement. You must grant your OAuth token access to this organization.` in the terminal or in a runner log, then review your Personal Access Token SSO authorizations as seen above.&#x20;
+{% endhint %}
 
 {% hint style="success" %}
 You now have the information needed to connect Warp to GitHub.
