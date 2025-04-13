@@ -5,7 +5,7 @@
 ## Getting Started
 
 * [What's Warp?](getting-started/whats-warp.md)
-* [Quickstart](getting-started/quickstart/README.md)
+* [Setup Guide](getting-started/quickstart/README.md)
   * [Install the Prerequisites](getting-started/quickstart/install-the-prerequisites.md)
   * [Create and Configure Your Project](getting-started/quickstart/set-up-your-project.md)
   * [Gather Your Credentials](getting-started/quickstart/gather-your-credentials/README.md)
@@ -34,11 +34,6 @@
 
 ## Using Warp
 
-* [Projects](using-warp/projects/README.md)
-  * [Dashboard](using-warp/projects/dashboard.md)
-  * [Team](using-warp/projects/team.md)
-  * [Capacity](using-warp/projects/capacity.md)
-  * [Settings](using-warp/projects/settings.md)
 * [Migration HQ](using-warp/migration-hq/README.md)
   * [Issues](using-warp/migration-hq/issues/README.md)
     * [Issue Page](using-warp/migration-hq/issues/issue-page.md)
@@ -46,6 +41,11 @@
   * [warp.yml](using-warp/migration-hq/warp.yml.md)
   * [Warpspaces](using-warp/migration-hq/warpspaces.md)
   * [Runner Agent](using-warp/migration-hq/runner-agent.md)
+* [Projects](using-warp/projects/README.md)
+  * [Dashboard](using-warp/projects/dashboard.md)
+  * [Team](using-warp/projects/team.md)
+  * [Capacity](using-warp/projects/capacity.md)
+  * [Settings](using-warp/projects/settings.md)
 * [Slash Commands](using-warp/slash-commands/README.md)
   * [Global](using-warp/slash-commands/global/README.md)
     * [/help](using-warp/slash-commands/global/help.md)
@@ -67,6 +67,15 @@
   * [Copilot for Warp](using-warp/support/copilot-chat.md)
   * [Partners](using-warp/support/partners.md)
   * [Knowledge Base](using-warp/support/knowledge-base.md)
+* [Warp Vault](using-warp/warp-vault/README.md)
+  * [Download Warp Vault](using-warp/warp-vault/download-warp-vault/README.md)
+    * [Verify Your Copy of Warp Vault](using-warp/warp-vault/download-warp-vault/verify-your-copy-of-warp-vault.md)
+  * [Using Credentials in Scripts](using-warp/warp-vault/using-credentials-in-scripts/README.md)
+    * [VaultQL Reference](using-warp/warp-vault/using-credentials-in-scripts/vaultql-reference.md)
+
+***
+
+* [Warp CLI](warp-cli.md)
 
 ## Security
 
