@@ -1,8 +1,8 @@
 ---
-icon: '5'
+icon: '4'
 ---
 
-# Scan Your Source for Repositories
+# Scan Your Sources for Repositories
 
 ### Objective
 

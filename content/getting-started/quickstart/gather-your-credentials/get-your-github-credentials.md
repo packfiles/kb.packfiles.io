@@ -22,7 +22,7 @@ The GitHub Destination credential type stores the Personal Access Token and conf
 
 To configure a GitHub Destination credential, you'll need:
 
-* A Personal Access Token assigned the [correct scopes](github-destination.md),&#x20;
+* A Personal Access Token assigned the [correct scopes](get-your-github-credentials.md),&#x20;
 * The Organization Slug associated with the token,&#x20;
 * The days until the token expires, and&#x20;
 * The GitHub Enterprise Cloud product to which you're migrating.&#x20;

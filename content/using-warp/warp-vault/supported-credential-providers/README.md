@@ -10,7 +10,7 @@ Each of the credential providers listed in this section can be configured using 
 * [Azure Blob Storage](azure-blob-storage.md),
 * [Azure DevOps Services](azure-devops-services.md),&#x20;
 * [Bitbucket Server](bitbucket-server.md),&#x20;
-* [GitHub (Destination)](github-destination.md)
+* [GitHub (Destination)](../../../getting-started/quickstart/gather-your-credentials/get-your-github-credentials.md)
 
 
 

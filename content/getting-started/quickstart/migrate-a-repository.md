@@ -1,6 +1,6 @@
 ---
-icon: '6'
 description: Let’s migrate!
+icon: '5'
 ---
 
 # Migrate a Repository

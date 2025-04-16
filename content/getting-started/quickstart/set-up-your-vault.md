@@ -82,7 +82,7 @@ For a list of credential types supported by Warp Vault and how to configure them
 
 🛠️ You'll also need the credentials for your destination — that is, the system that you’re migrating repositories _to_.&#x20;
 
-You'll need to configure a separate GitHub Personal Access Token to allow Warp to migrate repositories and data into your destination environment. For configuration instructions, refer to the [GitHub (Destination)](../../using-warp/warp-vault/supported-credential-providers/github-destination.md) credential documentation.
+You'll need to configure a separate GitHub Personal Access Token to allow Warp to migrate repositories and data into your destination environment. For configuration instructions, refer to the [GitHub (Destination)](gather-your-credentials/get-your-github-credentials.md) credential documentation.
 
 Once your credentials have been collected, you'll be ready to add them to your Vault.
 
