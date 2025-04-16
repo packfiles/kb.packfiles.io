@@ -17,9 +17,9 @@ In this section, you’ll set up a Project by creating it, installing the Warp G
 
 ### Sign In to the Warp Web Application
 
-🛠️ Open a browser tab or window to the [Warp web application](https://warp.packfiles.io) at [warp.packfiles.io](https://warp.packfiles.io):
+🛠️ Open a browser tab or window to the [Warp web application](https://warp.packfiles.io) at [warp.packfiles.io](https://warp.packfiles.io)
 
-<figure><img src="../../.gitbook/assets/warp sign in page.jpg" alt="Warp&#x27;s &#x22;Sign in&#x22; page. The key item is the &#x22;Sign in with GitHub&#x22; button."><figcaption><p>Warp’s <em>Sign in</em> page.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (122).png" alt="" width="563"><figcaption><p>Warp's Login Page</p></figcaption></figure>
 
 🛠️ Click the **Sign in with GitHub** button and sign in to Warp using your GitHub account.
 
@@ -127,6 +127,6 @@ After creating the vault file, Warp will automatically push it to _Migration HQ_
 {% hint style="success" %}
 You’ve successfully set up your project — nicely done!
 
-Make sure that you’ve cloned _Migration HQ_ to your local computer, then [proceed to the next step.](gather-your-credentials/)
+Make sure that you’ve cloned _Migration HQ_ to your local computer, then [proceed to the next step.](broken-reference)
 {% endhint %}
 

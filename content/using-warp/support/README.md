@@ -1,6 +1,6 @@
 ---
-icon: hand-holding-heart
 description: Learn about Warp's Support Options
+icon: hand-holding-heart
 ---
 
 # Support
@@ -9,7 +9,7 @@ We're proud to offer comprehensive support options as a first-class feature of W
 
 ### Warp for Copilot
 
-[Warp for Copilot](copilot-chat.md) is everyone's personal migration expert. It's always available to provide instant, in-context assistance to your team throughout the entire migration process.
+[Warp for Copilot](warp-for-copilot.md) is everyone's personal migration expert. It's always available to provide instant, in-context assistance to your team throughout the entire migration process.
 
 ### Packfiles Partners
 

@@ -1,10 +1,9 @@
 ---
-icon: file-check
 description: Warp’s configuration file.
-hidden: true
+icon: file-check
 ---
 
-# warp.yml
+# Warp.yml
 
 Warp’s configuration file, `warp.yml`, is located in _Migration HQ_’s `config` directory. Its default version is almost entirely commented out, with the exception of its version number:
 

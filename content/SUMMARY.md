@@ -8,14 +8,9 @@
 * [Setup Guide](getting-started/quickstart/README.md)
   * [Install the Prerequisites](getting-started/quickstart/install-the-prerequisites.md)
   * [Create and Configure Your Project](getting-started/quickstart/set-up-your-project.md)
-  * [Gather Your Credentials](getting-started/quickstart/gather-your-credentials/README.md)
-    * [Get Your Azure DevOps Credentials](getting-started/quickstart/gather-your-credentials/get-your-azure-devops-credentials.md)
-    * [Get Your GitHub Credentials](getting-started/quickstart/gather-your-credentials/get-your-github-credentials.md)
-    * [Confirm That You’ve Gathered Your Credentials](getting-started/quickstart/gather-your-credentials/confirm-that-youve-gathered-your-credentials.md)
   * [Set Up Your Vault](getting-started/quickstart/set-up-your-vault.md)
   * [Scan Your Sources for Repositories](getting-started/quickstart/scan-your-sources-for-repositories.md)
   * [Migrate a Repository](getting-started/quickstart/migrate-a-repository.md)
-  * [Extra Credit](getting-started/quickstart/extra-credit.md)
 
 ## Product
 
@@ -31,6 +26,8 @@
 * [Azure DevOps](migrations/azure-devops/README.md)
   * [Service Connections](migrations/azure-devops/service-connections.md)
   * [Limitations](migrations/azure-devops/limitations.md)
+* [Bitbucket Server](migrations/bitbucket-server/README.md)
+  * [Limitations](migrations/bitbucket-server/limitations.md)
 
 ## Using Warp
 
@@ -38,7 +35,7 @@
   * [Issues](using-warp/migration-hq/issues/README.md)
     * [Issue Page](using-warp/migration-hq/issues/issue-page.md)
   * [Labels](using-warp/migration-hq/labels.md)
-  * [warp.yml](using-warp/migration-hq/warp.yml.md)
+  * [Warp.yml](using-warp/migration-hq/warp.yml.md)
   * [Warpspaces](using-warp/migration-hq/warpspaces.md)
   * [Runner Agent](using-warp/migration-hq/runner-agent.md)
 * [Projects](using-warp/projects/README.md)
@@ -64,14 +61,25 @@
   * [GitHub](using-warp/slash-commands/github/README.md)
     * [/add-team](using-warp/slash-commands/github/add-team.md)
 * [Support](using-warp/support/README.md)
-  * [Copilot for Warp](using-warp/support/copilot-chat.md)
+  * [Warp for Copilot](using-warp/support/warp-for-copilot.md)
   * [Partners](using-warp/support/partners.md)
   * [Knowledge Base](using-warp/support/knowledge-base.md)
 * [Warp Vault](using-warp/warp-vault/README.md)
   * [Download Warp Vault](using-warp/warp-vault/download-warp-vault/README.md)
     * [Verify Your Copy of Warp Vault](using-warp/warp-vault/download-warp-vault/verify-your-copy-of-warp-vault.md)
+  * [Supported Credential Providers](using-warp/warp-vault/supported-credential-providers/README.md)
+    * [Amazon S3 Storage](using-warp/warp-vault/supported-credential-providers/amazon-s3-storage.md)
+    * [Azure Blob Storage](using-warp/warp-vault/supported-credential-providers/azure-blob-storage.md)
+    * [Azure DevOps Services](using-warp/warp-vault/supported-credential-providers/azure-devops-services.md)
+    * [Bitbucket Server](using-warp/warp-vault/supported-credential-providers/bitbucket-server.md)
+    * [GitHub (Destination)](using-warp/warp-vault/supported-credential-providers/github-destination.md)
   * [Using Credentials in Scripts](using-warp/warp-vault/using-credentials-in-scripts/README.md)
-    * [VaultQL Reference](using-warp/warp-vault/using-credentials-in-scripts/vaultql-reference.md)
+    * [Vault Schema](using-warp/warp-vault/using-credentials-in-scripts/vault-schema/README.md)
+      * [Amazon S3 Credential Schema](using-warp/warp-vault/using-credentials-in-scripts/vault-schema/amazon-s3-credential-schema.md)
+      * [Azure Blob Storage Credential Schema](using-warp/warp-vault/using-credentials-in-scripts/vault-schema/azure-blob-storage-credential-schema.md)
+      * [Azure DevOps Services Credential Schema](using-warp/warp-vault/using-credentials-in-scripts/vault-schema/azure-devops-services-credential-schema.md)
+      * [Bitbucket Server Credential Schema](using-warp/warp-vault/using-credentials-in-scripts/vault-schema/bitbucket-server-credential-schema.md)
+      * [GitHub (Destination) Credential Schema](using-warp/warp-vault/using-credentials-in-scripts/vault-schema/github-destination-credential-schema.md)
 
 ***
 

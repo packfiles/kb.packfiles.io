@@ -1,6 +1,6 @@
 ---
-icon: block-question
 description: Let's Start With the Gist
+icon: block-question
 ---
 
 # What's Warp?
@@ -15,4 +15,4 @@ Warp has everything you need to achieve success on your migration journey, inclu
 * A fair, flexible, and transparent [licensing model](../billing-and-licensing/overview.md) with no surprises,&#x20;
 * Built in [reporting](../using-warp/projects/dashboard.md) and [project management](../using-warp/migration-hq/issues/) tools that make work visible, collaborative, and straightforward to plan,
 * A [GitHub-native experience](../using-warp/migration-hq/) that lets your team use the tools they already know and love, and
-* A wide range of available [support options](../using-warp/support/) to assure the success of your team, from [built-in assistance](../using-warp/support/copilot-chat.md) to help from our [expert partners](../using-warp/support/partners.md).
+* A wide range of available [support options](../using-warp/support/) to assure the success of your team, from [built-in assistance](../using-warp/support/warp-for-copilot.md) to help from our [expert partners](../using-warp/support/partners.md).

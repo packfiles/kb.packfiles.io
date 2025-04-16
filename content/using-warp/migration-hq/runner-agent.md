@@ -1,7 +1,6 @@
 ---
-icon: microchip
 description: How Warp does what it does.
-hidden: true
+icon: microchip
 ---
 
 # Runner Agent

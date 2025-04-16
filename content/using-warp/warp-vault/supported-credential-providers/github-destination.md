@@ -2,19 +2,33 @@
 description: >-
   How to get your GitHub organization slug and create a GitHub Personal Access
   Token.
-icon: key
+icon: square-github
+layout:
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: false
 ---
 
-# Get Your GitHub Credentials
+# GitHub (Destination)
 
-### Objective
+The GitHub Destination credential type stores the Personal Access Token and configuration associated with the GitHub Organization or Enterprise to which you're migrating data with Warp.
 
-For Warp to be able to migrate your repositories to GitHub, it needs two key pieces of information:
+To configure a GitHub Destination credential, you'll need:
 
-1. The destination organization slug, which is the part of the organization’s webpage’s URL that uniquely identifies the organization.
-2. A Personal Access Token (PAT) for your GitHub user account, which grants the bearer the necessary privileges to migrate repositories to the organization.
+* A Personal Access Token assigned the [correct scopes](github-destination.md),&#x20;
+* The Organization Slug associated with the token,&#x20;
+* The days until the token expires, and&#x20;
+* The GitHub Enterprise Cloud product to which you're migrating.&#x20;
+  * If you're migrating to GitHub Enterprise Cloud with Data Residency, you'll be prompted to provide the tenant URL associated with your Enterprise.
 
-**At the end of this section, you will have the slug for your GitHub organization and a Personal Access Token for your GitHub account.**
+### Configuration
 
 {% include "../../../.gitbook/includes/search-for-the-emoji-if....md" %}
 
@@ -147,10 +161,4 @@ Visit [https://github.com/settings/tokens](https://github.com/settings/tokens) a
 </details>
 
 If you receive an error like the following`Resource protected by organization SAML enforcement. You must grant your OAuth token access to this organization.` in the terminal or in a runner log, then review your Personal Access Token SSO authorizations as seen above.&#x20;
-{% endhint %}
-
-{% hint style="success" %}
-You now have the information needed to connect Warp to GitHub.
-
-You should [confirm that you have all the credentials you need for migration](confirm-that-youve-gathered-your-credentials.md).
 {% endhint %}

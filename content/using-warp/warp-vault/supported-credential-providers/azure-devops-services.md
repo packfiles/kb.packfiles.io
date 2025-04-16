@@ -1,20 +1,29 @@
 ---
-icon: key
-description: >-
-  How to get your Azure DevOps organization slug and create an Azure DevOps
-  Personal Access Token.
+icon: microsoft
+layout:
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: false
 ---
 
-# Get Your Azure DevOps Credentials
+# Azure DevOps Services
 
-### Objective
+The Azure DevOps credential type stores the Personal Access Token and configuration associated with the Azure DevOps Organization(s) from which you're migrating data with Warp.
 
-For Warp to be able to access the Azure DevOps repositories that you want to migrate, it needs two key pieces of information about the Azure DevOps organization containing those repositories:
+To configure an Azure DevOps credential, you'll need:
 
-1. The organization slug, which is the part of the organization’s webpage’s URL that uniquely identifies the organization.
-2. A Personal Access Token (PAT), which grants access to the organization containing the repositories.
+* A Personal Access Token (Global or Single Organization),
+* Your Organization Slug (if you're not using a Global token), and
+* The number of days until your token expires (from the day of issue)
 
-**At the end of this section, you will have the slug and Personal Access Token for your Azure DevOps organization.**
+### Configuration
 
 {% include "../../../.gitbook/includes/search-for-the-emoji-if....md" %}
 
@@ -90,8 +99,3 @@ When you close the _Success!_ panel, you will be taken back to the _Personal Acc
 
 <figure><img src="../../../.gitbook/assets/image (23) (1).png" alt="The Personal Access Tokens page, with the newly-created Personal Access Token. The page now has a list, containing one token: &#x22;Warp migration 1&#x22;, the token that was created just now."><figcaption><p>The <em>Personal Access Tokens</em> page, with the newly-created Personal Access Token.</p></figcaption></figure>
 
-{% hint style="success" %}
-You now have the information needed to connect Warp to Azure DevOps.
-
-If you haven’t already done so, [get the GitHub information that Warp needs](get-your-github-credentials.md).
-{% endhint %}

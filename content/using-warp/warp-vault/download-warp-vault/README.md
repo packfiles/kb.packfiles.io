@@ -6,7 +6,7 @@ icon: circle-down
 
 ### Download Warp Vault&#x20;
 
-Warp Vault is available to download at [https://vault.packfiles.io](https://vault.packfiles.io) for a variety of operating systems and CPU architectures:
+Warp Vault is available to download at [vault.packfiles.io](https://vault.packfiles.io) for a variety of operating systems and CPU architectures:
 
 * Windows (Intel/AMD x64, MSIX)
 * macOS (Universal, DMG)

@@ -1,6 +1,17 @@
 ---
-icon: microsoft
 description: Learn about Warp's Support for Azure DevOps Services
+icon: microsoft
+layout:
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: false
 ---
 
 # Azure DevOps
@@ -22,6 +33,8 @@ Warp includes built in support for [data migrated by GitHub Enterprise Importer]
   * Attachments
 * Branch policies
   * User-scoped branch policies and cross-repository branch policies are not included.
+
+For specific information about the limitations on the types and size of data that can be migrated, refer to the [Limitations](limitations.md) page in this section.
 
 ### Azure Pipelines
 

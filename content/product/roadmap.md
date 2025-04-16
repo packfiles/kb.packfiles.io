@@ -1,6 +1,6 @@
 ---
-icon: signs-post
 description: Learn About Warp's Current and Future Capabilities
+icon: signs-post
 ---
 
 # Roadmap
@@ -9,7 +9,7 @@ description: Learn About Warp's Current and Future Capabilities
 
 #### Sources
 
-Warp currently supports migrating data from [Azure DevOps Services](../migrations/azure-devops/).
+Warp currently supports migrating data from [Azure DevOps Services](../migrations/azure-devops/) and [Bitbucket Server](../migrations/bitbucket-server/).
 
 #### Destinations
 
@@ -21,10 +21,6 @@ Warp currently supports migration to the following GitHub products:
 ### Future Roadmap
 
 #### Source Platforms
-
-Support for the following source platforms will be available soon:
-
-* Bitbucket Server
 
 Support for these additional sources will arrive this year:
 

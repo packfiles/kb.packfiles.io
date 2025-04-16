@@ -11,8 +11,8 @@ No matter the size or scale of your overall Migration Project, you are not requi
 
 When your Project is in Trial Mode, the following limits apply:
 
-* We'll create a maximum of 10 **Issues**, and
-* We'll assign a free allotment of **Capacity** to your Project, allowing you to perform up to 10 migrations.
+* We'll create a maximum of 100 **Issues**, and
+* We'll assign a free allotment of **Capacity** to your Project, allowing you to perform up to 100 migrations.
 
 ### Issue Limit
 
@@ -22,7 +22,7 @@ The repositories chosen for Trial Mode issues are random. If you'd like to evalu
 
 ### Capacity Limit
 
-To help you get started, we assign a free Capacity allotment of **10 migrations** to all new Projects when they're created.&#x20;
+To help you get started, we assign a free Capacity allotment of **100 migrations** to all new Projects when they're created.&#x20;
 
 You can use this free trial allotment to perform migrations for the repositories connected to your Project. Just as with the issue limit, we recommend connecting Warp to a dedicated evaluation environment if you'd like to use this Capacity for testing against a specific group of repositories or migration scenarios.
 
@@ -30,7 +30,7 @@ You can use this free trial allotment to perform migrations for the repositories
 
 Trial Mode is a great way to explore Warp's features, without requiring any purchases or even a credit card to be linked to your Project.
 
-Trial Mode limits can make it difficult to evaluate Warp in a large production environment with more than 10 repositories. If you're considering Warp as your chosen solution for adopting GitHub, we recommend creating a one-off Project connected to a small environment you've created specifically for evaluation purposes.&#x20;
+Trial Mode limits can make it difficult to evaluate Warp in a large production environment with more than 100 repositories. If you're considering Warp as your chosen solution for adopting GitHub, we recommend creating a one-off Project connected to a small environment you've created specifically for evaluation purposes.&#x20;
 
 ### Upgrading Your Project
 

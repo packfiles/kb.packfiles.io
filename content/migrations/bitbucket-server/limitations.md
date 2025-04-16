@@ -1,11 +1,25 @@
 ---
-description: Learn about Limitations for Data Migrated from Azure DevOps Services
+description: Learn about Limitations for Data Migrated from Bitbucket Server
 icon: weight-scale
 ---
 
 # Limitations
 
 Although we strive to increase the fidelity and richness of Warp's migration capabilities, there are some limitations to the types of data that can be migrated under certain conditions.
+
+#### Data that is not migrated from Bitbucket Server
+
+Currently, the following data is **not** migrated from Bitbucket Server.
+
+* Personal repositories owned by individual users,
+* Branch permissions,
+* Commit comments,
+* Repository settings, and
+* CI pipelines (Bamboo)
+
+
+
+Additionally, the following size limitations remain in effect for migrated data:
 
 #### Size Limitations
 
