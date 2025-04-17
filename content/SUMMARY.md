@@ -2,15 +2,15 @@
 
 * [Welcome](README.md)
 
-## Getting Started
+## Guides
 
-* [What's Warp?](getting-started/whats-warp.md)
-* [Setup Guide](getting-started/quickstart/README.md)
-  * [Install the Prerequisites](getting-started/quickstart/install-the-prerequisites.md)
-  * [Create and Configure Your Project](getting-started/quickstart/set-up-your-project.md)
-  * [Set Up Your Vault](getting-started/quickstart/set-up-your-vault.md)
-  * [Scan Your Sources for Repositories](getting-started/quickstart/scan-your-sources-for-repositories.md)
-  * [Migrate a Repository](getting-started/quickstart/migrate-a-repository.md)
+* [What's Warp?](guides/whats-warp.md)
+* [Setup Guide](guides/quickstart/README.md)
+  * [Install the Prerequisites](guides/quickstart/install-the-prerequisites.md)
+  * [Create and Configure Your Project](guides/quickstart/create-and-configure-your-project.md)
+  * [Set Up Your Vault](guides/quickstart/set-up-your-vault.md)
+  * [Scan Your Sources for Repositories](guides/quickstart/scan-your-sources-for-repositories.md)
+  * [Migrate a Repository](guides/quickstart/migrate-a-repository.md)
 
 ## Product
 

@@ -9,6 +9,6 @@ icon: '1'
 
 Before you can use Warp, you must install [Warp Vault](../../using-warp/warp-vault/download-warp-vault/) on your local computer.
 
-Once you've installed Warp Vault, you can [proceed to the next step](set-up-your-project.md) 🙌
+Once you've installed Warp Vault, you can [proceed to the next step](create-and-configure-your-project.md) 🙌
 
 ###

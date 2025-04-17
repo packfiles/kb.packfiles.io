@@ -12,7 +12,7 @@ This Quickstart will guide you through the process of migrating repositories to 
 In this Quickstart, you will:
 
 * [Install the prerequisites.](install-the-prerequisites.md)
-* [Create and configure a new project to migrate repositories to GitHub.](set-up-your-project.md)
+* [Create and configure a new project to migrate repositories to GitHub.](create-and-configure-your-project.md)
 * [Set up a vault to securely store the credentials and a vault key to unlock them.](set-up-your-vault.md)
 * [Scan your sources for repositories.](scan-your-sources-for-repositories.md)
 * [Migrate a repository from Azure DevOps to GitHub.](migrate-a-repository.md)
