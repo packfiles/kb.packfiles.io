@@ -26,7 +26,7 @@ We've designed Warp to provide our customers with an unprecedented level of tran
 
 Capacity is recorded in your Project's **Meter**. When you use Warp to migrate a repository from your Source environments to your destination on GitHub, you'll consume units of Capacity that are debited against your Project's Meter.
 
-Your Project's Meter is credited with a [free trial allotment](trial-mode.md) of Capacity when it's first created. Additional Capacity is credited any time you purchase one or more [**Boxes**](overview.md#about-boxes).&#x20;
+Your Project's Meter is credited with a [free trial allotment](free-tier.md) of Capacity when it's first created. Additional Capacity is credited any time you purchase one or more [**Boxes**](overview.md#about-boxes).&#x20;
 
 Capacity purchased on behalf of your Project is available for consumption immediately after your payment is processed. Purchased Capacity associated with your Project does not expire.
 

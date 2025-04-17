@@ -7,7 +7,7 @@ icon: block-question
 
 Warp is a next-generation solution for organizations seeking to adopt GitHub's products. It's designed by [Packfiles](https://packfiles.io) to unlock speed, efficiency, and collaboration across the entire journey of migrating their data, development processes, and teams away from their original platform and onto the latest and greatest tools available.
 
-Warp is distributed as a [GitHub App](https://pack.fm/warp) that can be installed directly from the GitHub Marketplace, with a fully self-service setup and configuration process that takes less time than going to lunch. And because Warp includes a [built-in free trial](../billing-and-licensing/trial-mode.md), it's easy for teams to assess Warp's capabilities flexibly, on their own schedule, and with no upfront financial commitments.
+Warp is distributed as a [GitHub App](https://pack.fm/warp) that can be installed directly from the GitHub Marketplace, with a fully self-service setup and configuration process that takes less time than going to lunch. And because Warp includes a [built-in free trial](../billing-and-licensing/free-tier.md), it's easy for teams to assess Warp's capabilities flexibly, on their own schedule, and with no upfront financial commitments.
 
 Warp has everything you need to achieve success on your migration journey, including:
 
