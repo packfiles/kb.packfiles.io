@@ -90,7 +90,7 @@
 * [Security at Packfiles](security/packfiles.md)
 * [Warp's Security Model](security/warp-security-model/README.md)
   * [Credential Management](security/warp-security-model/credential-management.md)
-  * [Private Compute](security/warp-security-model/warp-security-model.md)
+  * [Private Compute](security/warp-security-model/private-compute.md)
   * [Data Privacy](security/warp-security-model/data-privacy.md)
 
 ## Billing & Licensing

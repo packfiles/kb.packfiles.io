@@ -1,6 +1,6 @@
 ---
-icon: building-lock
 description: Learn about Warp's Secure Design
+icon: building-lock
 ---
 
 # Warp's Security Model
@@ -34,7 +34,7 @@ To execute migration tools and processes securely, while also placing control in
 
 When you use Warp to invoke any process that operates on your source environment, it's carried out by the Warp Runner Agent. **The Warp Runner Agent executes exclusively in your environment, on infrastructure you own and control.**
 
-The Warp Runner Agent is the only component of Warp responsible for invoking migration tools and connecting to your source environment. To learn about the security properties of its design, check out the [Private Compute](warp-security-model.md) section.
+The Warp Runner Agent is the only component of Warp responsible for invoking migration tools and connecting to your source environment. To learn about the security properties of its design, check out the [Private Compute](private-compute.md) section.
 
 ### Data Privacy&#x20;
 

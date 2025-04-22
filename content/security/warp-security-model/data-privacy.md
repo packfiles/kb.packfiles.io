@@ -1,6 +1,6 @@
 ---
-icon: vault
 description: Our Commitment to Keeping Your Data Confidential
+icon: vault
 ---
 
 # Data Privacy
@@ -9,7 +9,7 @@ Organizations are increasingly concerned about the collection, storage, and proc
 
 Just as Packfiles maintains strong core values around security, we do the same with data privacy. Packfiles strives to ensure customers are protected by comprehensively minimizing our exposure to privileged information or administrative access to the greatest extent possible. That's why we've taken steps to ensure our products respect your organization's right to privacy and transparency in how your data is processed.
 
-The design of Warp's [Private Compute](warp-security-model.md) and [Credential Management](credential-management.md) techniques guarantee that any processing of your private data (source code, commit history, credentials, and so on) occurs in an environment you own and on infrastructure you control. Combined with our strong commitments and controls around privacy and data residency, we aim to categorically mitigate risks associated with the storage and processing of your organization's information.&#x20;
+The design of Warp's [Private Compute](private-compute.md) and [Credential Management](credential-management.md) techniques guarantee that any processing of your private data (source code, commit history, credentials, and so on) occurs in an environment you own and on infrastructure you control. Combined with our strong commitments and controls around privacy and data residency, we aim to categorically mitigate risks associated with the storage and processing of your organization's information.&#x20;
 
 ### Data Residency
 
