@@ -12,6 +12,20 @@ Using the [Warp CLI](../../../warp-cli.md) command `gh warp vault query`, you ca
 Schemas for each credential provider type are documented in the [Vault Schema](vault-schema/) section. Refer to these when writing queries or parsing their results.
 {% endhint %}
 
+### Quick Example
+
+The following example demonstrates how VaultQL can be used in a shell scripting scenario. Credentials are queried from Warp Vault and passed into GitHub Enterprise Importer.
+
+```
+export PKFS_MASTER_KEY="AGE-SECRET-KEY-..."
+
+export BBS_USERNAME=`gh warp vault get '(type:bitbucketserver).credentials.username'`
+export BBS_PASSWORD=`gh warp vault get '(type:bitbucketserver).credentials.password'`
+export BBS_URL=`gh warp vault get '(type:bitbucketserver).url'`
+
+gh bbs2gh inventory-report --bbs-server-url $BBS_URL --bbs-username $BBS_USERNAME --bbs-password $BBS_PASSWORD --verbose
+```
+
 ### Query Syntax
 
 A query is specified at the beginning of the command and must be enclosed in parentheses. An optional extraction path (to pull out a specific property) is appended immediately after the closing parenthesis.
