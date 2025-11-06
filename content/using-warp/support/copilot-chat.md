@@ -1,5 +1,6 @@
 ---
 description: Get Help Anytime with Warp's Copilot Chat Extension
+hidden: true
 icon: robot
 ---
 
