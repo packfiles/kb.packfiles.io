@@ -7,10 +7,6 @@ icon: hand-holding-heart
 
 We're proud to offer comprehensive support options as a first-class feature of Warp, with flexible choices for a variety of needs and use cases.&#x20;
 
-### Warp for Copilot
-
-[Warp for Copilot](copilot-chat.md) is everyone's personal migration expert. It's always available to provide instant, in-context assistance to your team throughout the entire migration process.
-
 ### Packfiles Partners
 
 Packfiles' [Partner Network](partners.md) represents a globally distributed, distinguished cohort of skilled service providers who have vetted expertise with Warp and GitHub migrations. Their depth of experience supporting organizations through the process of adopting GitHub platforms is invaluable for those seeking expert guidance and hands-on support.
