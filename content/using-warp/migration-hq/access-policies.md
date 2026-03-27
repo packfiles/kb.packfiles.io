@@ -20,7 +20,7 @@ There are two types of policies: **issue policies** and **slash command policies
 
 ## Issue Policies
 
-Issue policies control who can run slash commands on backlog entry issues based on the issue's labels. Define them under `policies.issues` in your `warp.yml`.
+Issue policies control who can run slash commands on Backlog Issues based on the issue's labels. Define them under `policies.issues` in your `warp.yml`.
 
 ### How Label Matching Works
 
