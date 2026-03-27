@@ -28,7 +28,7 @@ Executes a custom script defined in your project's `warp.yml` configuration file
 
 ## Arguments
 
-### script\_id (Required)
+### script_id (Required)
 
 * The identifier of the script to run, as defined in your project's `warp.yml` configuration under the `scripts:` key.
 
@@ -36,7 +36,7 @@ Executes a custom script defined in your project's `warp.yml` configuration file
 
 * Must match a script identifier configured in `warp.yml`.
 
-### --script\_args (Optional)
+### --script_args (Optional)
 
 * Arguments to pass to the script. Provide space-separated `key=value` pairs after the `--script_args` flag. Boolean flags (without a value) are set to `"true"`.
 
