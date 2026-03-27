@@ -39,7 +39,7 @@ When multiple policies match an issue (through overlapping labels or a global po
 
 ### Example: Limit Access by Label
 
-Restrict commands on issues labeled with a specific ADO team to only members of the corresponding GitHub team:
+Restrict commands on issues labeled with a specific Azure DevOps (ADO) team to only members of the corresponding GitHub team:
 
 ```yaml
 policies:
