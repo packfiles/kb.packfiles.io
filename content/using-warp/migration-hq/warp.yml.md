@@ -46,7 +46,7 @@ version: "1.0"
 #     azure_pipelines_github_app_service_connection_id: <your Azure Pipelines GitHub App Service Connection ID>
 ```
 
-For simple migrations, you probably won’t need to make any changes to `warp.yml`. However, with migrations that go beyond just moving code repositories from the source to the destination, you’ll find warp.yml useful for specifying additional details. For example, you can configure the visibility of migrated repositories or provide service connection IDs for Azure Pipelines rewiring.
+For simple migrations, you probably won’t need to make any changes to `warp.yml`. However, with migrations that go beyond just moving code repositories from the source to the destination, you’ll find `warp.yml` useful for specifying additional details. For example, you can configure the visibility of migrated repositories or provide service connection IDs for Azure Pipelines rewiring.
 
 ## Repository Visibility
 
