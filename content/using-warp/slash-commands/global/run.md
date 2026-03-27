@@ -49,6 +49,6 @@ Executes a custom script defined in your project's `warp.yml` configuration file
 ## Authorization
 
 * When script policies are configured in `warp.yml` under `policies.scripts`, only the listed users and teams can execute the script.
-* When no script policies are defined, authorization is not required.
+* When no script policies are defined, all members of the repository’s organization can run all scripts.
 
 See [Custom Scripts](../../migration-hq/custom-scripts.md) for configuration details.
