@@ -69,7 +69,7 @@ Warp automatically manages custom task content in issue descriptions:
 1. **Adding a label** — When you add a label to an issue that matches a custom task's `labels` configuration, Warp updates the issue body to include the matching task content.
 2. **Removing a label** — When you remove a label, Warp removes the corresponding task content from the issue body.
 
-Custom tasks appear in the issue body under a **Tasks From Your Organization** heading, with each task rendered as a checkbox item.
+Custom tasks appear in the issue body under a **Tasks From Your Organization** heading, with each task rendered as a subsection using its `title` as the heading and its `body` content displayed verbatim (including any Markdown checklists).
 
 > **Important:** Warp manages the issue body automatically. If you manually edit the issue description, your changes may be overwritten the next time labels are added to or removed from that issue. This ensures that custom task content stays synchronized with the issue's labels.
 
