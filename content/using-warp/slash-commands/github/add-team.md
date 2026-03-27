@@ -4,7 +4,7 @@
 
 Adds a given team to the migrated repository in GitHub with the specified permissions.
 
-[View in Knowledge Base](https://kb.packfiles.io/warp/commands/github/add-team)
+[View in Knowledge Base](https://kb.packfiles.io/using-warp/slash-commands/github/add-team)
 
 ## Examples
 
