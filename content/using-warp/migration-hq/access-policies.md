@@ -26,7 +26,7 @@ Issue policies control who can run slash commands on Backlog Issues based on the
 
 1. When a user runs a command on an issue, Warp checks the issue's labels against your configured policies.
 2. If any labels match, only the users and teams listed in matching policies can run the command.
-3. If no labels match, the policy does not apply to that issue.
+3. If no labels match any issue policy, then no access is granted to that issue by issue policies; the command can still run only if a matching slash command policy explicitly allows it.
 
 Each issue policy has:
 
