@@ -28,8 +28,8 @@ timeout = 30
 # Wait 2 seconds between retries
 retry_wait_time = 2
 
-# Accept common success codes; 429 is retried automatically
-accept = ["200..=204", "429"]
+# Accept common success codes; rely on retries/backoff for 429 rate limiting
+accept = ["200..=204"]
 
 # Some documentation sites reject requests without a browser-like Accept header
 [header]
