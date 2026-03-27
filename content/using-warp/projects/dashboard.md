@@ -26,7 +26,7 @@ The _Trends_ section provides the following quantitative information about your 
 * **Repositories Discovered:** The number of repositories that Warp was able to find after scanning the Azure DevOps organization(s) whose repositories you want to migrate. This display shows the total number of repositories that Warp found, followed by the number that were found in the past 24 hours.
 * **Repositories Migrated:** The number of repositories that were migrated to GitHub. This display shows the total number of repositories that were migrated, followed by the number that were migrated in the past 24 hours.
 * **Daily Average:** The average number of migrations performed per day since the Project’s first migration. This display shows the average (mean) migrations per day since the first one, followed by the number of days since the first migration.
-* **Overall Progress:** The percentage of discovered repositories that have been migrated. This displays shows that percentage, followed by the percentage of discovered repositories yet to be migrated.
+* **Overall Progress:** The percentage of discovered repositories that have been migrated. This display shows that percentage, followed by the percentage of discovered repositories yet to be migrated.
 
 ### By Source
 
