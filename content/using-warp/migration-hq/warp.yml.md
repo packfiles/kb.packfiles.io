@@ -32,3 +32,5 @@ version: "1.0"
 For simple migrations, you probably won’t need to make any changes to `warp.yml`. However, with migrations that go beyond just moving code repositories from the source to the destination, you’ll find warp.yml useful for specifying additional details.
 
 For example, if your migration process involves reconfiguring your Azure Pipelines to use GitHub repositories, you’ll need to make changes to the default `warp.yml` to provide additional required information, such as service connection IDs.
+
+You can also use `warp.yml` to configure [Access Policies](access-policies.md) that control who can run commands in your _Migration HQ_ repository.
