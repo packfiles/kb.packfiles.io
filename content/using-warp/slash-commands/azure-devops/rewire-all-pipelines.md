@@ -4,7 +4,7 @@
 
 Rewires all Azure Pipelines associated with this repository.
 
-[View in Knowledge Base](https://kb.packfiles.io/warp/commands/azure-devops/rewire-all-pipelines)
+[View in Knowledge Base](https://kb.packfiles.io/using-warp/slash-commands/azure-devops/rewire-all-pipelines)
 
 ## Examples
 

@@ -1,0 +1,62 @@
+name: Link Checker
+
+on:
+  schedule:
+    # Run every Monday at 06:00 UTC
+    - cron: "0 6 * * 1"
+  push:
+    branches:
+      - main
+    paths:
+      - "**.md"
+      - ".lychee.toml"
+      - ".lycheeignore"
+      - ".github/workflows/link-checker.yml"
+  workflow_dispatch:
+
+jobs:
+  link-checker:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Restore lychee cache
+        uses: actions/cache@v4
+        with:
+          path: .lycheecache
+          key: cache-lychee-${{ github.sha }}
+          restore-keys: cache-lychee-
+
+      - name: Check links
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --no-progress --cache './README.md' './content/**/*.md'
+          fail: true
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Look for existing open issue
+        if: always() && github.event_name == 'schedule' && steps.lychee.outputs.exit_code != 0
+        id: existing
+        run: |
+          count=$(gh issue list --label "broken-links" --state open --json number --jq 'length')
+          echo "has_open_issue=$([ "$count" -gt 0 ] && echo true || echo false)" >> "$GITHUB_OUTPUT"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create issue from report
+        if: >-
+          always()
+          && github.event_name == 'schedule'
+          && steps.lychee.outputs.exit_code != 0
+          && steps.existing.outputs.has_open_issue == 'false'
+        uses: peter-evans/create-issue-from-file@v6
+        with:
+          title: "Broken links detected by automated link checker"
+          content-filepath: ./lychee/out.md
+          labels: broken-links, automated
+          assignees: ${{ github.repository_owner }}
+          token: ${{ secrets.GITHUB_TOKEN }}

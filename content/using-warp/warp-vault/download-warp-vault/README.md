@@ -29,7 +29,7 @@ brew install warp-vault
 
 ### Update Warp Vault
 
-Warp Vault can be updated by downloading the latest release from [https://vault.packfiles.io,](https://vault.packfiles.io,) or via your package manager (if applicable).&#x20;
+Warp Vault can be updated by downloading the latest release from [https://vault.packfiles.io](https://vault.packfiles.io), or via your package manager (if applicable).&#x20;
 
 Warp Vault checks for updates on launch. When new versions are available, an indicator will appear to inform you of the latest version.&#x20;
 
