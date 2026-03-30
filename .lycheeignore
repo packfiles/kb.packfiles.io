@@ -1,0 +1,5 @@
+# Add URL patterns here (one per line) for persistent false positives.
+# Supports regular expressions.
+#
+# Example:
+# https://example\.com/known-flaky-endpoint

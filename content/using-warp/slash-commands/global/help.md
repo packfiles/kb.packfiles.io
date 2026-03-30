@@ -4,7 +4,7 @@
 
 Summons documentation for any available slash command.
 
-[View in Knowledge Base](https://kb.packfiles.io/warp/commands/global/help)
+[View in Knowledge Base](https://kb.packfiles.io/using-warp/slash-commands/global/help)
 
 ## Examples
 
