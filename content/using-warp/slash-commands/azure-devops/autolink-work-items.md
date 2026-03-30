@@ -4,7 +4,7 @@
 
 Configures Autolink References in the destination GitHub repository so that references to Azure Boards work items become clickable hyperlinks.
 
-[View in Knowledge Base](https://kb.warp.io/warp/commands/azure-devops/autolink-work-items)
+[View in Knowledge Base](https://kb.packfiles.io/using-warp/slash-commands/azure-devops/autolink-work-items)
 
 ## Example
 
