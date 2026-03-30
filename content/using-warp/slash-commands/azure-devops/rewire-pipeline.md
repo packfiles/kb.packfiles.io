@@ -4,7 +4,7 @@
 
 Rewires an Azure DevOps Pipeline
 
-[View in Knowledge Base](https://kb.packfiles.io/warp/commands/azure-devops/rewire-pipeline)
+[View in Knowledge Base](https://kb.packfiles.io/using-warp/slash-commands/azure-devops/rewire-pipeline)
 
 ## Examples
 

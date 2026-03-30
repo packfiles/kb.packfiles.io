@@ -4,7 +4,7 @@
 
 Configures an integration between Azure Boards and the destination GitHub repository.
 
-[View in Knowledge Base](https://kb.warp.io/warp/commands/azure-devops/integrate-boards)
+[View in Knowledge Base](https://kb.packfiles.io/using-warp/slash-commands/azure-devops/integrate-boards)
 
 ## Example
 
