@@ -66,6 +66,25 @@ The `target_repo_visibility` field accepts two values:
 
 If the field is omitted or set to `"private"`, Warp uses its default behavior and creates private repositories.
 
+Control whether repositories created by Warp during migration are set to `private` (default) or `internal` visibility.
 {% hint style="info" %}
 The `"internal"` visibility option requires a GitHub organization that supports internal repositories, such as [GitHub Enterprise Cloud](https://docs.github.com/en/enterprise-cloud@latest/admin/overview/about-github-enterprise-cloud) or GitHub Enterprise Server. This setting only affects **new** repositories created by Warp — it does not change the visibility of repositories that have already been migrated.
 {% endhint %}
+
+## Advanced Configuration
+
+Beyond basic setup, `warp.yml` supports several advanced features that let you customize your migration workflows.
+
+### Custom Scripts
+
+Define custom automation scripts in your Migration HQ’s `bin/` directory and execute them from issue comments using the `/run` slash command. Warp supports Bash, PowerShell, Ruby, and Python scripts with configurable arguments and optional Vault access.
+
+[Learn more about Custom Scripts](custom-scripts.md)
+
+### Access Policies
+
+Control who can execute slash commands and perform actions on backlog entry issues. Policies use an opt-in security model — when defined, only explicitly approved users and teams can perform the configured actions.
+
+### Custom Tasks
+
+Add reusable checklists and task content to issues based on labels. Custom tasks are automatically injected into or removed from issue descriptions when matching labels are added or removed.
