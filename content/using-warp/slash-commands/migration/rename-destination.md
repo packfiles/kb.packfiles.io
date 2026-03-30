@@ -4,7 +4,7 @@
 
 Changes the name of the destination GitHub repository
 
-[View in Knowledge Base](https://kb.packfiles.io/warp/commands/backlog-entry/rename-destination)
+[View in Knowledge Base](https://kb.packfiles.io/using-warp/slash-commands/migration/rename-destination)
 
 ## Examples
 

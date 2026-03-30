@@ -4,7 +4,7 @@
 
 Migrates a repository
 
-[View in Knowledge Base](https://kb.packfiles.io/warp/commands/migration/migrate)
+[View in Knowledge Base](https://kb.packfiles.io/using-warp/slash-commands/migration/migrate)
 
 ## Example
 
