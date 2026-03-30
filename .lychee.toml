@@ -1,0 +1,69 @@
+########################
+#      Cache           #
+########################
+
+# Cache successful link checks to speed up subsequent runs
+max_cache_age = "1d"
+
+########################
+#      Runtime         #
+########################
+
+# Conservative concurrency to avoid triggering rate limiters
+max_concurrency = 8
+
+# Retry failed requests up to 3 times
+max_retries = 3
+
+# Follow up to 10 redirects (handles pack.fm shortlinks)
+max_redirects = 10
+
+########################
+#      Requests        #
+########################
+
+# 30 second timeout per request
+timeout = 30
+
+# Wait 2 seconds between retries
+retry_wait_time = 2
+
+# Accept common success codes; rely on retries/backoff for 429 rate limiting
+accept = ["200..=204"]
+
+# Some documentation sites reject requests without a browser-like Accept header
+[header]
+accept = "text/html"
+
+# Resolve relative links where the .md extension is omitted (common in GitBook)
+fallback_extensions = ["md"]
+
+########################
+#     Exclusions       #
+########################
+
+# Do not check email addresses (unreliable, produces false positives)
+include_mail = false
+
+# Do not check URLs inside code blocks
+include_verbatim = false
+
+########################
+#  Per-Host Throttling #
+########################
+
+[hosts."github.com"]
+concurrency = 2
+request_interval = "1s"
+
+[hosts."docs.github.com"]
+concurrency = 2
+request_interval = "1s"
+
+[hosts."learn.microsoft.com"]
+concurrency = 2
+request_interval = "1s"
+
+[hosts."docs.aws.amazon.com"]
+concurrency = 2
+request_interval = "500ms"
