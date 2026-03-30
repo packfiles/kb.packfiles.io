@@ -48,6 +48,8 @@ version: "1.0"
 
 For simple migrations, you probably won’t need to make any changes to `warp.yml`. However, with migrations that go beyond just moving code repositories from the source to the destination, you’ll find `warp.yml` useful for specifying additional details. For example, you can configure the visibility of migrated repositories or provide service connection IDs for Azure Pipelines rewiring.
 
+For example, if your migration process involves reconfiguring your Azure Pipelines to use GitHub repositories, you’ll need to make changes to the default `warp.yml` to provide additional required information, such as service connection IDs.
+
 ## Repository Visibility
 
 By default, Warp creates migrated repositories as **private**. If your organization uses GitHub Enterprise and you’d like migrated repositories to be visible to all organization members, you can set the `target_repo_visibility` option to `"internal"`.

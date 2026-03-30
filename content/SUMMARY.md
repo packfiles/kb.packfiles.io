@@ -36,6 +36,7 @@
     * [Issue Page](using-warp/migration-hq/issues/issue-page.md)
   * [Labels](using-warp/migration-hq/labels.md)
   * [Warp.yml](using-warp/migration-hq/warp.yml.md)
+  * [Access Policies](using-warp/migration-hq/access-policies.md)
   * [Warpspaces](using-warp/migration-hq/warpspaces.md)
   * [Runner Agent](using-warp/migration-hq/runner-agent.md)
 * [Projects](using-warp/projects/README.md)
