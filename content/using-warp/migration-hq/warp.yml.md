@@ -28,12 +28,12 @@ version: "1.0"
 # modify the visibility of existing repositories.
 #
 # Uncomment target_repo_visibility and set to "internal" to make migrated repositories visible to
-# your entire GitHub organization:
+# your entire GitHub enterprise organization:
 #
 # target_repo_visibility: "internal"
 
 ####
-# Example - Azure Pipelines Rewiring
+# Azure Pipelines Rewiring
 ####
 # To configure the service connection ID of the Azure Pipelines GitHub App,
 # which is used to rewire Azure Pipelines to point at GitHub, apply the
@@ -55,7 +55,6 @@ For example, if your migration process involves reconfiguring your Azure Pipelin
 By default, Warp creates migrated repositories as **private**. If your organization uses GitHub Enterprise and you’d like migrated repositories to be visible to all organization members, you can set the `target_repo_visibility` option to `"internal"`.
 
 ```yaml
-version: "1.0"
 target_repo_visibility: "internal"
 ```
 
@@ -66,7 +65,6 @@ The `target_repo_visibility` field accepts two values:
 
 If the field is omitted or set to `"private"`, Warp uses its default behavior and creates private repositories.
 
-Control whether repositories created by Warp during migration are set to `private` (default) or `internal` visibility.
 {% hint style="info" %}
 The `"internal"` visibility option requires a GitHub organization that supports internal repositories, such as [GitHub Enterprise Cloud](https://docs.github.com/en/enterprise-cloud@latest/admin/overview/about-github-enterprise-cloud) or GitHub Enterprise Server. This setting only affects **new** repositories created by Warp — it does not change the visibility of repositories that have already been migrated.
 {% endhint %}
@@ -85,6 +83,10 @@ Define custom automation scripts in your Migration HQ’s `bin/` directory and e
 
 Control who can execute slash commands and perform actions on backlog entry issues. Policies use an opt-in security model — when defined, only explicitly approved users and teams can perform the configured actions.
 
+[Learn more about Access Policies](access-policies.md)
+
 ### Custom Tasks
 
 Add reusable checklists and task content to issues based on labels. Custom tasks are automatically injected into or removed from issue descriptions when matching labels are added or removed.
+
+[Learn more about Custom Tasks](custom-tasks.md)
