@@ -2,7 +2,7 @@
 
 ## Description
 
-Executes a custom script defined in your project's `warp.yml` configuration file. Scripts run on a GitHub Actions runner agent and results are posted as a comment on the issue.
+Executes a [custom script](../../migration-hq/custom-scripts.md) defined in your project's `warp.yml` configuration file. Scripts run on a GitHub Actions runner agent and results are posted as a comment on the issue.
 
 [View in Knowledge Base](https://kb.packfiles.io/using-warp/slash-commands/global/run)
 

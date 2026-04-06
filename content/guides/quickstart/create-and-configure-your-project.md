@@ -127,6 +127,6 @@ After creating the vault file, Warp will automatically push it to _Migration HQ_
 {% hint style="success" %}
 You’ve successfully set up your project — nicely done!
 
-Make sure that you’ve cloned _Migration HQ_ to your local computer, then [proceed to the next step.](broken-reference)
+Make sure that you’ve cloned _Migration HQ_ to your local computer, then [proceed to the next step.](set-up-your-vault.md)
 {% endhint %}
 
