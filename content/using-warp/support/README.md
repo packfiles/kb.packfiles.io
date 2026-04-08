@@ -30,3 +30,7 @@ We're always looking for ways to improve your experience with Warp. Thoughts, ku
 ### Knowledge Base
 
 This knowledge base is an authoritative, comprehensive resource for everything Packfiles and Warp provides. We strive to write and maintain high-quality documentation, and the [Knowledge Base](./#knowledge-base) page will provide you with some tips and tricks on how to navigate, search, and contribute to it effectively.&#x20;
+
+### Troubleshooting
+
+Encountering an issue with Warp? Our [Troubleshooting](troubleshooting/) guide covers common issues, their causes, and step-by-step resolution instructions — from failed scans and migrations to installation issues.
