@@ -4,7 +4,7 @@ description: Validate and review config/warp.yml changes in pull requests
 
 # Validate Configuration (config/warp.yml)
 
-**The *Validate Configuration* capability reads your `config/warp.yml`, validates it against Warp's configuration schema, and posts a structured findings report so you can merge configuration changes with confidence.**
+**The *Validate Configuration* skill reads your `config/warp.yml`, validates it against Warp's configuration schema, and posts a structured findings report so you can merge configuration changes with confidence.**
 
 Warp's configuration file supports a range of settings: repository visibility, Azure Pipelines rewiring, access policies, custom task checklists, and scripts. As configurations grow more complex, it becomes easy to introduce errors that only surface at runtime. The agent catches those issues before they do.
 
