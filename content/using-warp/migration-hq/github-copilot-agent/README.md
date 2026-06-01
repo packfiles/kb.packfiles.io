@@ -3,15 +3,15 @@ description: Get Help Anytime with Warp's GitHub Copilot Agent
 icon: robot
 ---
 
-# Warp GitHub Copilot Agent
+# Packfiles GitHub Copilot Agent
 
-**The *Warp GitHub Copilot Agent* is an AI agent built into the Packfiles Warp app that helps you plan, execute, and troubleshoot migrations without leaving GitHub.**
+**The *Packfiles GitHub Copilot Agent* is an AI agent built into the Packfiles Warp app that helps you plan, execute, and troubleshoot migrations without leaving GitHub.**
 
 Instead of consulting documentation, manually reviewing repository inventories, or reading runner logs to decode a failure, you can work directly with the agent in the places where migration work already happens: the *Migration HQ* Agents tab, a backlog issue, or a pull request.
 
 ## What the Agent Can Do
 
-The *Warp GitHub Copilot Agent* has three capabilities, each invoked from a different entry point in *Migration HQ*:
+The *Packfiles GitHub Copilot Agent* has three capabilities, each invoked from a different entry point in *Migration HQ*:
 
 | Capability | Where to invoke it | What it does |
 |---|---|---|
@@ -23,7 +23,7 @@ The agent supports both **Azure DevOps** and **Bitbucket Server** migrations, in
 
 ## Prerequisites
 
-Before using the *Warp GitHub Copilot Agent*, ensure that:
+Before using the *Packfiles GitHub Copilot Agent*, ensure that:
 
 * Your *Migration HQ* repository has been initialized by Warp and a source scan has completed successfully, so that backlog issues have been created for your repositories
 * GitHub Copilot is enabled for your organization
