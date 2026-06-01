@@ -9,7 +9,7 @@ Warp is a next-generation solution for organizations seeking to adopt GitHub's p
 
 Warp is composed of multiple components that all work together to coordinate your migration to GitHub.
 
-The first component is the [Warp GitHub App](https://pack.fm/warp) that can be installed directly from the GitHub Marketplace, with a fully self-service setup and configuration process that takes less time than going to lunch. And because Warp includes a [built-in free trial](../billing-and-licensing/free-tier.md), it's easy for teams to assess Warp's capabilities flexibly, on their own schedule, and with no upfront financial commitments.
+The first component is the [Warp GitHub App](https://pack.fm/warp) that can be installed directly from the GitHub Marketplace, with a fully self-service setup and configuration process that takes less time than going to lunch. And because Warp includes a [built-in free trial](../billing-and-licensing/free-trial.md), it's easy for teams to assess Warp's capabilities flexibly, on their own schedule, and with no upfront financial commitments.
 
 The second component is the [Warp Control Plane](https://warp.packfiles.io), a web application that communicates with the Warp GitHub App to perform work on your behalf. The control plane also provides reporting tools, migration team member management, and other admin tools.
 
