@@ -25,16 +25,16 @@ To configure the agent for your Migration HQ repository:
 
 	```json
 	{
-	"mcpServers": {
-		"github-mcp-server": {
-		"type": "http",
-		"url": "https://api.githubcopilot.com/mcp",
-		"tools": ["*"],
-		"headers": {
-			"X-MCP-Toolsets": "issues,pull_requests,repos,actions"
+		"mcpServers": {
+				"github-mcp-server": {
+				"type": "http",
+				"url": "https://api.githubcopilot.com/mcp",
+				"tools": ["*"],
+				"headers": {
+					"X-MCP-Toolsets": "issues,pull_requests,repos,actions"
+				}
+			}
 		}
-		}
-	}
 	}
 	```
 	Ensure you've saved the configuration before proceeding to the next step.
