@@ -109,4 +109,4 @@
 ## Billing & Licensing
 
 * [Overview](billing-and-licensing/overview.md)
-* [Free Tier](billing-and-licensing/free-tier.md)
+* [Free Trial](billing-and-licensing/free-trial.md)
