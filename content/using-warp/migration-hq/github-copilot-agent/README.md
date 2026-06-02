@@ -44,6 +44,7 @@ To configure the agent for your Migration HQ repository:
 
 	on the `Migration-HQ` repository only.
 3. Add the PAT as a secret named `COPILOT_MCP_GITHUB_PERSONAL_ACCESS_TOKEN` in the `Migration-HQ` repository under `Settings → Secrets and variables → Agents`.
+4. Follow the instructions in the [GitHub documentation](https://docs.github.com/en/copilot/how-tos/administer-copilot/manage-for-enterprise/manage-agents/enable-copilot-cloud-agent#enabling-agent-apps-and-third-party-agents) to enable agent apps at the Enterprise level.
 
 This setup allows the agent to make diagnostic comments on backlog issues and pull requests, and to create new wave labels for migration planning. For more information on the agent's capabilities and how to invoke them, see the next section.
 
